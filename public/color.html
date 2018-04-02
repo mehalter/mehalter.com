@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <title>Lamp Controller</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/lamp-icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/lamp-icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/lamp-icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/lamp-icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/lamp-icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/lamp-icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/lamp-icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/lamp-icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/lamp-icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="lamp-icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/lamp-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/lamp-icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/lamp-icon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#545963">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#545963"> </head>
+
+<body>
+    <form onsubmit="return false">
+        <input type='radio' name='brightness' id="r1" value='.35' checked />
+        <label for="r1"><span>Dim</span></label>
+        <input type='radio' name='brightness' id="r2" value='1' />
+        <label for="r2"><span>Bright</span></label>
+        <!--
+        <button class="button azure" onclick="changeColor('000128255')">Azure: I Love You</button>
+        <br>
+        <button class="button seafoam" onclick="changeColor('000255128')">Seafoam: I Miss You</button>
+        <br>
+        <button class="button blue" onclick="changeColor('000000255')">Blue: I'm Horny</button>
+        <br>
+        <button class="button green" onclick="changeColor('000255000')">Green: Emergency</button>
+        <br>
+        <button class="button" onclick="changeColor('000000000')">Off</button>
+        -->
+        <button id="ff00ff" class="button fuschia half" onclick="changeColor('255000255')">Fuschia
+            <br>I Love You</button>
+        <button id="00ffff" class="button cyan half" onclick="changeColor('000255255')">Cyan
+            <br>I Miss You</button>
+        <br>
+        <button id="0000ff" class="button blue half" onclick="changeColor('000000255')">Blue
+            <br>I'm Horny</button>
+        <button id="00ff00" class="button green half" onclick="changeColor('000255000')">Green
+            <br>Good Luck</button>
+        <br>
+        <button id="ffff00" class="button yellow half" onclick="changeColor('255255000')">Yellow
+            <br>I'm Happy</button>
+        <button id="ffffff" class="button white half" onclick="changeColor('255255255')">White
+            <br>I'm Sorry</button>
+        <br>
+        <button id="ff0000" class="button red half" onclick="changeColor('255000000')">Red
+            <br>Emergency</button>
+        <button id="000000" class="button half" onclick="changeColor('000000000')">Off</button>
+    </form>
+    <script src="js/pubnub.4.15.1.js"></script>
+    <!-- Instantiate PubNub -->
+    <script type="text/javascript">
+        var xhr1 = new XMLHttpRequest();
+        var xhr2 = new XMLHttpRequest();
+        var eventName = 'color_changed';
+        var makerKey1 = 'dzBWxT7W216opDQsGOAQA4';
+        var makerKey2 = 'cWUM2ekJFeErgDzZADsFXg';
+        var pubnub = new PubNub({
+            publishKey: 'pub-c-bdf906f8-60c7-4f8d-9def-8daf1d9047f1'
+            , subscribeKey: 'sub-c-52ded350-3578-11e7-a268-0619f8945a4f'
+        });
+        var darkened = "000000";
+        pubnub.addListener({
+            status: function (statusEvent) {}
+            , message: function (message) {
+                document.getElementById(darkened).style.filter = "brightness(100%)";
+                highlightColor(message["message"]);
+            }
+            , presence: function (presenceEvent) {}
+        });
+        pubnub.subscribe({
+            channels: ['lamps']
+        });
+
+        function changeColor(n) {
+            var brightness = parseFloat(document.querySelector('input[name="brightness"]:checked').value);
+            var red = toInt(parseInt(n.substr(0, 3)) * brightness);
+            var green = toInt(parseInt(n.substr(3, 3)) * brightness);
+            var blue = toInt(parseInt(n.substr(6, 3)) * brightness);
+            var hex = toHex(red);
+            hex = hex.concat(toHex(green));
+            hex = hex.concat(toHex(blue));
+            var publishConfig = {
+                channel: "lamps"
+                , message: hex
+            }
+            pubnub.publish(publishConfig, function (status, response) {});
+            document.getElementById(darkened).style.filter = "brightness(100%)";
+            highlightColor(hex);
+            notifyColor(hex);
+        }
+        window.onload = function () {
+            pubnub.history({
+                channel: 'lamps'
+                , count: 1
+            }, function (status, response) {
+                var color = response["messages"][0]["entry"];
+                darkened = color;
+                color = color.replace(/59/g, "ff");
+                highlightColor(color);
+            })
+        };
+
+        function highlightColor(color) {
+            var color = color.replace(/59/g, "ff");
+            document.getElementById(color).style.filter = "brightness(70%)";
+            darkened = color;
+        }
+
+        function notifyColor(color) {
+            var color = color.replace(/59/g, "ff");
+            switch (color) {
+            case 'ff0000':
+                color = 'Red';
+                break;
+            case '00ff00':
+                color = 'Green';
+                break;
+            case '0000ff':
+                color = 'Blue';
+                break;
+            case 'ffff00':
+                color = 'Yellow';
+                break;
+            case '00ffff':
+                color = 'Cyan';
+                break;
+            case 'ff00ff':
+                color = 'Fuschia';
+                break;
+            case 'ffffff':
+                color = 'White';
+                break;
+            case '000000':
+                color = 'Off';
+            }
+            var url1 = 'https://maker.ifttt.com/trigger/' + eventName + '/with/key/' + makerKey1 + "?value1=" + color;
+            xhr1.open("POST", url1, true);
+            xhr1.send();
+            
+            var url2 = 'https://maker.ifttt.com/trigger/' + eventName + '/with/key/' + makerKey2 + "?value1=" + color;
+            xhr2.open("POST", url2, true);
+            xhr2.send();
+        }
+
+        function toInt(n) {
+            return Math.round(Number(n));
+        };
+
+        function toHex(n) {
+            var hex = n.toString(16);
+            if (hex.length == 1) {
+                hex = '0' + hex;
+            }
+            return hex;
+        }
+    </script>
+</body>
+
+</html>

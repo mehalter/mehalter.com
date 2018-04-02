@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+}
+
+form {
+    margin-bottom: 0px;
+}
+
+.button {
+    background-color: #313131;
+    border: none;
+    color: #ecf0f1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    font-size: 2em;
+    font-size: 4vh;
+    line-height: 1.3em;
+    width: 100%;
+    height: calc(100% / 9 * 2);
+}
+
+.button:active {
+    filter: brightness(85%);
+}
+
+.button.half {
+    width: 50%;
+}
+
+.button.azure {
+    background-color: #2682a0;
+}
+
+.button.seafoam {
+    background-color: #26a082;
+}
+
+.button.blue {
+    background-color: #265ba6;
+}
+
+.button.green {
+    background-color: #26a65b;
+}
+
+.button.red {
+    background-color: #d91e18;
+}
+
+.button.cyan {
+    background-color: #21b597;
+    color: #313131;
+}
+
+.button.fuschia {
+    background-color: #db0a5b;
+}
+
+.button.yellow {
+    background-color: #debd37;
+    color: #313131;
+}
+
+.button.white {
+    background-color: #ecf0f1;
+    color: #313131;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label span {
+    display: inline-flex;
+    float: left;
+    font-size: 2em;
+    font-size: 4vh;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: calc(100% / 9);
+    border: none;
+    color: #ecf0f1;
+    background-color: #6c7a89;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label span {
+    filter: brightness(85%);
+}

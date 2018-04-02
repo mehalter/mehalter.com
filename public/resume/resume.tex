@@ -1,0 +1,165 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{xifthen}
+\usepackage[colorlinks=true,urlcolor=Black]{hyperref}
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage[margin=1in]{geometry}
+\usepackage{titling}
+\newfontfamily\cfont{Noto Sans CJK SC}
+
+\author{Micah Elliot Halter}
+
+\renewcommand{\maketitle}{\par{\centering{\Huge  \textsc{\theauthor}}\par}}
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{ppl}
+
+\newcommand{\entry}[4]{\ifthenelse{\isempty{#4}}
+{\slimentry{#1}{#2}}
+{\begin{minipage}[t]{.12\textwidth}
+\raggedleft{}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.83\textwidth}
+{\bf#2}\ifthenelse{\isempty{#3}}{}{\\\textit{#3}.}
+
+\footnotesize{#4}
+\end{minipage}\\
+\vspace{.1cm}}}
+
+\newcommand{\slimentry}[2]{\ifthenelse{\isempty{#1}}
+{#2}
+{\begin{minipage}[t]{.12\textwidth}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.83\textwidth}
+#2
+\end{minipage}\\}
+\vspace{.1cm}}
+
+\newcommand{\git}{Georgia Instute of Technology}
+\newcommand{\hkust}{Hong Kong University of Science and Technology}
+\newcommand{\gtri}{Georgia Tech Research Institute}
+\newcommand{\bng}{The Boeing Company}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{1em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{7pt}
+\titleformat{\subsection}{\large\sc\centering}{}{0em}{\underline}
+\titlespacing{\subsection}{0pt}{7pt}{7pt}
+
+\setlength{\parindent}{0in}
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty} % disable line numbering
+
+\section{Basic Info}
+
+\begin{minipage}[t]{.5\linewidth}
+
+\begin{tabular}{rp{.7\linewidth}}
+\textsc{Email:}   & \href{mailto:micah@mehalter.com}{micah@mehalter.com}\\
+\textsc{Website:} & \href{http://www.mehalter.com}{mehalter.com}
+\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{.45\linewidth}
+\begin{tabular}{rl}
+\textsc{Phone:}   & (704) 490--9840\\
+\textsc{Location:}& Atlanta, Georgia
+\end{tabular}
+\end{minipage}
+
+\vspace{.1cm}
+
+%Space can be used to create description or intro for resume.
+
+\section{Education}
+
+\entry{Aug 2015 \--- May 2019}
+{Bachelor of Science in Computer Science}
+{{{\git}}, Atlanta, Georgia}
+{Focus in system architecture and theory\\
+ Dean's List Fall 2015, Spring 2016, Fall 2016}
+
+\entry{Aug 2017 \--- Dec 2017}
+{Bachelor of Science in Computer Science}
+{{{\hkust}}, Hong Kong}
+{Studied abroad}
+
+\section{Professional Experience}
+
+\entry{Jan 2016 \--- Current}
+{{{\gtri}} \--- Student Research Assistant}
+{Atlanta, Georgia}
+{Developed a machine learning based crime forecasting system using past crime and geographical data\\
+ Developed a wearable technology based 911 communication assistance tool\\
+ Researched functional programming in Scala to improve computing efficiency in areas like stream processing}
+
+\entry{May 2017 \--- Aug 2017}
+{{{\bng}} \--- System Administrator Intern}
+{Kent, Washington}
+{Developed a security auditing tool suite for Red Hat Enterprise Linux 7\\
+ Developed a web-based data visualization tool\\
+ Developed several system administration scripts as needed by team members}
+
+\entry{May 2016 \--- Aug 2016}
+{{{\bng}} \--- Programmer Analyst Intern}
+{North Charleston, South Carolina}
+{Documented and executed an upgrade plan for the company's identity management servers\\
+ Developed an Outlook-integrated conference room mapping tool\\
+ Designed and began development of a web-based Kanban board tool}
+
+%\entry{Jun 2014 \--- Aug 2014}
+%{North Carolina State University College of Textiles \--- Wearable Technology Research Intern}
+%{Raleigh, North Carolina}
+%{Conducted research on a cooling vest, the Porticool, by the company Porticos\\
+% Integrated a self-powered electrical system of thermelectric generatos to power various sensors}
+
+\section{Projects}
+
+%\entry{May 2015}
+%{Huffman Coding}
+%{}
+%{Programmed a C-based implementation of the Huffman coding compression and decompression algorithm}
+
+\entry{Feb 2015}
+{Multi-Player Conway's Game of Life}
+{}
+{Developed a Java-based version of Conway's Game of Life\\
+ Created and implemented new rules to the automaton to introduce competition between two cell strains}
+
+\entry{Aug 2014 \--- Apr 2015}
+{Verificia}
+{Conrad Spirit of Innovation Challenge}
+{Designed a new security method to protect against key-loggers, mouse-trackers, and screen-grabbers\\
+ Developed and deployed a working prototype as a proof of concept\\
+ Pitched the idea through a business protfolio and presentation to investors and competition judges\\
+ Achieved finalist status in the competition as a Pete Conrad Summit Diplomat}
+
+\section{Languages}
+\entry{}
+{C, Scala, Java, C\#, Python, Perl, Bash, SQL, MySQL, PostgreSQL, {\LaTeX}, HTML, CSS, JavaScript}
+{}
+{}
+
+\section{Community Involvement}
+
+\entry{Aug 2015 \--- May 2017}
+{TEDxGeorgiaTech}
+{{\git} and TED}
+{Organized an official TEDx university even with a group of students at Georgia Tech\\
+ Designed all of the visuals for the conference, including rewriting the event website TEDxGeorgiaTech.com}
+
+%\entry{Aug 2013 \--- Jun 2015}
+%{Research Triangle Google Development Group}
+%{Google}
+%{Competed in various hack-a-thon events hosted by Google and won the Android Wear hack-a-thon\\
+% Participated in code labs wth the group to explore technologies like Dart language and AngularJS}
+
+\end{document}
