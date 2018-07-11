@@ -163,6 +163,8 @@ Phone: (704) 490-9840
 
 Email: [micah@mehalter.com](mailto:micah@mehalter.com)
 
+GPG: [532C 083C 2D6A 4752 46F1 8639 E10C 6AE7 BF5B 1D1F](http://pool.sks-keyservers.net/pks/lookup?search=0xbf5b1d1f&fingerprint=on&op=index)
+
 Website: [http://mehalter.com](http://mehalter.com)
 
 GitLab: [http://gitlab.com/mehalter](http://gitlab.com/mehalter)
