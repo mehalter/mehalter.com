@@ -2,6 +2,7 @@
 title: Micah Halter
 output:
     html_document:
+        self_contained: no
         theme: flatly
         toc: true
         toc_depth: 2
