@@ -54,7 +54,9 @@ Atlanta, GA
 
 - I was included in the Dean’s List in the following semesters: Fall 2015, Spring
   2016, Fall 2016.
-- I have taken classes such as Operating System Design, Compilers, and more.
+- I have taken classes such as Data Structures & Algorithms, Objects and Design,
+  Computer Organization & Programming, Systems & Networks, Operating System
+  Design, Algorithm Design & Analysis, and Compilers & Interpreters.
 
 ## Hong Kong University of Science and Technology
 
@@ -62,7 +64,7 @@ Atlanta, GA
 
 - I studied abroad in Hong Kong for the Fall semester of 2017.
 - I traveled around Japan and China to experience and learn about other cultures.
-- I have taken Operating Systems, Algorithm Design, and Number Theory.
+- I took Operating Systems, Algorithm Design, and Number Theory.
 
 ## North Carolina School of Science and Mathematics
 
@@ -169,7 +171,8 @@ Atlanta, GA
 
 I have been working on a vim-based linux set up to optimize my workflow on my
 computer. My current workflow includes tools like a tiling window manager
-(i3-gaps), the vim text editor, and many command line interface applications.
+(i3-gaps), the vim text editor, command line interface applications, and many
+custom scripts to automate tasks I do a lot.
 
 [GitLab Repository](https://gitlab.com/mehalter/dotfiles)
 
