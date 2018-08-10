@@ -165,7 +165,7 @@ Atlanta, GA
 
 ## Linux Configuration
 
-*January 2017 - Present*
+*January, 2017 - Present*
 
 ![](images/desktop.png)
 
@@ -175,6 +175,18 @@ computer. My current workflow includes tools like a tiling window manager
 custom scripts to automate tasks I do a lot.
 
 [GitLab Repository](https://gitlab.com/mehalter/dotfiles)
+
+## Clean Water Crowdsourcing
+
+*September, 2016 - November, 2016*
+
+This is was a team project for the Objects & Design class at the Georgia
+Institute of Technology. This project allowed us to go through the entire
+development process from design to implementation of a full Java based
+application. It allowed us to learn good development practices to make sure code
+is concise, maintainable, and sharable.
+
+[GitLab Repository](https://gitlab.com/mehalter/Clean-Water-Crowdsourcing)
 
 ## Huffman Coding
 

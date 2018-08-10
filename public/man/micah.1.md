@@ -120,6 +120,14 @@ Assistant at the Georgia Tech Research Institute.
 :   I have worked on several development projects in both work environments and
     personally using a plethora of different programming languages and paradigms.
 
+    **Clean Water Crowdsourcing** - [https://gitlab.com/mehalter/Clean-Water-Crowdsourcing](https://gitlab.com/mehalter/Clean-Water-Crowdsourcing)
+
+        * We completed the full-stack development process from design to
+          implementation of a full Java based application
+
+        * Demonstrated good development practices to make sure code is concise,
+          maintainable, and sharable.
+
     **Huffman Coding Compression** - [http://gitlab.com/mehalter/Huffman-Coding-C](http://gitlab.com/mehalter/Huffman-Coding-C)
 
         * I wrote a C based implementation of the Huffman compression algorithm
