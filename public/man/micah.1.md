@@ -8,7 +8,7 @@ Micah Halter - a developer, researcher, and coffee enthusiast
 
 # SYNOPSIS
 
-**micah** \[**--student**\] \[**--employee**\] \[**--admin** _systems_|_databases_\] \[**--developer**\] \[**--researcher**\]
+**micah** \[**\-\-student**\] \[**\-\-employee**\] \[**\-\-admin** _systems_|_databases_\] \[**\-\-developer**\] \[**\-\-researcher**\]
 
 # DESCRIPTION
 
@@ -22,7 +22,7 @@ Assistant at the Georgia Tech Research Institute.
 
 # OPTIONS
 
-**--student**
+**\-\-student**
 
 :   _Bachelor of Computer Science_ - **Georgia Institute of Technology** - _Anticipated 2019_
 
@@ -36,7 +36,7 @@ Assistant at the Georgia Tech Research Institute.
         * I traveled around Japan and China to experience and learn about other
           cultures
 
-**--employee**
+**\-\-employee**
 
 :   **Georgia Tech Research Institute** - _Student Research Assistant_ - _Aug 2017-Present_
 
@@ -83,7 +83,7 @@ Assistant at the Georgia Tech Research Institute.
         * I worked on the development of a parallel, distributed stream
           processing library using functional programming in Scala
 
-**--admin** _systems_
+**\-\-admin** _systems_
 
 :   Through work opportunities and personal projects, I have had extensive
 	experience with the configuration, hardening, and maintenance of various
@@ -108,14 +108,14 @@ Assistant at the Georgia Tech Research Institute.
           Bash and Python to automate commands I run often and to manage things
           like tasks and frequently visited directories
 
-**--admin** _databases_
+**\-\-admin** _databases_
 
 :   Through my work experiences I have become skilled in many database languages
     including MySQL, PostgreSQL, SQLite, and SQL Server. These experiences range
     from designing a full database schema, administrating and managing an
     existing database, and writing queries to parse through the data.
 
-**--developer**
+**\-\-developer**
 
 :   I have worked on several development projects in both work environments and
     personally using a plethora of different programming languages and paradigms.
@@ -141,7 +141,7 @@ Assistant at the Georgia Tech Research Institute.
         * I added new rules to this famous cellular-automata to explore how
           competition would affect the game
 
-**--researcher**
+**\-\-researcher**
 
 :   While working at the Georgia Tech Research Institute, I have found that I
     love being involved with research projects. I enjoy taking charge of open
