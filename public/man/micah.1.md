@@ -4,7 +4,7 @@
 
 # NAME
 
-Micah Halter - a developer, researcher, and coffee enthusiast
+Micah Halter - a developer, researcher, and bartender
 
 # SYNOPSIS
 
@@ -38,7 +38,20 @@ Assistant at the Georgia Tech Research Institute.
 
 **\-\-employee**
 
-:   **Georgia Tech Research Institute** - _Student Research Assistant_ - _Aug 2017-Present_
+:   **Kindred Spirits Atlanta, LLC** - _Co-Owner and Bartender_ - _Dec 2018-Present_
+
+        * Cater events with bartending and mixology services
+
+        * Create curated cocktail menus for events with innovative and complex
+          recipes to meet the needs of all event attendees
+
+        * Engage with customers and provide outstanding service and
+          hospitality to build customer relations and increase company value
+
+        * Maintain and file all necessary legal documents to ensure legitimacy
+          of the business
+
+    **Georgia Tech Research Institute** - _Student Research Assistant_ - _Aug 2017-Present_
 
         * I have been developing and research a new data model for handling and
           analyzing sonar data
