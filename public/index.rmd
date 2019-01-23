@@ -41,7 +41,7 @@ Atlanta, GA
 [micah@mehalter.com](mailto:micah@mehalter.com)
 
 [532C 083C 2D6A 4752 46F1 8639 E10C 6AE7 BF5B
-1D1F](https://a.sks.jda.mn/pks/lookup?search=0xe10c6ae7bf5b1d1f&fingerprint=on&exact=on&op=vindex)
+1D1F](https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE10C6AE7BF5B1D1F)
 
 [Printable CV](resume.pdf){.btn .btn-primary}
 [Man Page](micah.1.html){.btn .btn-primary}
