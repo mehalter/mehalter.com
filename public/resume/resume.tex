@@ -4,8 +4,9 @@
 \usepackage[T1]{fontenc}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{titlesec}
-\usepackage[margin=.75in]{geometry}
+\usepackage[margin=.5in]{geometry}
 \usepackage{titling}
+\usepackage{fontawesome}
 
 \author{Micah Elliot Halter}
 
@@ -55,27 +56,24 @@
 \begin{document}
 
 \maketitle
-\thispagestyle{empty} % disable line numbering
+\thispagestyle{empty}
 
-\section{Basic Info}
-
-\begin{minipage}[t]{.5\linewidth}
-
-\begin{tabular}{rp{.7\linewidth}}
-\textsc{Email:}   & \href{mailto:micah@mehalter.com}{micah@mehalter.com}\\
-\textsc{Website:} & \href{http://mehalter.com}{mehalter.com}
-\end{tabular}
-\end{minipage}
-\begin{minipage}[t]{.45\linewidth}
-\begin{tabular}{rl}
-\textsc{Phone:}   & (704) 490--9840\\
-\textsc{GitLab:}& \href{https://gitlab.com/mehalter}{gitlab.com/mehalter}
-\end{tabular}
-\end{minipage}
+\vspace{.2 cm}
+\moveleft.5\hoffset\centerline{\
+  %address
+  {\faMapMarker} Atlanta, Georgia \hspace{2 mm}
+  %phone
+  {\faMobile} +1 704 490 9840  \hspace{2 mm}
+  %email
+  {\faEnvelopeO} \href{mailto:}{micah@mehalter.com} \hspace{2 mm}
+  %website
+  {\faGlobe} \href{http://mehalter.com}{mehalter.com}\hspace{2 mm}
+  %gitlab
+  {\faGitlab} \href{http://gitlab.com/mehalter}{mehalter}
+}
 
 \vspace{.1cm}
 
-%Space can be used to create description or intro for resume.
 
 \section{Education}
 
@@ -92,13 +90,13 @@
 
 \section{Professional Experience}
 
-%\entry{Dec 2018 \--- Current}
-%{{Kindred Spirits Atlanta, LLC} \--- Co-Owner and Bartender}
-%{Atlanta, Georgia}
-%{Cater events with bartending and mixology services\\
-% Create curated cocktail menus for events with innovative and complex recipes to meet the needs of all event attendees\\
-% Engage with curstomers and provide outstanding service to build customer relations and increase company value\\
-% Maintain and file all necessary legal documents to ensure legitimacy of the business}
+\entry{Dec 2018 \--- Current}
+{{Kindred Spirits Atlanta, LLC} \--- Co-Owner and Bartender}
+{Atlanta, Georgia}
+{Cater events with bartending and mixology services\\
+ Create curated cocktail menus for events with innovative and complex recipes to meet the needs of all event attendees\\
+ Engage with curstomers and provide outstanding service to build customer relations and increase company value\\
+ Maintain and file all necessary legal documents to ensure legitimacy of the business}
 
 \entry{Jan 2016 \--- Current}
 {{{\gtri}} \--- Student Research Assistant}
@@ -162,10 +160,12 @@
 % Achieved finalist status in the competition as a Pete Conrad Summit Diplomat}
 
 \section{Languages \& Skills}
+\centering{\
 \entry{}
 {Full Stack Development \textbullet\ System Administration \textbullet\ Database Design and Management \\ High Performance Computing \textbullet\ Machine Learning \textbullet\ Agile Development}
 {}
 {}
+}
 
 \entry{}
 {C/C++, Python, Go, Java, C\#, Perl, Bash, SQL, MySQL, PostgreSQL, {\LaTeX}, HTML, CSS, JavaScript}
