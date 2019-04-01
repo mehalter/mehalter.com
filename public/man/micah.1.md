@@ -38,20 +38,7 @@ Assistant at the Georgia Tech Research Institute.
 
 **\-\-employee**
 
-:   **Kindred Spirits Atlanta, LLC** - _Co-Owner and Bartender_ - _Dec 2018-Present_
-
-        * Cater events with bartending and mixology services
-
-        * Create curated cocktail menus for events with innovative and complex
-          recipes to meet the needs of all event attendees
-
-        * Engage with customers and provide outstanding service and
-          hospitality to build customer relations and increase company value
-
-        * Maintain and file all necessary legal documents to ensure legitimacy
-          of the business
-
-    **Georgia Tech Research Institute** - _Student Research Assistant_ - _Jan 2016-Present_
+:   **Georgia Tech Research Institute** - _Student Research Assistant_ - _Jan 2016-Present_
 
         * I have been developing and implementing a new methodology and approach
           to programmatically represent and manipulate scientific models at the
@@ -75,7 +62,20 @@ Assistant at the Georgia Tech Research Institute.
         * I worked on the development of a parallel, distributed stream
           processing library using functional programming in Scala
 
-    **The Boeing Company** - _System Architect Intern_ - _May 2016-Aug 2017_
+    **Kindred Spirits Atlanta, LLC** - _Co-Owner and Bartender_ - _Dec 2018-Present_
+
+        * Cater events with bartending and mixology services
+
+        * Create curated cocktail menus for events with innovative and complex
+          recipes to meet the needs of all event attendees
+
+        * Engage with customers and provide outstanding service and
+          hospitality to build customer relations and increase company value
+
+        * Maintain and file all necessary legal documents to ensure legitimacy
+          of the business
+
+    **The Boeing Company** - _IT Intern_ - _May 2016-Aug 2017_
 
         * I developed a security auditing tool suite for Red Hat Enterprise
           Linux 7 using Bash
