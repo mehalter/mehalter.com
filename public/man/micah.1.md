@@ -51,7 +51,14 @@ Assistant at the Georgia Tech Research Institute.
         * Maintain and file all necessary legal documents to ensure legitimacy
           of the business
 
-    **Georgia Tech Research Institute** - _Student Research Assistant_ - _Aug 2017-Present_
+    **Georgia Tech Research Institute** - _Student Research Assistant_ - _Jan 2016-Present_
+
+        * I have been developing and implementing a new methodology and approach
+          to programmatically represent and manipulate scientific models at the
+          semantic level
+
+        * I have been developing and maintaining the Julia package
+          SemanticModels.jl
 
         * I have been developing and research a new data model for handling and
           analyzing sonar data
@@ -59,7 +66,16 @@ Assistant at the Georgia Tech Research Institute.
         * I have developed, deployed, and currently administer a web application
           hosting this new data model
 
-    **The Boeing Company** - _System Architect Intern_ - _May 2017-Aug 2017_
+        * I researched and implemented a crime forecasting system using Python
+          and PostgreSQL
+
+        * I worked on the development of a wearable technology based 911
+          communication tool using Python and PostgreSQL
+
+        * I worked on the development of a parallel, distributed stream
+          processing library using functional programming in Scala
+
+    **The Boeing Company** - _System Architect Intern_ - _May 2016-Aug 2017_
 
         * I developed a security auditing tool suite for Red Hat Enterprise
           Linux 7 using Bash
@@ -68,16 +84,6 @@ Assistant at the Georgia Tech Research Institute.
           and SQL Server
 
         * I developed several perl scripts as needed by team members
-
-    **Georgia Tech Research Institute** - _Student Research Assistant_ - _Aug 2016-May 2017_
-
-        * I researched and implemented a crime forecasting system using Python
-          and PostgreSQL
-
-        * I worked on the development of a wearable technology based 911
-          communication tool using Python and PostgreSQL
-
-    **The Boeing Company** - _IT Intern_ - _May 2016-Aug 2016_
 
         * I documented and executed an upgrade plan for the company's identity
           management servers
@@ -91,15 +97,10 @@ Assistant at the Georgia Tech Research Institute.
         * I developed an in-house analytics tool to manage which types of
           employees are accessing certain sites using HTML5, CSS, and JavaScript
 
-    **Georgia Tech Research Institute** - _Student Research Assistant_ - _Jan 2015-May 2016_
-
-        * I worked on the development of a parallel, distributed stream
-          processing library using functional programming in Scala
-
 **\-\-admin** _systems_
 
 :   Through work opportunities and personal projects, I have had extensive
-	experience with the configuration, hardening, and maintenance of various
+    experience with the configuration, hardening, and maintenance of various
     Linux distributions, including:
 
         * Red Hat Enterprise Linux
@@ -133,13 +134,23 @@ Assistant at the Georgia Tech Research Institute.
 :   I have worked on several development projects in both work environments and
     personally using a plethora of different programming languages and paradigms.
 
+    **SemanticModels.jl** -
+    [https://github.com/jpfairbanks/SemanticModels.jl](https://github.com/jpfairbanks/SemanticModels.jl)
+
+        * We have been developing a Julia language package for representing and
+          manipulating scientific models at the semantic level
+
+        * I actively contribute to this open source project coming out of the
+          Georiga Tech Research Institute sponsored by the Defense Advanced
+          Research Projects Agency (DARPA)
+
     **Clean Water Crowdsourcing** - [https://gitlab.com/mehalter/Clean-Water-Crowdsourcing](https://gitlab.com/mehalter/Clean-Water-Crowdsourcing)
 
         * We completed the full-stack development process from design to
           implementation of a full Java based application
 
         * Demonstrated good development practices to make sure code is concise,
-          maintainable, and sharable.
+          maintainable, and sharable
 
     **Huffman Coding Compression** - [http://gitlab.com/mehalter/Huffman-Coding-C](http://gitlab.com/mehalter/Huffman-Coding-C)
 

@@ -50,7 +50,7 @@ Atlanta, GA
 
 ## Georgia Institute of Technology
 
-*B.S. Computer Science* • Fall 2015 - anticipating graduation in Spring 2019
+*B.S. Computer Science* • Fall 2015 - Spring 2019
 
 - I was included in the Dean’s List in the following semesters: Fall 2015, Spring
   2016, Fall 2016, Fall 2018.
@@ -93,6 +93,8 @@ Atlanta, GA
 
 *Student Research Assistant* • January 2016 - Present
 
+- I have been developing and implementing a new methodology and approach to programmatically represent and manipulate scientific models at the semantic level
+- I have been developing and maintaining the Julia package [SemanticModels.jl](https://github.com/jpfairbanks/SemanticModels.jl)
 - I have been developing and researching a new data model for handling and
   analyzing sonar data.
 - I have developed, deployed, and manage a web application hosting this new data
@@ -166,14 +168,25 @@ Atlanta, GA
     - Go
     - Python
     - Shell script
+    - Julia
     - Java
     - C#
     - SQL, MySQL, PostgreSQL
     - HTML5, CSS3
     - JavaScript
-    - LaTeX
+    - $\LaTeX$
 
 # Projects
+
+## SemanticModels.jl
+
+*January, 2019 - Present*
+
+![](images/semanticmodels.png)
+
+This is an open source project coming out of the Georgia Tech Research Institute sponsored by the Defense Advanced Research Projects Agency (DARPA). SemanticModels is a [Julia](https://julialang.org/) Package for representing and manipulating scientific models at the semantic level.
+
+[GitHub Repository](https://github.com/jpfairbanks/SemanticModels.jl)
 
 ## Linux Configuration
 
