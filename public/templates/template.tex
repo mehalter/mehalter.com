@@ -1,0 +1,125 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{xifthen}
+\usepackage[colorlinks=true,urlcolor=Black]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage[margin=.5in]{geometry}
+\usepackage{titling}
+\usepackage{fontawesome}
+
+\author{$name$}
+
+\renewcommand{\maketitle}{\par{\centering{\Huge  \textsc{\theauthor}}\par}}
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{ppl}
+
+\newcommand{\entry}[4]{\ifthenelse{\isempty{#4}}
+{\slimentry{#1}{#2}}
+{\begin{minipage}[t]{.12\textwidth}
+\raggedleft{}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.83\textwidth}
+{\bf#2}\ifthenelse{\isempty{#3}}{}{\\\textit{#3}.}
+
+\footnotesize{#4}
+\end{minipage}\\
+\vspace{.1cm}}}
+
+\newcommand{\slimentry}[2]{\ifthenelse{\isempty{#1}}
+{#2}
+{\begin{minipage}[t]{.12\textwidth}
+\hfill \textsc{#1}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}[t]{.83\textwidth}
+#2
+\end{minipage}\\}
+\vspace{.1cm}}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{1em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{7pt}
+\titleformat{\subsection}{\large\sc\centering}{}{0em}{\underline}
+\titlespacing{\subsection}{0pt}{7pt}{7pt}
+
+\setlength{\parindent}{0in}
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\vspace{.2 cm}
+\moveleft.5\hoffset\centerline{\
+  %address
+  {\faMapMarker} $location$ \hspace{2 mm}
+  %phone
+  {\faMobile} $phone$  \hspace{2 mm}
+  %email
+  {\faEnvelopeO} \href{mailto:}{$email$} \hspace{2 mm}
+  %website
+  {\faGlobe} \href{http://$url$}{$url$}\hspace{2 mm}
+  %gitlab
+  {\faGitlab} \href{http://$git.url$/$git.user$}{$git.user$}
+}
+
+\vspace{.1cm}
+
+
+\section{Education}
+
+$for(education)$
+\entry{$education.start$ \--- $education.end$}
+{$education.degree$}
+{$education.school$, $education.location$}
+{$for(education.notes)$$education.notes$$sep$\\ $endfor$}
+
+$endfor$
+
+\section{Professional Experience}
+
+$for(experience)$
+\entry{$experience.start$ \--- $experience.end$}
+{$experience.company$ \--- $experience.position$}
+{$experience.location$}
+{$for(experience.notes)$$experience.notes$$sep$\\ $endfor$}
+
+$endfor$
+
+\section{Projects}
+
+$for(project)$
+\entry{$project.start$ \--- $project.end$}
+{$project.name$}
+{$project.type$}
+{$for(project.notes)$$project.notes$$sep$\\ $endfor$}
+
+$endfor$
+
+\section{Languages \& Skills}
+\centering{\
+\entry{}
+{$for(skill)$$for(skill.line)$$skill.line$$sep$ \textbullet\ $endfor$\\ $endfor$}
+{}
+{}
+}
+
+\entry{}
+{$for(language)$$language$$sep$, $endfor$}
+{}
+{}
+
+\section{Community Involvement}
+
+$for(community)$
+\entry{$community.start$ \--- $community.end$}
+{$community.name$}
+{$community.place$}
+{$for(community.notes)$$community.notes$$sep$\\ $endfor$}
+$endfor$
+
+\end{document}

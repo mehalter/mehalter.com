@@ -1,0 +1,259 @@
+---
+#=== HTML OPTIONS ===#
+theme:    \#545963
+icons:    icon
+button:
+  - name: LinkedIn
+    url:  https://www.linkedin.com/in/mehalter
+  - name: GitLab
+    url:  https://gitlab.com/mehalter
+  - name: My DNA
+    url:  https://mehalter.com/promethease.html
+resume:
+  - name: Printable CV
+    url:  resume.pdf
+  - name: Man Page
+    url:  micah.1.html
+
+#=== MAN PAGE OPTIONS ===#
+lower: micah
+upper: MICAH
+flag:
+  - name: student
+  - name: employee
+  - name: admin
+    option:
+      - systems
+      - databases
+  - name: developer
+  - name: researcher
+
+#=== GENERAL DETAILS ===$
+name:     Micah Elliot Halter
+picture:  images/micah.jpeg
+location: Atlanta, GA
+phone:    +1 704 490 9840
+email:    micah@mehalter.com
+url:      mehalter.com
+git:
+  url: gitlab.com
+  user: mehalter
+
+keyserver:
+  fingerprint: 532C 083C 2D6A 4752 46F1 8639 E10C 6AE7 BF5B 1D1F
+  url:         https://keyserver.ubuntu.com/pks/lookup?op=get&amp;search=0xE10C6AE7BF5B1D1F
+
+#=== DESCRIPTIONS ===#
+tagline: "a developer, researcher, and bartender"
+
+summary: "I’m an undergraduate <strong>computer science</strong> major with a focus in <strong>system architecture</strong> and <strong>theory</strong> at the <strong>Georgia Institute of Technology</strong> in Atlanta, Georgia."
+
+about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I am currently a full-time student at the Georgia Institute of Technology’s College of Computing as a computer science major with a focus in system architecture and theory, and am working part-time as a Student Research Assistant at the Georgia Tech Research Institute."
+
+description:
+  sys-admin: "Through work opportunities and personal projects, I have had extensive experience with the configuration, hardening, and maintenance of various Linux distributions, including:"
+  database-admin: "Through my work experiences I have become skilled in many database languages including MySQL, PostgreSQL, SQLite, and SQL Server. These experiences range from designing a full database schema, administrating and managing an existing database, and writing queries to parse through the data."
+  developer: "I have worked on several development projects in both work environments and personally using a plethora of different programming languages and paradigms"
+  researcher: "While working at the Georgia Tech Research Institute, I have found that I love being involved with research projects. I enjoy taking charge of open ended questions and exploring new methods and ways of tackling tough problems."
+
+
+#=== EDUCATION ===#
+education:
+  - start:    Aug 2015
+    end:      May 2019
+    degree:   Bachelor of Science in Computer Science
+    school:   Georgia Institute of Technology
+    id:       git
+    location: Atlanta, GA
+    notes:
+      - "Concentration in system architecture and theory"
+      - "Dean's List Fall 2015, Spring 2016, Fall 2016, Fall 2018"
+  - start:    Aug 2017
+    end:      Dec 2017
+    degree:   Bachelor of Science in Computer Science
+    school:   Hong Kong University of Science and Technology
+    id:       hkust
+    location: Hong Kong
+    notes:
+      - "Studied abroad"
+
+
+#=== WORK EXPERIENCE ===#
+experience:
+  - start:    Jan 2016
+    end:      Present
+    company:  Georgia Tech Research Institute
+    id:       gtri
+    position: Student Researcher
+    location: Atlanta, GA
+    notes:
+      - "Developing and implementing a new methodology to programmatically represent and manipulate models at the semantic level"
+      - "Implementing a relational database schema to enhance sonar research"
+      - "Developed a machine learning based crime forecasting system using past crime and geographical data"
+      - "Developed a wearable technology based 911 communication assistance tool"
+  - start:    Dec 2018
+    end:      Present
+    company:  Kindred Spirits Atlanta, LLC
+    id:       kindred-spirits
+    position: Co-Owner and Bartender
+    location: Atlanta, GA
+    notes:
+      - "Cater events with bartending and mixology services"
+      - "Create curated cocktail menus for events with innovative and complex recipes to meet the needs of all event attendees"
+      - "Engage with curstomers and provide outstanding service to build customer relations and increase company value"
+      - "Maintain and file all necessary legal documents to ensure legitimacy of the business"
+  - start:    May 2017
+    end:      Aug 2017
+    company:  The Boeing Company
+    id:       boeing-2
+    position: IT Intern
+    location: Kent, WA
+    notes:
+      - "Developed a security auditing tool suite for Red Hat Enterprise Linux 7"
+      - "Developed a web-based data visualization tool"
+      - "Developed several system administration scripts as needed by team members"
+  - start:    May 2016
+    end:      Aug 2016
+    company:  The Boeing Company
+    id:       boeing
+    position: IT Intern
+    location: North Charleston, SC
+    notes:
+      - "Documented and executed an upgrade plan for the company's identity management servers"
+      - "Developed an Outlook-integrated conference room mapping tool"
+      - "Designed and began development of a web-based Kanban board tool"
+  #- start:    Jun 2014
+  #  end:      Aug 2014
+  #  company:  North Carolina Statue University College of Textiles
+  #  id:       ncsu
+  #  position: Wearable Technology Research Intern
+  #  location: Raleigh, NC
+  #  notes:
+  #    - "Conducted research on a cooling vest, the Porticool, by the company Porticos"
+  #    - "Integrated a self-powered electrical system of thermelectric generatos to power various sensors"
+
+
+#=== PROJECTS ===#
+project:
+  - start: Jan 2019
+    end:   Present
+    name:  SemanticModels.jl
+    id:    semanticmodels.jl
+    type:  Software Development and Research
+    repo:  https://github.com/jpfairbanks/SemanticModels.jl
+    image: images/semanticmodels.png
+    notes:
+      - "Researching and developing a novel methodology to programmatically represent and manipulate scientific models at the semantic level"
+      - "Actively contribute and maintain this open source project coming out of the Georgia Tech Research Institute sponsored by the Defense Advanced Research Projects Agency (DARPA)"
+  - start: Nov 2017
+    end:   Present
+    name:  Linux Configuration
+    id:    linux
+    type:  System Administration
+    repo:  https://gitlab.com/mehalter/dotfiles
+    image: images/desktop.png
+    notes:
+      - "Configured and maintain a minimal Linux installation to meet my development needs"
+      - "Developed many custom scripts to optimize my workflow"
+  #- start: Sep 2016
+  #  end:   Nov 2016
+  #  name:  Clean Water Crowdsourcing
+  #  id:    clean-water
+  #  type:  Software Development
+  #  repo:  https://gitlab.com/mehalter/Clean-Water-Crowdsourcing
+  #  notes:
+  #    - "Completed the full-stack development process from design to implementation of a full Java based application"
+  #    - "Demonstrated good development practices to make sure code is concise, maintainable, and sharable"
+  #- start: May 2015
+  #  name:  Huffman Coding
+  #  id:    huffman-coding
+  #  type:  Software Development
+  #  repo:  https://gitlab.com/mehalter/Huffman-Coding-C
+  #  notes:
+  #    - "Programmed a C-based implementation of the Huffman coding compression and decompression algorithm"
+  #- start: Aug 2014
+  #  end:   Apr 2015
+  #  name:  Verificia
+  #  id:    verificia
+  #  type:  Software Development
+  #  notes:
+  #    - "Designed a new security method to protect against key-loggers, mouse-trackers, and screen-grabbers"
+  #    - "Developed and deployed a working prototype as a proof of concept"
+  #    - "Pitched the idea through a business protfolio and presentation to investors and competition judges"
+  #    - "Achieved finalist status in the competition as a Pete Conrad Summit Diplomat"
+  #- start: Feb 2015
+  #  name:  Multi-Player Conway's Game of Life
+  #  id:    conways
+  #  type:  Software Development
+  #  repo:  https://gitlab.com/mehalter/Multiplayer-Game-of-Life
+  #  notes:
+  #    - "Developed a Java-based version of Conway's Game of Life"
+  #    - "Created and implemented new rules to the automaton to introduce competition between two cell strains"
+
+
+#=== SKILLS ===#
+skill:
+  - line:
+    - Full Stack Development
+    - System Administration
+    - Database Design and Management
+  - line:
+    - High Performance Computing
+    - Machine Learning
+    - Agile Development
+
+language:
+  - C/C++
+  - Python
+  - Go
+  - Julia
+  - Java
+  - C\#
+  - Perl
+  - Bash
+  - SQL
+  - MySQL
+  - PostgreSQL
+  - LaTeX
+  - HTML
+  - CSS
+  - JavaScript
+
+operating-system:
+  - Red Hat Enterprise Linux
+  - Debian, Ubuntu
+  - Arch Linux
+
+
+#=== COMMUNITY INVOLVEMENT ===#
+community:
+  - start: Aug 2015
+    end:   Present
+    name:  Georgia Tech's Men's Ultimate Frisbee
+    place: Georgia Institute of Technology
+    notes:
+      - "Balance competitive practice and tournament schedule with rigorous academics"
+      - "Help with recruitment and teaching new players"
+  #- start: Aug 2015
+  #  end:   May 2017
+  #  name:  TEDxGeorgiaTech
+  #  place: Georgia Institute of Technology and TED
+  #  notes:
+  #    - "Organized an official TEDx university even with a group of students at Georgia Tech"
+  #    - "Designed all of the visuals for the conference, including rewriting the event website TEDxGeorgiaTech.com"
+  #- start: Aug 2013
+  #  end:   Jun 2015
+  #  name:  Research Triangle Google Development Group
+  #  place: Google
+  #  notes:
+  #    - "Competed in various hack-a-thon events hosted by Google and won the Android Wear hack-a-thon"
+  #    - "Participated in code labs wth the group to explore technologies like Dart language and AngularJS"
+
+
+#=== ADDITIONAL NOTES ===#
+additional-notes:
+  - "Outside of the field of computer science I have many hobbies and passions including Ultimate Frisbee, coffee, and music."
+  - "At Georgia Tech and the greater Atlanta area, I am a very active member of the Ultimate Frisbee community. This includes playing on multiple competitive teams throughout the years and competing in tournaments nationally and globally."
+  - "I have been an avid coffee enthusiast for several years, frequenting many coffee shops, getting to know local coffee roasters and baristas, and hand brewing my own craft coffee."
+  - "Growing up I was very involved with band and played many instruments including piano and flute. Nowadays I don’t play very often, but love to attend concerts and live music events."
+---

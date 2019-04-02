@@ -1,0 +1,108 @@
+.TH "$upper$" "1" "" "" "$name$ Manual"
+.hy
+.SH NAME
+.PP
+$name$ - $tagline$
+.SH SYNOPSIS
+.PP
+\f[B]$lower$\f[R]$for(flag)$ [\f[B]--$flag.name$\f[R]$for(flag.option)$ \f[I]$flag.option$\f[R]$sep$|$endfor$]$endfor$
+.SH DESCRIPTION
+.PP
+$about-me$
+.SH OPTIONS
+.TP
+.B \f[B]--student\f[R]
+.RS
+$for(education)$
+\f[I]$education.degree$\f[R] - \f[B]$education.school$\f[R] - \f[I]$education.end$\f[R]
+.IP
+.nf
+\f[C]
+$for(education.notes)$* $education.notes$$sep$
+
+$endfor$
+\f[R]
+.fi$sep$
+
+.PP
+$endfor$
+
+.RE
+.TP
+.B \f[B]--employee\f[R]
+.RS
+$for(experience)$
+\f[I]$experience.company$\f[R] - \f[B]$experience.position$\f[R] - \f[I]$experience.start$-$experience.end$\f[R]
+.IP
+.nf
+\f[C]
+$for(experience.notes)$* $experience.notes$$sep$
+
+$endfor$
+
+\f[R]
+.fi$sep$
+
+.PP
+$endfor$
+
+.RE
+.TP
+.B \f[B]--admin\f[R] \f[I]systems\f[R]
+$description.sys-admin$
+.RS
+.IP
+.nf
+\f[C]
+$for(operating-system)$* $operating-system$$sep$
+
+$endfor$
+\f[R]
+.fi
+.RE
+.TP
+.B \f[B]--admin\f[R] \f[I]databases\f[R]
+$description.database-admin$
+.TP
+.B \f[B]--developer\f[R]
+$description.developer$
+.TP
+.B \f[B]--researcher\f[R]
+$description.researcher$
+.SH PROJECTS
+$for(project)$
+.PP
+\f[B]$project.name$\f[R]$for(project.repo)$ -
+<$project.repo$>$endfor$
+.IP
+.nf
+\f[C]
+$for(project.notes)$* $project.notes$$sep$
+
+$endfor$
+\f[R]
+.fi
+$endfor$
+.SH NOTES
+$for(additional-notes)$
+.PP
+$additional-notes$$sep$
+
+$endfor$
+
+.SH SEE ALSO
+.PP
+Phone: $phone$
+.PP
+Email: <$email$>
+$for(keyserver)$
+.PP
+GPG: $keyserver.fingerprint$ ($keyserver.url$)$sep$
+$endfor$
+
+.PP
+Website: <https://$url$>
+.PP
+GitLab: <https://$git.url$/$git.user$>
+.SH AUTHORS
+$name$.
