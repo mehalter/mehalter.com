@@ -1,6 +1,6 @@
 ---
 #=== HTML OPTIONS ===#
-theme:    \#545963
+theme:    "#545963"
 icons:    icon
 button:
   - name: LinkedIn
