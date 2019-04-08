@@ -11,7 +11,7 @@ PORT = 8080
 Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 
 class CustomHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
-    def do_GET(self):
+    def do_POST(self):
         subprocess.check_call(['%s/updateGit.sh' % FOLDER, FOLDER])
         self.send_response(301)
         self.send_header('Location','/')
