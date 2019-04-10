@@ -9,6 +9,8 @@ button:
     url:  git/mehalter
   - name: My DNA
     url:  promethease.html
+  - name: Calendar
+    url: nextcloud/index.php/apps/calendar/p/5xJkqitQMFjXqgZe/Personal
 resume:
   - name: Printable CV
     url:  resume.pdf
