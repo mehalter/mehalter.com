@@ -6,7 +6,7 @@ button:
   - name: LinkedIn
     url:  https://www.linkedin.com/in/mehalter
   - name: Git
-    url:  git/mehalter
+    url:  https://git.mehalter.com/mehalter
   - name: My DNA
     url:  promethease.html
 resume:
@@ -150,7 +150,7 @@ project:
     name:  Linux Configuration
     id:    linux
     type:  System Administration
-    repo:  git/mehalter/dotfiles
+    repo:  https://git.mehalter.com/mehalter/dotfiles
     image: images/desktop.png
     notes:
       - "Configured and maintain a minimal Linux installation to meet my development needs"
@@ -160,7 +160,7 @@ project:
   #  name:  Clean Water Crowdsourcing
   #  id:    clean-water
   #  type:  Software Development
-  #  repo:  git/mehalter/Clean-Water-Crowdsourcing
+  #  repo:  https://git.mehalter.com/mehalter/Clean-Water-Crowdsourcing
   #  notes:
   #    - "Completed the full-stack development process from design to implementation of a full Java based application"
   #    - "Demonstrated good development practices to make sure code is concise, maintainable, and sharable"
@@ -168,7 +168,7 @@ project:
   #  name:  Huffman Coding
   #  id:    huffman-coding
   #  type:  Software Development
-  #  repo:  git/mehalter/Huffman-Coding-C
+  #  repo:  https://git.mehalter.com/mehalter/Huffman-Coding-C
   #  notes:
   #    - "Programmed a C-based implementation of the Huffman coding compression and decompression algorithm"
   #- start: Aug 2014
@@ -185,7 +185,7 @@ project:
   #  name:  Multi-Player Conway's Game of Life
   #  id:    conways
   #  type:  Software Development
-  #  repo:  git/mehalter/Multiplayer-Game-of-Life
+  #  repo:  https://git.mehalter.com/mehalter/Multiplayer-Game-of-Life
   #  notes:
   #    - "Developed a Java-based version of Conway's Game of Life"
   #    - "Created and implemented new rules to the automaton to introduce competition between two cell strains"
