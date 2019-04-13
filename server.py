@@ -12,11 +12,12 @@ Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 
 class CustomHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
     def do_POST(self):
-        subprocess.check_call(['%s/updateGit.sh' % FOLDER, FOLDER])
-        self.send_response(301)
-        self.send_header('Location','/')
-        self.end_headers()
-        return
+        if self.path == '/refresh':
+            subprocess.check_call(['%s/updateGit.sh' % FOLDER, FOLDER])
+            self.send_response(301)
+            self.send_header('Location','/')
+            self.end_headers()
+            return
 
 httpd = SocketServer.TCPServer(("", PORT), CustomHandler)
 
