@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/mehalter
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mehalter.com
+  * I am mehalter (https://keybase.io/mehalter) on keybase.
+  * I have a public key with fingerprint 532C 083C 2D6A 4752 46F1  8639 E10C 6AE7 BF5B 1D1F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019b8eda220ec89b6474b0f24ab3630c12956d9cdb3ac26fc67a29782be3ee0b350a",
+      "fingerprint": "532c083c2d6a475246f18639e10c6ae7bf5b1d1f",
+      "host": "keybase.io",
+      "key_id": "e10c6ae7bf5b1d1f",
+      "kid": "01019b8eda220ec89b6474b0f24ab3630c12956d9cdb3ac26fc67a29782be3ee0b350a",
+      "uid": "ff868d279ea4b8e809db94329256f519",
+      "username": "mehalter"
+    },
+    "service": {
+      "hostname": "mehalter.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1555287809,
+  "expire_in": 157680000,
+  "prev": "6c4a2b8a97c5150582f444b9450d109b3e7a792f9b300531cf8fa762cbf96c9e",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltIFUEYPlbiUZLKwkqwaCuhOtns7M7uziG6PKSEBNHpJl0OM7Ozx1XP7umc
+1QxRuhpFWdmdiC4PPVQQ2YUKwswELehmF7pIRlR0J3wKypqVeokem5eZ/5/v+/7v
+//l3Zg8MBNNeDi5/27Isf2zarXc0sPzcnfRaibrmGilcK1Xw/otXmjzlRStsUwpL
+QAYypgY3CYSAMwNTTdVVCiyoEqpoCmAyxEgzMTOpQhjULKbpBGLdgJQrnAOqIECk
+kGTZTownE0nb8YQsUiADhsKgqRFVR1DVLNnQFMxlwDTCdWohKpuyJYhlbspnCHOU
+pHih7YqcCKL99v6B/8++q/rlLMvQDBPqmBNVqBoAmxSrCsQQaRaSsQ9M8aRD4lyg
+47yMVHo8KdWFJJGtthn3B+t38heikLlxwU0kXc9lbqX4KfO8RCrsM701CR+6mtPo
+b5EotR1TzFEwqnkyZbuOFJYFknm2ryojhKChC3Mhidck7CSP2j4C6ZoBxPHr8Goh
+qTGVQGosJVhnSEYAGdBSVVV0hIApA0wVrhMdQ0u8AECKzCzDIroGGbWwxjCX/L5W
+Oa4UFqU8EhOaKTvmEK8qyaW6rC1pyqBAWjCQnztuUCQUnD61vHhB0dcG/Gf30gf4
+ixfIyhz6J/OhN+Nn/YNVhW1vtl3tKN2R13nlUmRJnje+efyzkm1dNZPO9p0cffdu
+SVb3DG//rPIL61OOOfRL9tiJn3fdPH6492P7Q+vVkfzWx6ERnbSpfPvG3IxYacXs
+4I8TuykMboh0HKy/fHvxt5WvN085NnxaTsulY6WnIyOzZq/41BjtXfiieFPmva7z
+V+Y5l3O+N/S0d8/trNtdr+2f3hTfO27yx3M0Vnzjdm36rHb72a37tRfjH4Y8Wdb7
++sSBCaf6rj9p7TAeNs0/eK27q69xzNqeASWLns8Z9XJrX0Nb/ue8ke8jBTPvF3U9
+Wl5U8HSrt+9Mc1s2ufri6LpvetWeHjClaV5GY96wQ3cO1IRvpKNf
+=HPYx
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mehalter
+
+==================================================================
