@@ -3,14 +3,16 @@
 theme:    "#545963"
 icons:    icon
 button:
-  - name: LinkedIn
+  - name: "<i class=\"fab fa-linkedin-in\"></i>"
     url:  https://www.linkedin.com/in/mehalter
-  - name: Git
+  - name: "<i class=\"fab fa-git\"></i>"
     url:  https://git.mehalter.com/mehalter
-  - name: My DNA
+  - name: "<i class=\"fab fa-keybase\"></i>"
+    url:  https://keybase.io/mehalter
+  - name: "<i class=\"fas fa-dna\"></i>"
     url:  promethease.html
-  - name: Calendar
-    url: https://drive.mehalter.com/index.php/apps/calendar/p/5xJkqitQMFjXqgZe/Personal
+  - name: "<i class=\"far fa-calendar-alt\"></i>"
+    url:  https://drive.mehalter.com/index.php/apps/calendar/p/5xJkqitQMFjXqgZe/Personal
 resume:
   - name: Printable CV
     url:  resume.pdf
