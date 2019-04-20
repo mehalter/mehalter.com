@@ -1,432 +1,236 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
 
-<meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
 
+    <title>$name$ Personal Website</title>
 
+    <script src="index_files/jquery-1.11.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="index_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+    <script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="index_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+    <script src="index_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+    <script src="index_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
+    <link href="index_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+    <script src="index_files/tocify-1.9.1/jquery.tocify.js"></script>
+    <script src="index_files/navigation-1.1/tabsets.js"></script>
+    <link href="index_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+    <script src="index_files/highlightjs-9.12.0/highlight.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="description" content="Portfolio and Resume site for $name$.">
+    <meta name="author" content="$name$">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="$theme$"> $for(icons)$
+    <link rel="shortcut icon" href="$icons$/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="$icons$/ios7/Icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="$icons$/ios7/Icon-72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="$icons$/ios7/Icon@2x.png" /> $endfor$
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
 
-
-<title>$name$</title>
-
-<script src="index_files/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="index_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
-<script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="index_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="index_files/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="index_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="index_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="index_files/tocify-1.9.1/jquery.tocify.js"></script>
-<script src="index_files/navigation-1.1/tabsets.js"></script>
-<link href="index_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="index_files/highlightjs-9.12.0/highlight.js"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<meta name="description" content="Portfolio and Resume site for $name$.">
-<meta name="author" content="$name$">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="$theme$">
-$for(icons)$
-<link rel="shortcut icon" href="$icons$/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="$icons$/ios7/Icon.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="$icons$/ios7/Icon-72.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="$icons$/ios7/Icon@2x.png" />
-$endfor$
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="">
-
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
-
-
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
-
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//matomo.mehalter.com/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
+    <script>
+        if (window.hljs) {
+          hljs.configure({languages: []});
+          hljs.initHighlightingOnLoad();
+          if (document.readyState && document.readyState === "complete") {
+            window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+          }
+        }
+    </script>
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq || [];
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//matomo.mehalter.com/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+          })();
+    </script>
+    <!-- End Matomo Code -->
 
 </head>
 
 <body>
 
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-  height: auto;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-</style>
+    <div class="container-fluid main-container">
 
+        <!-- tabsets -->
 
+        <script>
+            $$(document).ready(function () {
+              window.buildTabsets("TOC");
+            });
 
-<div class="container-fluid main-container">
+            $$(document).ready(function () {
+              $$('.tabset-dropdown > .nav-tabs > li').click(function () {
+                $$(this).parent().toggleClass('nav-tabs-open')
+              });
+            });
+        </script>
 
-<!-- tabsets -->
+        <!-- code folding -->
 
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
+        <script>
+            $$(document).ready(function ()  {
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
+                // move toc-ignore selectors from section div to header
+                $$('div.section.toc-ignore')
+                    .removeClass('toc-ignore')
+                    .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
+                // establish options
+                var options = {
+                  selectors: "h2,h3",
+                  theme: "bootstrap3",
+                  context: '.toc-content',
+                  hashGenerator: function (text) {
+                    return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+                  },
+                  ignoreSelector: ".toc-ignore",
+                  scrollTo: 0
+                };
+                options.showAndHide = true;
+                options.smoothScroll = true;
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
+                // tocify
+                var toc = $$("#TOC").tocify(options).data("toc-tocify");
+            });
+        </script>
 
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
+        <!-- setup 3col/9col grid for toc_float and main content  -->
+        <div class="row-fluid">
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div id="TOC" class="tocify">
+                </div>
+            </div>
 
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-}
+            <div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
+                <div class="fluid-row" id="header">
 
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
+                    <h1 class="toc-ignore">$name$</h1>
 
-<script>
-$$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
+                </div>
 
-$$(document).ready(function () {
-  $$('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $$(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
+                <p>$summary$</p>
+                <div id="about-me" class="section level1">
+                    <h2>About Me</h2>
+                    <p><img src="$picture$" alt="Picture of $name$" width="120" style="object-fit: cover; border-radius: 50%;float: right; margin-left: 10px" /></p>
+                    <p>$about-me$</p>
+                    <p>$for(button)$<a href="$button.url$" class="btn btn-primary">$button.name$</a>$sep$ $endfor$</p>
+                    <div id="contact-details" class="section level3">
+                        <h4>Contact Details</h4>
+                        <p>$name$</p>
+                        <p>$location$</p>
+                        <p>$phone$</p>
+                        <p><a href="mailto:$email$">$email$</a></p>
+                        $for(keyserver)$
+                        <p><a href="$keyserver.url$">$keyserver.fingerprint$</a></p>
+                        $endfor$
+                        <p>$for(resume)$<a href="$resume.url$" class="btn btn-primary">$resume.name$</a>$sep$ $endfor$</p>
+                    </div>
+                </div>
+                <div id="education" class="section level1">
+                    <h2>Education</h2>
+                    $for(education)$
+                    <div id="$education.id$" class="section level2">
+                        <h3>$education.school$</h3>
+                        <p><em>$education.degree$</em> • $education.start$$for(education.end)$ - $education.end$$endfor$</p>
+                        <ul>
+                            $for(education.notes)$
+                            <li>$education.notes$</li>
+                            $endfor$
+                        </ul>
+                    </div>
+                    $endfor$
+                </div>
+                <div id="work-experience" class="section level1">
+                    <h2>Work Experience</h2>
+                    $for(experience)$
+                    <div id="$experience.id$" class="section level2">
+                        <h3>$experience.company$</h3>
+                        <p><em>$experience.position$</em> • $experience.start$$for(experience.end)$ - $experience.end$$endfor$</p>
+                        <ul>
+                            $for(experience.notes)$
+                            <li>$experience.notes$</li>
+                            $endfor$
+                        </ul>
+                    </div>
+                    $endfor$
+                </div>
+                <div id="skills" class="section level1">
+                    <h2>Skills</h2>
+                    <ul>
+                        $for(skill)$ $for(skill.line)$
+                        <li>$skill.line$</li>
+                        $endfor$ $endfor$
+                        <li>Languages
+                            <ul>
+                                $for(language)$
+                                <li>$language$</li>
+                                $endfor$
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="projects" class="section level1">
+                    <h2>Projects</h2>
+                    $for(project)$
+                    <div id="$project.id$" class="section level2">
+                        <h3>$project.name$</h3>
+                        <p><em>$project.start$$for(project.end)$ - $project.end$$endfor$</em></p>
+                        $for(project.image)$
+                        <p><img src="$project.image$" alt="Project image" /></p>
+                        $endfor$
+                        <ul>
+                            $for(project.notes)$
+                            <li>$project.notes$</li>
+                            $endfor$
+                        </ul>
+                        $for(project.repo)$
+                        <p><a href="$project.repo$">Code Repository</a></p>
+                        $endfor$
+                    </div>
+                    $endfor$
+                </div>
 
-<!-- code folding -->
+            </div>
+        </div>
 
+    </div>
 
+    <script>
+        // add bootstrap table styles to pandoc tables
+        function bootstrapStylePandocTables() {
+          $$('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+        }
+        $$(document).ready(function () {
+          bootstrapStylePandocTables();
+        });
+    </script>
 
-<script>
-$$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $$('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $$("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
-
-
-<div class="fluid-row" id="header">
-
-
-
-<h1 class="title toc-ignore">$name$</h1>
-
-</div>
-
-
-<p>$summary$</p>
-<div id="about-me" class="section level1">
-<h1>About Me</h1>
-<p><img src="$picture$" width="120" style="object-fit: cover; border-radius: 50%;float: right; margin-left: 10px"/></p>
-<p>$about-me$</p>
-<p>$for(button)$<a href="$button.url$" class="btn btn-primary">$button.name$</a>$sep$ $endfor$</p>
-<div id="contact-details" class="section level3">
-<h3>Contact Details</h3>
-<p>$name$</p>
-<p>$location$</p>
-<p>$phone$</p>
-<p><a href="mailto:$email$">$email$</a></p>
-$for(keyserver)$
-<p><a href="$keyserver.url$">$keyserver.fingerprint$</a></p>
-$endfor$
-<p>$for(resume)$<a href="$resume.url$" class="btn btn-primary">$resume.name$</a>$sep$ $endfor$</p>
-</div>
-</div>
-<div id="education" class="section level1">
-<h1>Education</h1>
-$for(education)$
-<div id="$education.id$" class="section level2">
-<h2>$education.school$</h2>
-<p><em>$education.degree$</em> • $education.start$$for(education.end)$ - $education.end$$endfor$</p>
-<ul>
-$for(education.notes)$
-<li>$education.notes$</li>
-$endfor$
-</ul>
-</div>
-$endfor$
-</div>
-<div id="work-experience" class="section level1">
-<h1>Work Experience</h1>
-$for(experience)$
-<div id="$experience.id$" class="section level2">
-<h2>$experience.company$</h2>
-<p><em>$experience.position$</em> • $experience.start$$for(experience.end)$ - $experience.end$$endfor$</p>
-<ul>
-$for(experience.notes)$
-<li>$experience.notes$</li>
-$endfor$
-</ul>
-</div>
-$endfor$
-</div>
-<div id="skills" class="section level1">
-<h1>Skills</h1>
-<ul>
-$for(skill)$
-$for(skill.line)$
-<li>$skill.line$</li>
-$endfor$
-$endfor$
-<li>Languages
-<ul>
-$for(language)$
-<li>$language$</li>
-$endfor$
-</ul></li>
-</ul>
-</div>
-<div id="projects" class="section level1">
-<h1>Projects</h1>
-$for(project)$
-<div id="$project.id$" class="section level2">
-<h2>$project.name$</h2>
-<p><em>$project.start$$for(project.end)$ - $project.end$$endfor$</em></p>
-$for(project.image)$
-<p><img src="$project.image$" /></p>
-$endfor$
-<ul>
-$for(project.notes)$
-<li>$project.notes$</li>
-$endfor$
-</ul>
-$for(project.repo)$
-<p><a href="$project.repo$">Code Repository</a></p>
-$endfor$
-</div>
-$endfor$
-</div>
-
-
-
-</div>
-</div>
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $$('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
+    <!-- dynamically load mathjax for compatibility with self-contained -->
+    <script>
+        (function () {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+            document.getElementsByTagName("head")[0].appendChild(script);
+          })();
+    </script>
 
 </body>
+
 </html>

@@ -1,0 +1,136 @@
+h1 {
+   font-size: 38px;
+}
+ h2 {
+   font-size: 34px;
+}
+ h3 {
+   font-size: 30px;
+}
+ h4 {
+   font-size: 24px;
+}
+ h5 {
+   font-size: 18px;
+}
+ h6 {
+   font-size: 16px;
+}
+ .table th:not([align]) {
+   text-align: left;
+}
+ .main-container {
+   max-width: 940px;
+   margin-left: auto;
+   margin-right: auto;
+}
+ code {
+   color: inherit;
+   background-color: rgba(0, 0, 0, 0.04);
+}
+ img {
+   max-width:100%;
+   height: auto;
+}
+ .tabbed-pane {
+   padding-top: 12px;
+}
+ .html-widget {
+   margin-bottom: 20px;
+}
+ button.code-folding-btn:focus {
+   outline: none;
+}
+ summary {
+   display: list-item;
+}
+ code {
+  white-space: pre;
+}
+ pre:not([class]) {
+  background-color: white;
+}
+ .tabset-dropdown > .nav-tabs {
+   display: inline-table;
+   max-height: 500px;
+   min-height: 44px;
+   overflow-y: auto;
+   background: white;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+ .tabset-dropdown > .nav-tabs > li.active:before {
+   content: "";
+   display: inline-block;
+   padding: 10px;
+   border-right: 1px solid #ddd;
+}
+ .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+   content: "&#xe258;
+  ";
+   border: none;
+}
+ .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+   content: "";
+   display: inline-block;
+   padding: 10px;
+   border-right: 1px solid #ddd;
+}
+ .tabset-dropdown > .nav-tabs > li.active {
+   display: block;
+}
+ .tabset-dropdown > .nav-tabs > li > a, .tabset-dropdown > .nav-tabs > li > a:focus, .tabset-dropdown > .nav-tabs > li > a:hover {
+   border: none;
+   display: inline-block;
+   border-radius: 4px;
+}
+ .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+   display: block;
+   float: none;
+}
+ .tabset-dropdown > .nav-tabs > li {
+   display: none;
+}
+ #TOC {
+   margin: 25px 0px 20px 0px;
+}
+ @media (max-width: 768px) {
+   #TOC {
+     position: relative;
+     width: 100%;
+  }
+}
+ .toc-content {
+   padding-left: 30px;
+   padding-right: 40px;
+}
+ div.main-container {
+   max-width: 1200px;
+}
+ div.tocify {
+   width: 20%;
+   max-width: 260px;
+   max-height: 85%;
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+   div.tocify {
+     width: 25%;
+  }
+}
+ @media (max-width: 767px) {
+   div.tocify {
+     width: 100%;
+     max-width: none;
+  }
+}
+ .tocify ul, .tocify li {
+   line-height: 20px;
+}
+ .tocify-subheader .tocify-item {
+   font-size: 0.90em;
+   padding-left: 25px;
+   text-indent: 0;
+}
+ .tocify .list-group-item {
+   border-radius: 0px;
+}
