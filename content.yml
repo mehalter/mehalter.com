@@ -40,7 +40,7 @@ phone:    +1 704 490 9840
 email:    micah@mehalter.com
 url:      mehalter.com
 git:
-  url: gitlab.com
+  url:  git.mehalter.com
   user: mehalter
 
 keyserver:
@@ -50,9 +50,9 @@ keyserver:
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
 
-summary: "I’m an undergraduate <strong>computer science</strong> major with a focus in <strong>system architecture</strong> and <strong>theory</strong> at the <strong>Georgia Institute of Technology</strong> in Atlanta, Georgia."
+summary: "I’m a <strong>computer science researcher</strong> at the <strong>Georgia Tech Research Institute</strong> in Atlanta, Georgia."
 
-about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I am currently a full-time student at the Georgia Institute of Technology’s College of Computing as a computer science major with a focus in system architecture and theory, and am working part-time as a Student Research Assistant at the Georgia Tech Research Institute."
+about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory, and am working as a Researcher at the Georgia Tech Research Institute."
 
 description:
   sys-admin: "Through work opportunities and personal projects, I have had extensive experience with the configuration, hardening, and maintenance of various Linux distributions, including:"
@@ -71,7 +71,7 @@ education:
     location: Atlanta, GA
     notes:
       - "Concentration in system architecture and theory"
-      - "Dean's List Fall 2015, Spring 2016, Fall 2016, Fall 2018"
+      - "Dean's List Fall 2015, Spring 2016, Fall 2016, Fall 2018, Spring 2019"
   - start:    Aug 2017
     end:      Dec 2017
     degree:   Bachelor of Science in Computer Science
@@ -84,14 +84,22 @@ education:
 
 #=== WORK EXPERIENCE ===#
 experience:
-  - start:    Jan 2016
+  - start:    May 2019
     end:      Present
+    company:  Georgia Tech Research Institute
+    id:       gtri
+    position: Researcher
+    location: Atlanta, GA
+    notes:
+      - "Using NetFlow data and machine learning to detect possibly compromised machines on a network"
+      - "Developing and implementing a new methodology to programmatically represent and manipulate models at the semantic level"
+  - start:    Jan 2016
+    end:      May 2019
     company:  Georgia Tech Research Institute
     id:       gtri
     position: Student Researcher
     location: Atlanta, GA
     notes:
-      - "Developing and implementing a new methodology to programmatically represent and manipulate models at the semantic level"
       - "Implementing a relational database schema to enhance sonar research"
       - "Developed a machine learning based crime forecasting system using past crime and geographical data"
       - "Developed a wearable technology based 911 communication assistance tool"
@@ -232,7 +240,7 @@ operating-system:
 #=== COMMUNITY INVOLVEMENT ===#
 community:
   - start: Aug 2015
-    end:   Present
+    end:   May 2019
     name:  Georgia Tech's Men's Ultimate Frisbee
     place: Georgia Institute of Technology
     notes:

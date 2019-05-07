@@ -103,6 +103,6 @@ $endfor$
 .PP
 Website: <https://$url$>
 .PP
-GitLab: <https://$git.url$/$git.user$>
+Git: <https://$git.url$/$git.user$>
 .SH AUTHORS
 $name$.
