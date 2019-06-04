@@ -84,25 +84,25 @@ education:
 
 #=== WORK EXPERIENCE ===#
 experience:
-  - start:    May 2019
+  # - start:    May 2019
+  #   end:      Present
+  #   company:  Georgia Tech Research Institute
+  #   id:       gtri
+  #   position: Researcher
+  #   location: Atlanta, GA
+  #   notes:
+  - start:    Jan 2016
     end:      Present
     company:  Georgia Tech Research Institute
     id:       gtri
-    position: Researcher
+    position: Research Engineer
     location: Atlanta, GA
     notes:
       - "Using NetFlow data and machine learning to detect possibly compromised machines on a network"
       - "Developing and implementing a new methodology to programmatically represent and manipulate models at the semantic level"
-  - start:    Jan 2016
-    end:      May 2019
-    company:  Georgia Tech Research Institute
-    id:       gtri
-    position: Student Researcher
-    location: Atlanta, GA
-    notes:
       - "Implementing a relational database schema to enhance sonar research"
       - "Developed a machine learning based crime forecasting system using past crime and geographical data"
-      - "Developed a wearable technology based 911 communication assistance tool"
+      # - "Developed a wearable technology based 911 communication assistance tool"
   - start:    Dec 2018
     end:      Present
     company:  Kindred Spirits Atlanta, LLC
