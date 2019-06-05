@@ -20,7 +20,7 @@
     <script src="index_files/navigation-1.1/tabsets.js"></script>
     <link href="index_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
     <script src="index_files/highlightjs-9.12.0/highlight.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a820275387.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="description" content="Portfolio and Resume site for $name$.">
     <meta name="author" content="$name$">
@@ -188,7 +188,7 @@
                     <h2>Projects</h2>
                     $for(project)$
                     <div id="$project.id$" class="section level2">
-                        <h3>$project.name$</h3>
+                      <h3>$project.name$ $for(project.repo)$<a href="$project.repo$"><i class="fab fa-git-alt"></i></a>$endfor$</h3>
                         <p><em>$project.start$$for(project.end)$ - $project.end$$endfor$</em></p>
                         $for(project.image)$
                         <p><img src="$project.image$" alt="Project image" /></p>
@@ -198,9 +198,6 @@
                             <li>$project.notes$</li>
                             $endfor$
                         </ul>
-                        $for(project.repo)$
-                        <p><a href="$project.repo$">Code Repository</a></p>
-                        $endfor$
                     </div>
                     $endfor$
                 </div>
