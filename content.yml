@@ -98,9 +98,10 @@ experience:
     position: Research Engineer
     location: Atlanta, GA
     notes:
-      - "Using NetFlow data and machine learning to detect possibly compromised machines on a network"
       - "Developing and implementing a new methodology to programmatically represent and manipulate models at the semantic level"
-      - "Implementing a relational database schema to enhance sonar research"
+      - "Wrote and published conference and journal papers to communicate research findings to the greater research community"
+      - "Using NetFlow data and machine learning to detect possibly compromised machines on a network"
+      # - "Implementing a relational database schema to enhance sonar research"
       - "Developed a machine learning based crime forecasting system using past crime and geographical data"
       # - "Developed a wearable technology based 911 communication assistance tool"
   - start:    Dec 2018
