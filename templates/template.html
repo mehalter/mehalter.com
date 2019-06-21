@@ -141,20 +141,6 @@
                         <p>$for(resume)$<a href="$resume.url$" class="btn btn-primary">$resume.name$</a>$sep$ $endfor$</p>
                     </div>
                 </div>
-                <div id="education" class="section level1">
-                    <h2>Education</h2>
-                    $for(education)$
-                    <div id="$education.id$" class="section level2">
-                        <h3>$education.school$</h3>
-                        <p><em>$education.degree$</em> • $education.start$$for(education.end)$ - $education.end$$endfor$</p>
-                        <ul>
-                            $for(education.notes)$
-                            <li>$education.notes$</li>
-                            $endfor$
-                        </ul>
-                    </div>
-                    $endfor$
-                </div>
                 <div id="work-experience" class="section level1">
                     <h2>Work Experience</h2>
                     $for(experience)$
@@ -164,6 +150,49 @@
                         <ul>
                             $for(experience.notes)$
                             <li>$experience.notes$</li>
+                            $endfor$
+                        </ul>
+                    </div>
+                    $endfor$
+                </div>
+                <div id="projects" class="section level1">
+                    <h2>Projects</h2>
+                    $for(project)$
+                    <div id="$project.id$" class="section level2">
+                      <h3>$project.name$ $for(project.repo)$<a href="$project.repo$"><i class="fab fa-git-alt"></i></a>$endfor$</h3>
+                        $for(project.image)$
+                        <p><img src="$project.image$" alt="Project image" /></p>
+                        $endfor$
+                        <ul>
+                            $for(project.notes)$
+                            <li>$project.notes$</li>
+                            $endfor$
+                        </ul>
+                    </div>
+                    $endfor$
+                </div>
+                <div id="papers" class="section level1">
+                    <h2>Papers</h2>
+                    $for(paper)$
+                    <div id="$paper.id$" class="section level2">
+                      <h4>$paper.type$</h4>
+                        <ul>
+                            $for(paper.entries)$
+                            <li><i>$paper.entries.title$</i>, $paper.entries.authors$, $paper.entries.issue$</li>
+                            $endfor$
+                        </ul>
+                    </div>
+                    $endfor$
+                </div>
+                <div id="education" class="section level1">
+                    <h2>Education</h2>
+                    $for(education)$
+                    <div id="$education.id$" class="section level2">
+                        <h3>$education.school$</h3>
+                        <p><em>$education.degree$</em> • $education.start$$for(education.end)$ - $education.end$$endfor$</p>
+                        <ul>
+                            $for(education.notes)$
+                            <li>$education.notes$</li>
                             $endfor$
                         </ul>
                     </div>
@@ -183,23 +212,6 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
-                <div id="projects" class="section level1">
-                    <h2>Projects</h2>
-                    $for(project)$
-                    <div id="$project.id$" class="section level2">
-                      <h3>$project.name$ $for(project.repo)$<a href="$project.repo$"><i class="fab fa-git-alt"></i></a>$endfor$</h3>
-                        <p><em>$project.start$$for(project.end)$ - $project.end$$endfor$</em></p>
-                        $for(project.image)$
-                        <p><img src="$project.image$" alt="Project image" /></p>
-                        $endfor$
-                        <ul>
-                            $for(project.notes)$
-                            <li>$project.notes$</li>
-                            $endfor$
-                        </ul>
-                    </div>
-                    $endfor$
                 </div>
 
             </div>

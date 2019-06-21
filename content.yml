@@ -98,43 +98,43 @@ experience:
     position: Research Engineer
     location: Atlanta, GA
     notes:
-      - "Developing and implementing a new methodology to programmatically represent and manipulate models at the semantic level"
+      - "Lead contributor to research projects sponsored by large entities such as DARPA, NIH, and the US Navy"
       - "Wrote and published conference and journal papers to communicate research findings to the greater research community"
-      - "Using NetFlow data and machine learning to detect possibly compromised machines on a network"
-      # - "Implementing a relational database schema to enhance sonar research"
-      - "Developed a machine learning based crime forecasting system using past crime and geographical data"
-      # - "Developed a wearable technology based 911 communication assistance tool"
+      - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
+      - "Deliver applied research projects to sponsors such as source code, web applications, and technical reports"
+      - "Used NetFlow data and machine learning in Python and scikit-learn to detect possibly compromised machines on a network based on known blacklists and whitelists of IP addresses"
+      - "Submitted to NIJ crime prediction challenge, predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS databases"
   - start:    Dec 2018
     end:      Present
     company:  Kindred Spirits Atlanta, LLC
     id:       kindred-spirits
-    position: Co-Owner and Bartender
+    position: Co-Owner
     location: Atlanta, GA
     notes:
-      - "Cater events with bartending and mixology services"
-      - "Create curated cocktail menus for events with innovative and complex recipes to meet the needs of all event attendees"
-      - "Engage with curstomers and provide outstanding service to build customer relations and increase company value"
+      - "Manage infrastructure, logistics, and services for contracted catering events"
+      - "Engage with customers and provide outstanding service to build customer relations and increase company value"
       - "Maintain and file all necessary legal documents to ensure legitimacy of the business"
   - start:    May 2017
     end:      Aug 2017
     company:  The Boeing Company
     id:       boeing-2
-    position: IT Intern
+    position: System Administrator Intern
     location: Kent, WA
     notes:
-      - "Developed a security auditing tool suite for Red Hat Enterprise Linux 7"
-      - "Developed a web-based data visualization tool"
-      - "Developed several system administration scripts as needed by team members"
+      - "Developed a security auditing tool suite for Red Hat Enterprise Linux 7 to maintain hardened security on servers holding classified material"
+      - "Developed a web application in C#, HTML, and JavaScript to view and analyze network traffic"
+      - "Developed several system administration scripts as needed by team members to complete tasks such as emailing system logs and automatic server backups"
   - start:    May 2016
     end:      Aug 2016
     company:  The Boeing Company
     id:       boeing
-    position: IT Intern
+    position: Software Development Intern
     location: North Charleston, SC
     notes:
+      - "Organized and led a software development team of five in a three day coding sprint to create a minimum viable product of a Kanban board web application"
+      - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
       - "Documented and executed an upgrade plan for the company's identity management servers"
-      - "Developed an Outlook-integrated conference room mapping tool"
-      - "Designed and began development of a web-based Kanban board tool"
+      - "Developed an Outlook-integrated conference room mapping tool in C#"
   #- start:    Jun 2014
   #  end:      Aug 2014
   #  company:  North Carolina Statue University College of Textiles
@@ -148,26 +148,29 @@ experience:
 
 #=== PROJECTS ===#
 project:
-  - start: Jan 2019
-    end:   Present
-    name:  SemanticModels.jl
+  - name:  SemanticModels.jl
     id:    semanticmodels.jl
-    type:  Software Development and Research
+    type:  Georgia Tech Research Institute
     repo:  https://github.com/jpfairbanks/SemanticModels.jl
     image: images/semanticmodels.png
     notes:
-      - "Researching and developing a novel methodology to programmatically represent and manipulate scientific models at the semantic level"
+      - "A category theory approach to defining metamodeling tasks for representing and composing scientific models"
+      - "A system for extracting semantic information from scientific code and reconciling it with conceptual descriptions to build a knowledge graph"
       - "Actively contribute and maintain this open source project coming out of the Georgia Tech Research Institute sponsored by the Defense Advanced Research Projects Agency (DARPA)"
-  - start: Nov 2017
-    end:   Present
-    name:  Linux Configuration
-    id:    linux
-    type:  System Administration
-    repo:  https://git.mehalter.com/mehalter/dotfiles
-    image: images/desktop.png
+  - name:  Corsair Database
+    id:    corsair
+    type:  Georgia Tech Research Institute
     notes:
-      - "Configured and maintain a minimal Linux installation to meet my development needs"
-      - "Developed many custom scripts to optimize my workflow"
+      - "Developed a web application for viewing and analyzing sonar SAS data using Go, Python, and PostgresDB deployed with Docker and Drone.io"
+      - "Engineered a database for managing scientific experiments to utilize the speed and efficiency of using a rigid relational database, while being flexible enough to handle the changing data requirements of scientific experimentation"
+  #- name:  Linux Configuration
+  #  id:    linux
+  #  type:  System Administration
+  #  repo:  https://git.mehalter.com/mehalter/dotfiles
+  #  image: images/desktop.png
+  #  notes:
+  #    - "Configured and maintain a minimal Linux installation to meet my development needs"
+  #    - "Developed many custom scripts to optimize my workflow"
   #- start: Sep 2016
   #  end:   Nov 2016
   #  name:  Clean Water Crowdsourcing
@@ -203,6 +206,20 @@ project:
   #    - "Developed a Java-based version of Conway's Game of Life"
   #    - "Created and implemented new rules to the automaton to introduce competition between two cell strains"
 
+paper:
+  - type:  Peer Reviewed Conference Publications
+    id: conf
+    entries:
+      - title: "A Compositional Framework for Scientific Model Augmentation"
+        authors: "Micah Halter, Christine Herlihy and James Fairbanks"
+        issue: "Applied Category Theory, 2019"
+  - type:  Under Review Journal Publications
+    id: journal
+    entries:
+      - title: "Accelerating Automatic Target Recognition Performance Estimation with a Relational Database for Synthetic Aperture Sonar"
+        authors: "James Fairbanks, Micah Halter, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
+        issue: "Navy Journal of Underwater Research, 2018"
+
 
 #=== SKILLS ===#
 skill:
@@ -213,6 +230,7 @@ skill:
   - line:
     - High Performance Computing
     - Machine Learning
+    - Functional Programming
     - Agile Development
 
 language:
@@ -221,7 +239,7 @@ language:
   - Go
   - Julia
   - Java
-  - C\#
+  - Scala
   - Perl
   - Bash
   - SQL
