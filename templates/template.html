@@ -141,6 +141,7 @@
                         <p>$for(resume)$<a href="$resume.url$" class="btn btn-primary">$resume.name$</a>$sep$ $endfor$</p>
                     </div>
                 </div>
+                $if(experience)$
                 <div id="work-experience" class="section level1">
                     <h2>Work Experience</h2>
                     $for(experience)$
@@ -155,6 +156,8 @@
                     </div>
                     $endfor$
                 </div>
+                $endif$
+                $if(project)$
                 <div id="projects" class="section level1">
                     <h2>Projects</h2>
                     $for(project)$
@@ -171,6 +174,8 @@
                     </div>
                     $endfor$
                 </div>
+                $endif$
+                $if(paper)$
                 <div id="papers" class="section level1">
                     <h2>Papers</h2>
                     $for(paper)$
@@ -184,6 +189,8 @@
                     </div>
                     $endfor$
                 </div>
+                $endif$
+                $if(education)$
                 <div id="education" class="section level1">
                     <h2>Education</h2>
                     $for(education)$
@@ -198,6 +205,8 @@
                     </div>
                     $endfor$
                 </div>
+                $endif$
+                $if(skill)$
                 <div id="skills" class="section level1">
                     <h2>Skills</h2>
                     <ul>
@@ -213,6 +222,7 @@
                         </li>
                     </ul>
                 </div>
+                $endif$
 
             </div>
         </div>
