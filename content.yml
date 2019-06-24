@@ -72,14 +72,14 @@ education:
     notes:
       - "Concentration in system architecture and theory"
       - "Dean's List Fall 2015, Spring 2016, Fall 2016, Fall 2018, Spring 2019"
-  - start:    Aug 2017
-    end:      Dec 2017
-    degree:   Bachelor of Science in Computer Science
-    school:   Hong Kong University of Science and Technology
-    id:       hkust
-    location: Hong Kong
-    notes:
-      - "Studied abroad"
+  # - start:    Aug 2017
+  #   end:      Dec 2017
+  #   degree:   Bachelor of Science in Computer Science
+  #   school:   Hong Kong University of Science and Technology
+  #   id:       hkust
+  #   location: Hong Kong
+  #   notes:
+  #     - "Studied abroad"
 
 
 #=== WORK EXPERIENCE ===#
@@ -99,42 +99,46 @@ experience:
     location: Atlanta, GA
     notes:
       - "Lead contributor to research projects sponsored by large entities DARPA, NIH, and ONR"
-      - "Wrote and published conference and journal papers to communicate research findings to the greater research community"
+      # - "Wrote and published conference and journal papers to communicate research findings to the greater research community"
       - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
-      - "Deliver applied research projects to sponsors such as source code, web applications, and technical reports"
-      - "Used NetFlow data and machine learning in Python and scikit-learn to detect possibly compromised machines on a network based on known blacklists and whitelists of IP addresses"
-      - "Submitted to NIJ crime prediction challenge, predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS databases"
-  - start:    Dec 2018
-    end:      Present
-    company:  Kindred Spirits Atlanta, LLC
-    id:       kindred-spirits
-    position: Co-Owner
-    location: Atlanta, GA
-    notes:
-      - "Manage infrastructure, logistics, and services for contracted catering events"
-      - "Engage with customers and provide outstanding service to build customer relations and increase company value"
-      - "Maintain and file all necessary legal documents to ensure legitimacy of the business"
-  - start:    May 2017
-    end:      Aug 2017
-    company:  The Boeing Company
-    id:       boeing-2
-    position: System Administrator Intern
-    location: Kent, WA
-    notes:
-      - "Developed a security auditing tool suite for Red Hat Enterprise Linux 7 to maintain hardened security on servers holding classified material"
-      - "Developed a web application in C#, HTML, and JavaScript to view and analyze network traffic"
-      - "Developed several system administration scripts as needed by team members to complete tasks such as emailing system logs and automatic server backups"
+      - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
+      - "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
+      - "Predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data"
+  # - start:    Dec 2018
+  #   end:      Present
+  #   company:  Kindred Spirits Atlanta, LLC
+  #   id:       kindred-spirits
+  #   position: Co-Owner
+  #   location: Atlanta, GA
+  #   notes:
+  #     - "Manage infrastructure, logistics, and services for contracted catering events"
+  #     - "Engage with customers and provide outstanding service to build customer relations and increase company value"
+  #     - "Maintain and file all necessary legal documents to ensure legitimacy of the business"
   - start:    May 2016
-    end:      Aug 2016
+    end:      Aug 2017
     company:  The Boeing Company
     id:       boeing
     position: Software Development Intern
-    location: North Charleston, SC
+    location: Kent, WA
     notes:
-      - "Organized and led a software development team of five in a three day coding sprint to create a minimum viable product of a Kanban board web application"
+      - "Developed a security auditing tool suite for Red Hat Enterprise Linux 7 to maintain hardened security on classified servers"
+      - "Developed a web application in C#, HTML, and JavaScript to view and analyze network traffic"
+      - "Developed several system administration scripts as needed by team members to complete tasks such as emailing system logs and automatic server backups"
+      - "Organized and led a software development team to create a minimum viable product of a Kanban board web application"
       - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
       - "Documented and executed an upgrade plan for the company's identity management servers"
       - "Developed an Outlook-integrated conference room mapping tool in C#"
+  # - start:    May 2016
+  #   end:      Aug 2016
+  #   company:  The Boeing Company
+  #   id:       boeing
+  #   position: Software Development Intern
+  #   location: North Charleston, SC
+  #   notes:
+  #     - "Organized and led a software development team of five in a three day coding sprint to create a minimum viable product of a Kanban board web application"
+  #     - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
+  #     - "Documented and executed an upgrade plan for the company's identity management servers"
+  #     - "Developed an Outlook-integrated conference room mapping tool in C#"
   #- start:    Jun 2014
   #  end:      Aug 2014
   #  company:  North Carolina Statue University College of Textiles
@@ -212,13 +216,13 @@ paper:
     id: conf
     entries:
       - title: "A Compositional Framework for Scientific Model Augmentation"
-        authors: "Micah Halter, Christine Herlihy and James Fairbanks"
+        authors: "**Micah Halter**, Christine Herlihy, James Fairbanks"
         issue: "Applied Category Theory, 2019"
   - type:  Under Review Journal Publications
     id: journal
     entries:
       - title: "Accelerating Automatic Target Recognition Performance Estimation with a Relational Database for Synthetic Aperture Sonar"
-        authors: "James Fairbanks, Micah Halter, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
+        authors: "James Fairbanks\\*, **Micah Halter**\\*, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
         issue: "Navy Journal of Underwater Research, 2018"
 
 
@@ -264,7 +268,6 @@ community:
     name:  Georgia Tech's Men's Ultimate Frisbee
     place: Georgia Institute of Technology
     notes:
-      - "Balance competitive practice and tournament schedule with rigorous academics"
       - "Help with recruitment and teaching new players"
   #- start: Aug 2015
   #  end:   May 2017

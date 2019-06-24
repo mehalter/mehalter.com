@@ -7,6 +7,8 @@
 \usepackage[margin=.5in]{geometry}
 \usepackage{titling}
 \usepackage{fontawesome}
+\usepackage{enumitem}
+\renewcommand\labelitemi{-}
 
 \author{$name$}
 
@@ -21,7 +23,7 @@
 {\centering{\begin{minipage}[t]{.95\textwidth}
 {\bf#2}\ifthenelse{\isempty{#3}}{}{\\\textit{#3}.}
 
-\footnotesize{#4}
+\parbox{.99\linewidth}{\footnotesize{#4}}
 \end{minipage}}\\
 \vspace{.1cm}}
 {\begin{minipage}[t]{.12\textwidth}
@@ -32,7 +34,7 @@
 \begin{minipage}[t]{.83\textwidth}
 {\bf#2}\ifthenelse{\isempty{#3}}{}{\\\textit{#3}.}
 
-\footnotesize{#4}
+\parbox{.96\linewidth}{\footnotesize{#4}}
 \end{minipage}\\
 \vspace{.1cm}}}}
 
@@ -76,6 +78,20 @@
 
 \vspace{.1cm}
 
+$if(education)$
+\section{Education}
+
+$for(education)$
+\entry{$education.start$ \--- $education.end$}
+{$education.degree$}
+{$education.school$, $education.location$}
+{\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
+$for(education.notes)$\item $education.notes$$sep$ $endfor$
+\end{itemize}}
+
+$endfor$
+$endif$
+
 $if(experience)$
 \section{Professional Experience}
 
@@ -83,7 +99,9 @@ $for(experience)$
 \entry{$experience.start$ \--- $experience.end$}
 {$experience.company$ \--- $experience.position$}
 {$experience.location$}
-{$for(experience.notes)$$experience.notes$$sep$\\ $endfor$}
+{\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
+$for(experience.notes)$\item $experience.notes$$sep$ $endfor$
+\end{itemize}}
 
 $endfor$
 $endif$
@@ -95,7 +113,9 @@ $for(project)$
 \entry{}
 {$project.name$}
 {$project.type$}
-{$for(project.notes)$$project.notes$$sep$\\ $endfor$}
+{\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
+$for(project.notes)$\item $project.notes$$sep$ $endfor$
+\end{itemize}}
 
 $endfor$
 $endif$
@@ -112,15 +132,16 @@ $for(paper)$
 $endfor$
 $endif$
 
-$if(education)$
-\section{Education}
+$if(community)$
+\section{Community Involvement}
 
-$for(education)$
-\entry{$education.start$ \--- $education.end$}
-{$education.degree$}
-{$education.school$, $education.location$}
-{$for(education.notes)$$education.notes$$sep$\\ $endfor$}
-
+$for(community)$
+\entry{$community.start$ \--- $community.end$}
+{$community.name$}
+{$community.place$}
+{\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
+$for(community.notes)$\item $community.notes$$sep$ $endfor$
+\end{itemize}}
 $endfor$
 $endif$
 
@@ -138,16 +159,5 @@ $endif$
 {$for(language)$$language$$sep$, $endfor$}
 {}
 {}
-
-$if(community)$
-\section{Community Involvement}
-
-$for(community)$
-\entry{$community.start$ \--- $community.end$}
-{$community.name$}
-{$community.place$}
-{$for(community.notes)$$community.notes$$sep$\\ $endfor$}
-$endfor$
-$endif$
 
 \end{document}
