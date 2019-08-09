@@ -213,13 +213,18 @@ project:
   #    - "Developed a Java-based version of Conway's Game of Life"
   #    - "Created and implemented new rules to the automaton to introduce competition between two cell strains"
 
-paper:
+publication:
   - type:  Peer Reviewed Conference Publications
     id: conf
     entries:
       - title: "A Compositional Framework for Scientific Model Augmentation"
         authors: "**Micah Halter**, Christine Herlihy, James Fairbanks"
         issue: "Applied Category Theory, 2019"
+        links:
+          - title: "PDF"
+            url: "https://arxiv.org/abs/1907.03536"
+          - title: "Slides"
+            url: "http://jpfairbanks.net/doc/slides/act/slides.slides.html#/"
   - type:  Under Review Journal Publications
     id: journal
     entries:

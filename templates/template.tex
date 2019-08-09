@@ -120,14 +120,14 @@ $for(project.notes)$\item $project.notes$$sep$ $endfor$
 $endfor$
 $endif$
 
-$if(paper)$
+$if(publication)$
 \section{Publications}
 
-$for(paper)$
+$for(publication)$
 \entry{}
-{$paper.type$}
+{$publication.type$}
 {}
-{$for(paper.entries)$\textit{$paper.entries.title$}, $paper.entries.authors$, $paper.entries.issue$$sep$\\ $endfor$}
+{$for(publication.entries)$\textit{$publication.entries.title$}, $publication.entries.authors$, $publication.entries.issue$$sep$\\ $endfor$}
 
 $endfor$
 $endif$
