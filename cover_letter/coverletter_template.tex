@@ -1,0 +1,30 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+
+
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+\name$for(name)${$name$}$endfor$
+\address$for(address)${$address$}$endfor$% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{$phone$}                   % optional, remove / comment the line if not wanted
+\email{$email$}                               % optional, remove / comment the line if not wanted
+\homepage{$website$}                         % optional, remove / comment the line if not wanted
+
+\begin{document}
+\recipient$for(company)${$company$}$endfor$
+\date{\today}
+\opening{$if(greeting)$$greeting$$else$To Whom It May Concern,$endif$}
+\closing{$if(closing)$$closing$$else$Best Regards$endif$}
+\enclosure{CV}
+\makelettertitle{}
+
+$body$
+
+\vspace{0.5cm}
+
+
+\makeletterclosing{}
+
+\end{document}
