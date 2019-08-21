@@ -88,16 +88,12 @@
 			var green = toInt(parseInt(n.substr(3, 3)));
 			var blue = toInt(parseInt(n.substr(6, 3)));
 
-			var urls = ["http://192.168.0.100", "http://192.168.0.186"];
-			for (i = 0; i < urls.length; i++) {
-				var url = urls[i];
-				url = url.concat("/", red, ":", green, ":", blue, ":", brightness, ":");
-				console.log(url);
-				var xhr = new XMLHttpRequest();
-				xhr.open("POST", url, true);
-
-				xhr.send("");
-			}
+			var url = "https://mehalter.com/setColor";
+			var params = "red=";
+			params = params.concat(red, "&green=", green, "&blue=", blue, "&brightness=", brightness);
+			var xhr = new XMLHttpRequest();
+			xhr.open("POST", url, true);
+			xhr.send(params);
 		}
 
 		//function highlightColor(color) {
