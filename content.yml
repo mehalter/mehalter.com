@@ -65,8 +65,8 @@ description:
 
 #=== EDUCATION ===#
 education:
-  - start:    Aug 2015
-    end:      May 2019
+  - start:    Aug&nbsp;2015
+    end:      May&nbsp;2019
     degree:   Bachelor of Science in Computer Science
     school:   Georgia Institute of Technology
     id:       git
@@ -74,8 +74,8 @@ education:
     notes:
       - "Concentration in system architecture and theory"
       - "Dean's List Fall 2015, Spring 2016, Fall 2016, Fall 2018, Spring 2019"
-  # - start:    Aug 2017
-  #   end:      Dec 2017
+  # - start:    Aug&nbsp;2017
+  #   end:      Dec&nbsp;2017
   #   degree:   Bachelor of Science in Computer Science
   #   school:   Hong Kong University of Science and Technology
   #   id:       hkust
@@ -86,14 +86,14 @@ education:
 
 #=== WORK EXPERIENCE ===#
 experience:
-  # - start:    May 2019
+  # - start:    May&nbsp;2019
   #   end:      Present
   #   company:  Georgia Tech Research Institute
   #   id:       gtri
   #   position: Researcher
   #   location: Atlanta, GA
   #   notes:
-  - start:    Jan 2016
+  - start:    Jan&nbsp;2016
     end:      Present
     company:  Georgia Tech Research Institute
     id:       gtri
@@ -106,7 +106,7 @@ experience:
       - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
       - "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
       - "Predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data"
-  # - start:    Dec 2018
+  # - start:    Dec&nbsp;2018
   #   end:      Present
   #   company:  Kindred Spirits Atlanta, LLC
   #   id:       kindred-spirits
@@ -116,8 +116,8 @@ experience:
   #     - "Manage infrastructure, logistics, and services for contracted catering events"
   #     - "Engage with customers and provide outstanding service to build customer relations and increase company value"
   #     - "Maintain and file all necessary legal documents to ensure legitimacy of the business"
-  - start:    May 2016
-    end:      Aug 2017
+  - start:    May&nbsp;2016
+    end:      Aug&nbsp;2017
     company:  The Boeing Company
     id:       boeing
     position: Software Development Intern
@@ -130,8 +130,8 @@ experience:
       - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
       - "Documented and executed an upgrade plan for the company's identity management servers"
       - "Developed an Outlook-integrated conference room mapping tool in C#"
-  # - start:    May 2016
-  #   end:      Aug 2016
+  # - start:    May&nbsp;2016
+  #   end:      Aug&nbsp;2016
   #   company:  The Boeing Company
   #   id:       boeing
   #   position: Software Development Intern
@@ -141,8 +141,8 @@ experience:
   #     - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
   #     - "Documented and executed an upgrade plan for the company's identity management servers"
   #     - "Developed an Outlook-integrated conference room mapping tool in C#"
-  #- start:    Jun 2014
-  #  end:      Aug 2014
+  #- start:    Jun&nbsp;2014
+  #  end:      Aug&nbsp;2014
   #  company:  North Carolina Statue University College of Textiles
   #  id:       ncsu
   #  position: Wearable Technology Research Intern
@@ -163,6 +163,12 @@ project:
       - "Research funded by the Defense Advanced Research Projects Agency (DARPA)"
       - "A category theory approach to defining metamodeling tasks for representing and composing scientific models"
       - "A system for extracting semantic information from scientific code and reconciling it with conceptual descriptions to build a knowledge graph"
+  - name:  Petri.jl
+    id:    petri.jl
+    type:  Software Development
+    repo:  https://github.com/mehalter/Petri.jl
+    notes:
+      - "A stochastic petri net modeling framework for the Julia programming language"
   - name:  Corsair Database
     id:    corsair
     type:  Georgia Tech Research Institute
@@ -178,8 +184,8 @@ project:
   #  notes:
   #    - "Configured and maintain a minimal Linux installation to meet my development needs"
   #    - "Developed many custom scripts to optimize my workflow"
-  #- start: Sep 2016
-  #  end:   Nov 2016
+  #- start: Sep&nbsp;2016
+  #  end:   Nov&nbsp;2016
   #  name:  Clean Water Crowdsourcing
   #  id:    clean-water
   #  type:  Software Development
@@ -187,15 +193,15 @@ project:
   #  notes:
   #    - "Completed the full-stack development process from design to implementation of a full Java based application"
   #    - "Demonstrated good development practices to make sure code is concise, maintainable, and sharable"
-  #- start: May 2015
+  #- start: May&nbsp;2015
   #  name:  Huffman Coding
   #  id:    huffman-coding
   #  type:  Software Development
   #  repo:  https://git.mehalter.com/mehalter/Huffman-Coding-C
   #  notes:
   #    - "Programmed a C-based implementation of the Huffman coding compression and decompression algorithm"
-  #- start: Aug 2014
-  #  end:   Apr 2015
+  #- start: Aug&nbsp;2014
+  #  end:   Apr&nbsp;2015
   #  name:  Verificia
   #  id:    verificia
   #  type:  Software Development
@@ -204,7 +210,7 @@ project:
   #    - "Developed and deployed a working prototype as a proof of concept"
   #    - "Pitched the idea through a business protfolio and presentation to investors and competition judges"
   #    - "Achieved finalist status in the competition as a Pete Conrad Summit Diplomat"
-  #- start: Feb 2015
+  #- start: Feb&nbsp;2015
   #  name:  Multi-Player Conway's Game of Life
   #  id:    conways
   #  type:  Software Development
@@ -231,6 +237,45 @@ publication:
       - title: "Accelerating Automatic Target Recognition Performance Estimation with a Relational Database for Synthetic Aperture Sonar"
         authors: "James Fairbanks\\*, **Micah Halter**\\*, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
         issue: "Navy Journal of Underwater Research, 2018"
+
+talk:
+  - type: Posters
+    id: poster
+    entries:
+    - title: Scientific Knowledge Extraction, Augmentation & Analysis
+      speakers: Micah Halter, James Fairbanks, Eric Davis, Clayton Morrison
+      event: DARPA Demo Day
+      date: Sep&nbsp;2019
+
+funding:
+  - start: 2018
+    end: 2020
+    role: Task Lead
+    sponsor: DARPA
+    title: Artifical Intelligence Exploration - Automating Scientific Knowledge Extraction
+    agreement: Agreement No. HR00111990008
+    amount: $\approx$$1M
+  - start: 2019
+    end: 2021
+    role: Performer
+    sponsor: Office of Naval Research
+    title: MCM Situational Awarness
+    agreement:
+    amount: $\approx$$375K
+  - start: 2016
+    end: 2019
+    role: Performer
+    sponsor: Office of Naval Research
+    title: Performance Estimation of Underwater MCM Operations
+    agreement: Contract No. N00014-16-C-3041
+    amount: $\approx$$990K
+  - start: 2015
+    end: 2019
+    role: Performer
+    sponsor: Office of Naval Research
+    title: Automation for UxV-based Mine Countermeasures
+    agreement: Contract No. N00014-15-C-5172
+    amount: $540K
 
 
 #=== SKILLS ===#
@@ -270,21 +315,21 @@ operating-system:
 
 #=== COMMUNITY INVOLVEMENT ===#
 community:
-  - start: Aug 2015
-    end:   May 2019
+  - start: Aug&nbsp;2015
+    end:   May&nbsp;2019
     name:  Georgia Tech's Men's Ultimate Frisbee
     place: Georgia Institute of Technology
     notes:
       - "Help with recruitment and teaching new players"
-  #- start: Aug 2015
-  #  end:   May 2017
+  #- start: Aug&nbsp;2015
+  #  end:   May&nbsp;2017
   #  name:  TEDxGeorgiaTech
   #  place: Georgia Institute of Technology and TED
   #  notes:
   #    - "Organized an official TEDx university even with a group of students at Georgia Tech"
   #    - "Designed all of the visuals for the conference, including rewriting the event website TEDxGeorgiaTech.com"
-  #- start: Aug 2013
-  #  end:   Jun 2015
+  #- start: Aug&nbsp;2013
+  #  end:   Jun&nbsp;2015
   #  name:  Research Triangle Google Development Group
   #  place: Google
   #  notes:

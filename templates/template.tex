@@ -120,17 +120,32 @@ $for(project.notes)$\item $project.notes$$sep$ $endfor$
 $endfor$
 $endif$
 
-$if(publication)$
-\section{Publications}
+\section{Research}
+
+$if(funding)$
+\entry{}
+{Funding}
+{}
+{$for(funding)$$funding.start$ \--- $funding.end$\quad $funding.role$, $funding.sponsor$, \textit{$funding.title$}, $funding.amount$$sep$\\ $endfor$}
+$endif$
 
 $for(publication)$
 \entry{}
 {$publication.type$}
 {}
-{$for(publication.entries)$\textit{$publication.entries.title$}, $publication.entries.authors$, $publication.entries.issue$$sep$\\ $endfor$}
-
+{\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
+$for(publication.entries)$\item \textit{$publication.entries.title$}, $publication.entries.authors$, $publication.entries.issue$$sep$ $endfor$
+\end{itemize}}
 $endfor$
-$endif$
+
+$for(talk)$
+\entry{}
+{$talk.type$}
+{}
+{\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
+$for(talk.entries)$\item \textit{$talk.entries.title$}, $talk.entries.speakers$, $talk.entries.event$, $talk.entries.date$$sep$ $endfor$
+\end{itemize}}
+$endfor$
 
 $if(community)$
 \section{Community Involvement}
