@@ -93,7 +93,7 @@ experience:
   #   position: Researcher
   #   location: Atlanta, GA
   #   notes:
-  - start:    Jan&nbsp;2016
+  - start:    Jun&nbsp;2019
     end:      Present
     company:  Georgia Tech Research Institute
     id:       gtri
@@ -101,10 +101,20 @@ experience:
     location: Atlanta, GA
     notes:
       - "Lead contributor to research projects sponsored by large entities DARPA, NIH, and ONR"
-      # - "Wrote and published conference and journal papers to communicate research findings to the greater research community"
+      - "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
       - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
       - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
       - "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
+  - start:    Jan&nbsp;2016
+    end:      May&nbsp;2019
+    company:  Georgia Tech Research Institute
+    id:       gtri
+    position: Undergraduate Research Assistant
+    location: Atlanta, GA
+    notes:
+      - "Lead contributor to research projects sponsored by large entities NIH and ONR"
+      - "Wrote and published a peer reviewed journal paper to communicate research findings to the greater research community"
+      - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
       - "Predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data"
   # - start:    Dec&nbsp;2018
   #   end:      Present
