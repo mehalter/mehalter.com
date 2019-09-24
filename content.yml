@@ -242,11 +242,22 @@ publication:
           - title: "Slides"
             url: "http://jpfairbanks.net/doc/slides/act/slides.slides.html#/"
   - type:  Under Review Journal Publications
-    id: journal
+    id: journal-pend
     entries:
       - title: "Accelerating Automatic Target Recognition Performance Estimation with a Relational Database for Synthetic Aperture Sonar"
         authors: "James Fairbanks\\*, **Micah Halter**\\*, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
         issue: "Navy Journal of Underwater Research, 2018"
+  - type:  Under Review Conference Publications
+    id: conf-pend
+    entries:
+      - title: "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
+        authors: "**Micah Halter**, Sreenath Raparti, Kun Cao, Christine Herlihy, James Fairbanks"
+        issue: "JuliaCon, 2019"
+        links:
+          - title: "Slides"
+            url: "http://jpfairbanks.net/doc/slides/juliacon2019/slides.slides.html#/"
+          - title: "Video"
+            url: "https://www.youtube.com/watch?v=WJneK7OjqMQ"
 
 talk:
   - type: Posters
