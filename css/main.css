@@ -134,3 +134,49 @@ h1 {
  .tocify .list-group-item {
    border-radius: 0px;
 }
+
+:root {
+  --dark-bg-color: #444;
+  --dark-fg-color: #e4e4e4;
+  --dark-link-color: #6eb9aa;
+  --dark-button-color: #4f6675;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--dark-fg-color);
+    background-color: var(--dark-bg-color);
+  }
+  a {
+    color: var(--dark-link-color);
+  }
+  .list-group-item {
+    background-color: var(--dark-bg-color);
+  }
+  .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    color: var(--dark-bg-color);
+    background-color: var(--dark-fg-color);
+  }
+  .btn-primary {
+    color: var(--dark-bg-color);
+    background-color: var(--dark-fg-color);
+    border-color: var(--dark-fg-color);
+  }
+  .btn-info {
+    background-color: var(--dark-button-color);
+    border-color: var(--dark-button-color);
+  }
+  .table {
+    border: 1px solid var(--dark-fg-color);
+  }
+  .table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #515151;
+  }
+  .table-hover > tbody > tr:hover {
+    color: var(--dark-bg-color);
+    background-color: var(--dark-fg-color);
+  }
+  img {
+    filter: grayscale(30%);
+  }
+}
