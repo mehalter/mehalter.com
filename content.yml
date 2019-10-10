@@ -65,6 +65,14 @@ description:
 
 #=== EDUCATION ===#
 education:
+  # - start:    Jan&nbsp;2020
+  #   end:      Dec&nbsp;2021
+  #   degree:   Master of Science in Computer Science
+  #   school:   Georgia Institute of Technology
+  #   id:       git
+  #   location: Atlanta, GA
+  #   notes:
+  #     - "Specialization in Machine Learning"
   - start:    Aug&nbsp;2015
     end:      May&nbsp;2019
     degree:   Bachelor of Science in Computer Science
@@ -74,14 +82,14 @@ education:
     notes:
       - "Concentration in system architecture and theory"
       - "Dean's List Fall 2015, Spring 2016, Fall 2016, Fall 2018, Spring 2019"
-  # - start:    Aug&nbsp;2017
-  #   end:      Dec&nbsp;2017
-  #   degree:   Bachelor of Science in Computer Science
-  #   school:   Hong Kong University of Science and Technology
-  #   id:       hkust
-  #   location: Hong Kong
-  #   notes:
-  #     - "Studied abroad"
+  - start:    Aug&nbsp;2017
+    end:      Dec&nbsp;2017
+    degree:   Bachelor of Science in Computer Science
+    school:   Hong Kong University of Science and Technology
+    id:       hkust
+    location: Hong Kong
+    notes:
+      - "Studied abroad"
 
 
 #=== WORK EXPERIENCE ===#

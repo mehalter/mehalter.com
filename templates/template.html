@@ -126,6 +126,7 @@
                 <p>$summary$</p>
                 <div id="about-me" class="section level1">
                     <h2>About Me</h2>
+                    <hr>
                     <p><img src="$picture$" alt="Picture of $name$" width="120" style="object-fit: cover; border-radius: 50%;float: right; margin-left: 10px" /></p>
                     <p>$about-me$</p>
                     <p>$for(button)$<a href="$button.url$" class="btn btn-primary">$button.name$</a>$sep$ $endfor$</p>
@@ -144,6 +145,7 @@
                 $if(experience)$
                 <div id="work-experience" class="section level1">
                     <h2>Work Experience</h2>
+                    <hr>
                     $for(experience)$
                     <div id="$experience.id$" class="section level2">
                         <h3>$experience.company$</h3>
@@ -160,6 +162,7 @@
                 $if(project)$
                 <div id="projects" class="section level1">
                     <h2>Projects</h2>
+                    <hr>
                     $for(project)$
                     <div id="$project.id$" class="section level2">
                       <h3>$project.name$ $for(project.repo)$<a href="$project.repo$"><i class="fab fa-git-alt"></i></a>$endfor$</h3>
@@ -177,6 +180,7 @@
                 $endif$
                 <div id="research" class="section level1">
                     <h2>Research</h2>
+                    <hr>
                     $if(funding)$
                     <div id="funding" class="section level2">
                       <h4>Funding</h4>
@@ -226,6 +230,7 @@
                 $if(education)$
                 <div id="education" class="section level1">
                     <h2>Education</h2>
+                    <hr>
                     $for(education)$
                     <div id="$education.id$" class="section level2">
                         <h3>$education.school$</h3>
@@ -242,6 +247,7 @@
                 $if(skill)$
                 <div id="skills" class="section level1">
                     <h2>Skills</h2>
+                    <hr>
                     <ul>
                         $for(skill)$ $for(skill.line)$
                         <li>$skill.line$</li>

@@ -5,16 +5,19 @@ h1 {
    font-size: 34px;
 }
  h3 {
-   font-size: 30px;
-}
- h4 {
    font-size: 24px;
 }
- h5 {
+ h4 {
    font-size: 18px;
 }
- h6 {
+ h5 {
    font-size: 16px;
+}
+ h6 {
+   font-size: 14px;
+}
+hr {
+  margin-top: .2em;
 }
  .table th:not([align]) {
    text-align: left;
