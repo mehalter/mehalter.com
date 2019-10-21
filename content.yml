@@ -282,35 +282,35 @@ funding:
     role: Performer
     sponsor: Office of Naval Research
     title: MCM Situational Awarness
-    agreement: Contract No. N00014-16-C-3041 as ammended by P00009
+    # agreement: Contract No. N00014-16-C-3041 as ammended by P00009
     amount: $\approx$$375K
   - start: 2018
     end: 2020
     role: Task Lead
     sponsor: DARPA
     title: Artifical Intelligence Exploration - Automating Scientific Knowledge Extraction
-    agreement: Agreement No. HR00111990008
+    # agreement: Agreement No. HR00111990008
     amount: $\approx$$1M
   - start: 2018
     end: 2019
     role: Performer
     sponsor: Air Force
     title: Network Risk Indication
-    agreement: Contract No. FA8773-17-D-0004
+    # agreement: Contract No. FA8773-17-D-0004
     amount: $\approx$$135K
   - start: 2016
     end: 2019
     role: Performer
     sponsor: Office of Naval Research
     title: Performance Estimation of Underwater MCM Operations
-    agreement: Contract No. N00014-16-C-3041
+    # agreement: Contract No. N00014-16-C-3041
     amount: $\approx$$990K
   - start: 2015
     end: 2019
     role: Performer
     sponsor: Office of Naval Research
     title: Automation for UxV-based Mine Countermeasures
-    agreement: Contract No. N00014-15-C-5172
+    # agreement: Contract No. N00014-15-C-5172
     amount: $540K
 
 
