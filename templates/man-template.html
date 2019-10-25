@@ -67,10 +67,11 @@ $endfor$</code></pre> $endfor$
         <dt><strong>--employee</strong></dt>
         <dd>
             $for(experience)$
-            <p><strong>$experience.company$</strong> - <em>$experience.position$</em> - <em>$experience.start$-$experience.end$</em></p>
-            <pre><code>$for(experience.notes)$* $experience.notes$$sep$
+            $for(experience.position)$
+            <p><strong>$experience.company$</strong> - <em>$experience.position.title$</em> - <em>$experience.position.start$-$experience.position.end$</em></p>
+            <pre><code>$for(experience.position.notes)$* $experience.position.notes$$sep$
 
-$endfor$</code></pre> $endfor$
+$endfor$</code></pre> $endfor$$endfor$
         </dd>
         <dt><strong>--admin</strong> <em>systems</em></dt>
         <dd>

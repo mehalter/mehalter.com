@@ -149,12 +149,14 @@
                     $for(experience)$
                     <div id="$experience.id$" class="section level2">
                         <h3>$experience.company$</h3>
-                        <p><em>$experience.position$</em> • $experience.start$$for(experience.end)$ - $experience.end$$endfor$</p>
+                        $for(experience.position)$
+                        <p><em>$experience.position.title$</em> • $experience.position.start$$for(experience.position.end)$ - $experience.position.end$$endfor$</p>
                         <ul>
-                            $for(experience.notes)$
-                            <li>$experience.notes$</li>
+                            $for(experience.position.notes)$
+                            <li>$experience.position.notes$</li>
                             $endfor$
                         </ul>
+                        $endfor$
                     </div>
                     $endfor$
                 </div>

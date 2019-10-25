@@ -101,73 +101,78 @@ experience:
   #   position: Researcher
   #   location: Atlanta, GA
   #   notes:
-  - start:    Jun&nbsp;2019
-    end:      Present
-    company:  Georgia Tech Research Institute
-    id:       gtri
-    position: Research Scientist
-    location: Atlanta, GA
-    notes:
-      - "Lead contributor to research projects sponsored by large entities DARPA, NIH, and ONR"
-      - "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
-      - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
-      - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
-      - "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
-  - start:    Jan&nbsp;2016
-    end:      May&nbsp;2019
-    company:  Georgia Tech Research Institute
-    id:       gtri
-    position: Undergraduate Research Assistant
-    location: Atlanta, GA
-    notes:
-      - "Lead contributor to research projects sponsored by large entities NIH and ONR"
-      - "Wrote and published a peer reviewed journal paper to communicate research findings to the greater research community"
-      - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
-      - "Predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data"
-  # - start:    Dec&nbsp;2018
-  #   end:      Present
-  #   company:  Kindred Spirits Atlanta, LLC
-  #   id:       kindred-spirits
-  #   position: Co-Owner
-  #   location: Atlanta, GA
-  #   notes:
-  #     - "Manage infrastructure, logistics, and services for contracted catering events"
-  #     - "Engage with customers and provide outstanding service to build customer relations and increase company value"
-  #     - "Maintain and file all necessary legal documents to ensure legitimacy of the business"
-  - start:    May&nbsp;2016
-    end:      Aug&nbsp;2017
-    company:  The Boeing Company
-    id:       boeing
-    position: Software Development Intern
-    location: Kent, WA
-    notes:
-      - "Developed a security auditing tool suite for Red Hat Enterprise Linux 7 to maintain hardened security on classified servers"
-      - "Developed a web application in C#, HTML, and JavaScript to view and analyze network traffic"
-      - "Developed several system administration scripts as needed by team members to complete tasks such as emailing system logs and automatic server backups"
-      - "Organized and led a software development team to create a minimum viable product of a Kanban board web application"
-      - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
-      - "Documented and executed an upgrade plan for the company's identity management servers"
-      - "Developed an Outlook-integrated conference room mapping tool in C#"
-  # - start:    May&nbsp;2016
-  #   end:      Aug&nbsp;2016
-  #   company:  The Boeing Company
-  #   id:       boeing
-  #   position: Software Development Intern
-  #   location: North Charleston, SC
-  #   notes:
-  #     - "Organized and led a software development team of five in a three day coding sprint to create a minimum viable product of a Kanban board web application"
-  #     - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
-  #     - "Documented and executed an upgrade plan for the company's identity management servers"
-  #     - "Developed an Outlook-integrated conference room mapping tool in C#"
-  #- start:    Jun&nbsp;2014
-  #  end:      Aug&nbsp;2014
-  #  company:  North Carolina Statue University College of Textiles
-  #  id:       ncsu
-  #  position: Wearable Technology Research Intern
-  #  location: Raleigh, NC
-  #  notes:
-  #    - "Conducted research on a cooling vest, the Porticool, by the company Porticos"
-  #    - "Integrated a self-powered electrical system of thermelectric generatos to power various sensors"
+  - company:  Georgia Tech Research Institute
+    position:
+      - title: Research Scientist
+        start:    Jun&nbsp;2019
+        end:      Present
+        company:  Georgia Tech Research Institute
+        id:       gtri
+        location: Atlanta, GA
+        notes:
+          - "Lead contributor to research projects sponsored by large entities DARPA, NIH, and ONR"
+          - "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
+          - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
+          - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
+          - "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
+      - title: Undergraduate Research Assistant
+        start:    Jan&nbsp;2016
+        end:      May&nbsp;2019
+        id:       gtri
+        location: Atlanta, GA
+        notes:
+          - "Lead contributor to research projects sponsored by large entities NIH and ONR"
+          - "Wrote and published a peer reviewed journal paper to communicate research findings to the greater research community"
+          - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
+          - "Predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data"
+  # - company:  Kindred Spirits Atlanta, LLC
+  #   position:
+  #     - title: Co-Owner
+  #       start:    Dec&nbsp;2018
+  #       end:      Present
+  #       id:       kindred-spirits
+  #       location: Atlanta, GA
+  #       notes:
+  #         - "Manage infrastructure, logistics, and services for contracted catering events"
+  #         - "Engage with customers and provide outstanding service to build customer relations and increase company value"
+  #         - "Maintain and file all necessary legal documents to ensure legitimacy of the business"
+  - company:  The Boeing Company
+    position:
+      - title: Software Development Intern
+        start:    May&nbsp;2016
+        end:      Aug&nbsp;2017
+        id:       boeing
+        location: Kent, WA
+        notes:
+          - "Developed a security auditing tool suite for Red Hat Enterprise Linux 7 to maintain hardened security on classified servers"
+          - "Developed a web application in C#, HTML, and JavaScript to view and analyze network traffic"
+          - "Developed several system administration scripts as needed by team members to complete tasks such as emailing system logs and automatic server backups"
+          - "Organized and led a software development team to create a minimum viable product of a Kanban board web application"
+          - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
+          - "Documented and executed an upgrade plan for the company's identity management servers"
+          - "Developed an Outlook-integrated conference room mapping tool in C#"
+  # - company:  The Boeing Company
+  #   position:
+  #     - title: Software Development Intern
+  #       start:    May&nbsp;2016
+  #       end:      Aug&nbsp;2016
+  #       id:       boeing
+  #       location: North Charleston, SC
+  #       notes:
+  #         - "Organized and led a software development team of five in a three day coding sprint to create a minimum viable product of a Kanban board web application"
+  #         - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
+  #         - "Documented and executed an upgrade plan for the company's identity management servers"
+  #         - "Developed an Outlook-integrated conference room mapping tool in C#"
+  #- company:  North Carolina Statue University College of Textiles
+  #  position:
+  #    - title: Wearable Technology Research Intern
+  #      start:    Jun&nbsp;2014
+  #      end:      Aug&nbsp;2014
+  #      id:       ncsu
+  #      location: Raleigh, NC
+  #      notes:
+  #        - "Conducted research on a cooling vest, the Porticool, by the company Porticos"
+  #        - "Integrated a self-powered electrical system of thermelectric generatos to power various sensors"
 
 
 #=== PROJECTS ===#

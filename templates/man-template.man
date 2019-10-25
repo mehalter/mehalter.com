@@ -32,16 +32,20 @@ $endfor$
 .B \f[B]--employee\f[R]
 .RS
 $for(experience)$
-\f[I]$experience.company$\f[R] - \f[B]$experience.position$\f[R] - \f[I]$experience.start$-$experience.end$\f[R]
+$for(experience.position)$
+\f[I]$experience.company$\f[R] - \f[B]$experience.position.title$\f[R] - \f[I]$experience.position.start$-$experience.position.end$\f[R]
 .IP
 .nf
 \f[C]
-$for(experience.notes)$* $experience.notes$$sep$
+$for(experience.position.notes)$* $experience.position.notes$$sep$
 
 $endfor$
 
 \f[R]
 .fi$sep$
+
+.PP
+$endfor$$sep$
 
 .PP
 $endfor$
