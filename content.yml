@@ -65,14 +65,14 @@ description:
 
 #=== EDUCATION ===#
 education:
-  # - start:    Jan&nbsp;2020
-  #   end:      Dec&nbsp;2021
-  #   degree:   Master of Science in Computer Science
-  #   school:   Georgia Institute of Technology
-  #   id:       git
-  #   location: Atlanta, GA
-  #   notes:
-  #     - "Specialization in Machine Learning"
+  - start:    Jan&nbsp;2020
+    end:      Dec&nbsp;2021
+    degree:   Master of Science in Computer Science
+    school:   Georgia Institute of Technology
+    id:       git
+    location: Atlanta, GA
+    notes:
+      - "Specialization in Machine Learning"
   - start:    Aug&nbsp;2015
     end:      May&nbsp;2019
     degree:   Bachelor of Science in Computer Science
@@ -187,6 +187,7 @@ project:
     repo:  https://github.com/mehalter/Petri.jl
     notes:
       - "A stochastic petri net modeling framework for the Julia programming language"
+      - "Allow petri nets to be compiled to Gillespie and differential equation based simulations"
   - name:  Corsair Database
     id:    corsair
     type:  Georgia Tech Research Institute
@@ -318,6 +319,7 @@ funding:
 skill:
   - line:
     - Full Stack Development
+    - Deep Learning
     - System Administration
     - Database Design and Management
   - line:
