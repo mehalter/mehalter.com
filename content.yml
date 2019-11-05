@@ -190,6 +190,7 @@ project:
     id:    petri.jl
     type:  Software Development
     repo:  https://github.com/mehalter/Petri.jl
+    image: images/petri.png
     notes:
       - "A stochastic petri net modeling framework for the Julia programming language"
       - "Allow petri nets to be compiled to Gillespie and differential equation based simulations"
