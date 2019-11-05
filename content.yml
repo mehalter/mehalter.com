@@ -181,7 +181,7 @@ project:
     id:    semanticmodels.jl
     type:  Georgia Tech Research Institute
     repo:  https://github.com/jpfairbanks/SemanticModels.jl
-    image: images/semanticmodels.png
+    logo: images/semanticmodels.png
     notes:
       - "Research funded by the Defense Advanced Research Projects Agency (DARPA)"
       - "A category theory approach to defining metamodeling tasks for representing and composing scientific models"
@@ -190,7 +190,7 @@ project:
     id:    petri.jl
     type:  Software Development
     repo:  https://github.com/mehalter/Petri.jl
-    image: images/petri.png
+    logo: images/petri.png
     notes:
       - "A stochastic petri net modeling framework for the Julia programming language"
       - "Allow petri nets to be compiled to Gillespie and differential equation based simulations"

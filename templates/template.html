@@ -167,7 +167,7 @@
                     <hr>
                     $for(project)$
                     <div id="$project.id$" class="section level2">
-                      <h3>$project.name$ $for(project.repo)$<a href="$project.repo$"><i class="fab fa-git-alt"></i></a>$endfor$</h3>
+                      <h3>$project.name$ $if(project.logo)$<img src="$project.logo$" alt="Project logo" height="48" width="48"/>$endif$ $for(project.repo)$<a href="$project.repo$"><i class="fab fa-git-alt"></i></a>$endfor$</h3>
                         $for(project.image)$
                         <p><img src="$project.image$" alt="Project image" /></p>
                         $endfor$
