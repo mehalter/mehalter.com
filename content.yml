@@ -5,6 +5,8 @@ icons:    icon
 button:
   - name: "<i class=\"fab fa-keybase\"></i>"
     url:  https://keybase.io/mehalter
+  - name: "<i class=\"fas fa-graduation-cap\"></i>"
+    url:  https://scholar.google.com/citations?user=yMme7wkAAAAJ&hl=en
   - name: "<i class=\"fab fa-linkedin-in\"></i>"
     url:  https://www.linkedin.com/in/mehalter
   - name: "<i class=\"fab fa-git\"></i>"
