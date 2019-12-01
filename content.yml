@@ -3,6 +3,8 @@
 theme:    "#545963"
 icons:    icon
 button:
+  - name: "<i class=\"fas fa-sleigh\"></i>"
+    url:  https://git.mehalter.com/mehalter/aoc2019/src/branch/master
   - name: "<i class=\"fab fa-keybase\"></i>"
     url:  https://keybase.io/mehalter
   - name: "<i class=\"fas fa-graduation-cap\"></i>"
@@ -321,6 +323,19 @@ funding:
     title: Automation for UxV-based Mine Countermeasures
     # agreement: Contract No. N00014-15-C-5172
     amount: $540K
+
+open-source:
+  - comments:
+    - Active contributor to several open source projects
+    - Active maintainer of packages in the Arch User Repository
+  - maintainer:
+    - Petri.jl
+    - SemanticModels.jl
+  - contributor:
+    - qutebrowser
+    - Catlab.jl
+    - vim-pandoc
+    - voidrice
 
 
 #=== SKILLS ===#

@@ -68,6 +68,7 @@ var sites = {
         "innc2 Slack"       : "https://innc2.slack.com/messages",
         "ASKE Slack"        : "https://aske-workspace.slack.com",
         "ICL Slack"         : "https://gtri-icl.slack.com",
+        "Julia Slack"       : "https://julialang.slack.com",
       }
     };
 
