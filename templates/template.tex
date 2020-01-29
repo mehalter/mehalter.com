@@ -98,7 +98,7 @@ $if(experience)$
 $for(experience)$
 $for(experience.position)$
 \entry{$experience.position.start$ \--- $experience.position.end$}
-{$experience.company$ \--- $experience.position.title$}
+{$experience.position.company$ \--- $experience.position.title$}
 {$experience.position.location$}
 {\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
 $for(experience.position.notes)$\item $experience.position.notes$$sep$ $endfor$
