@@ -105,7 +105,7 @@ experience:
             id: gtri
             location: Atlanta, GA
             notes:
-                - "Lead contributor to research projects sponsored by large entities DARPA, NIH, and ONR"
+                - "Lead contributor to research projects sponsored by large entities DARPA, NIH, DOD, and ONR"
                 - "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
                 - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
                 - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
@@ -323,25 +323,41 @@ funding:
       amount: $540K
 
 open-source:
-    - comments:
-        - Active contributor to several open source projects
-        - Active maintainer of packages in the Arch User Repository
-    - maintainer:
-        - Petri.jl
-        - SemanticModels.jl
-    - contributor:
-        - qutebrowser
-        - Catlab.jl
-        - vim-pandoc
-        - voidrice
-    - aur-packages:
-        - Ruby on Rails
-        - OpenSCAP
-        - Translate Shell
-        - Antigen
-        - MyEtherWallet
-        - HTTP Prompt
-        - Ueberzug
+    - type: "Core Package Maintainer"
+      id: "maintainer"
+      entries:
+        - repo: "Petri.jl"
+          url: "https://github.com/mehalter/Petri.jl"
+        - repo: "SemanticModels.jl"
+          url: "https://github.com/jpfairbanks/SemanticModels.jl"
+    - type: "Contributor"
+      id: "contributor"
+      entries:
+        - repo: "Catlab.jl"
+          url: "https://github.com/epatters/Catlab.jl"
+        - repo: "qutebrowser"
+          url: "https://github.com/qutebrowser/qutebrowser"
+        - repo: "vim-pandoc"
+          url: "https://github.com/vim-pandoc/vim-pandoc"
+        - repo: "voidrice"
+          url: "https://github.com/LukeSmithxyz/voidrice/"
+    - type: "Arch User Repository Package Maintainer"
+      id: "aur-packages"
+      entries:
+        - repo: "Ruby on Rails"
+          url: "https://aur.archlinux.org/packages/ruby-rails/"
+        - repo: "OpenSCAP"
+          url: "https://aur.archlinux.org/packages/openscap/"
+        - repo: "Translate Shell"
+          url: "https://aur.archlinux.org/packages/translate-shell-git/"
+        - repo: "Antigen"
+          url: "https://aur.archlinux.org/packages/antigen/"
+        - repo: "MyEtherWallet"
+          url: "https://aur.archlinux.org/packages/myetherwallet/"
+        - repo: "HTTP Prompt"
+          url: "https://aur.archlinux.org/packages/http-prompt/"
+        - repo: "Ueberzug"
+          url: "https://aur.archlinux.org/packages/python-ueberzug-git/"
 
 
 #=== SKILLS ===#

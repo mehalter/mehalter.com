@@ -229,6 +229,25 @@
                     </div>
                     $endfor$
                 </div>
+
+                $if(open-source)$
+                <div id="open-source" class="section level1">
+                    <h2>Open Source Involvement</h2>
+                    <hr>
+                    $for(open-source)$
+                    <div id="$open-source.id$" class="section level2">
+                      <h4>$open-source.type$</h4>
+                        <ul>
+                            $for(open-source.entries)$
+                            <li><b><a href="$open-source.entries.url$">$open-source.entries.repo$</a></b></li>
+                            $endfor$
+                        </ul>
+                    </div>
+                    $endfor$
+                </div>
+                $endif$
+
+
                 $if(education)$
                 <div id="education" class="section level1">
                     <h2>Education</h2>

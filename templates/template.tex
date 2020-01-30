@@ -149,6 +149,20 @@ $for(talk.entries)$\item \textit{$talk.entries.title$}, $talk.entries.speakers$,
 \end{itemize}}
 $endfor$
 
+$if(open-source)$
+\section{Open Source Involvement}
+
+$for(open-source)$
+\entry{}
+{$open-source.type$}
+{}
+{\begin{itemize}[leftmargin=*,topsep=0pt,noitemsep,labelsep=.3em]
+$for(open-source.entries)$\item \textbf{$open-source.entries.repo$} \--- \href{$open-source.entries.url$}{$open-source.entries.url$} $sep$ $endfor$
+\end{itemize}}
+$endfor$
+
+$endif$
+
 $if(community)$
 \section{Community Involvement}
 
