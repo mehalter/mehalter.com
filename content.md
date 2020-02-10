@@ -280,6 +280,9 @@ talk:
             speakers: Micah Halter, Kun Cao, James Fairbanks
             event: SIAM Conference on Parallel Processing for Scientific Computing
             date: Feb&nbsp;2020
+            links:
+                - title: "PDF"
+                  url: "documents/siam-pp20.pdf"
           - title: Scientific Knowledge Extraction, Augmentation & Analysis
             speakers: Micah Halter, James Fairbanks, Eric Davis, Clayton Morrison, Ryan Wright
             event: DARPA Demo Day
