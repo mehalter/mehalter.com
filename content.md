@@ -48,8 +48,8 @@ git:
     user: mehalter
 
 keyserver:
-    fingerprint: 532C 083C 2D6A 4752 46F1 8639 E10C 6AE7 BF5B 1D1F
-    url: https://keyserver.ubuntu.com/pks/lookup?op=get&amp;search=0xE10C6AE7BF5B1D1F
+    fingerprint: BEB8 056E 542A 33EB 8A4B 081F 723F 998E 98D9 3D50
+    url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x723F998E98D93D50
 
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
