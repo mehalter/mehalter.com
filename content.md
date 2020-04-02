@@ -192,6 +192,13 @@ project:
       notes:
           - "A stochastic petri net modeling framework for the Julia programming language"
           - "Allow petri nets to be compiled to Gillespie and differential equation based simulations"
+    - name: VirtualEnv.jl
+      id: virtualenv.jl
+      type: Software Development
+      repo: https://github.com/mehalter/VirtualEnv.jl
+      notes:
+          - "Self-contained virtual environments for the Julia programming language"
+          - "A reimplementation of `venv` from Python in Julia"
     - name: Corsair Database
       id: corsair
       type: Georgia Tech Research Institute
@@ -329,15 +336,19 @@ open-source:
     - type: "Core Package Maintainer"
       id: "maintainer"
       entries:
-        - repo: "Petri.jl"
-          url: "https://github.com/mehalter/Petri.jl"
         - repo: "SemanticModels.jl"
           url: "https://github.com/jpfairbanks/SemanticModels.jl"
+        - repo: "Petri.jl"
+          url: "https://github.com/mehalter/Petri.jl"
+        - repo: "VirtualEnv.jl"
+          url: "https://github.com/mehalter/VirtualEnv.jl"
     - type: "Contributor"
       id: "contributor"
       entries:
         - repo: "Catlab.jl"
           url: "https://github.com/epatters/Catlab.jl"
+        - repo: "IJulia.jl"
+          url: "https://github.com/JuliaLang/IJulia.jl"
         - repo: "qutebrowser"
           url: "https://github.com/qutebrowser/qutebrowser"
         - repo: "vim-pandoc"
