@@ -342,6 +342,8 @@ open-source:
           url: "https://github.com/mehalter/Petri.jl"
         - repo: "VirtualEnv.jl"
           url: "https://github.com/mehalter/VirtualEnv.jl"
+        - repo: "XDGSpec.jl"
+          url: "https://github.com/mehalter/XDGSpec.jl"
     - type: "Contributor"
       id: "contributor"
       entries:
