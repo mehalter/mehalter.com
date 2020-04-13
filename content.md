@@ -15,8 +15,8 @@ button:
       url:    https://drive.mehalter.com/index.php/apps/calendar/p/5xJkqitQMFjXqgZe/Personal
     - name: "<i class=\"fas fa-dna\"></i>"
       url:    promethease.html
-    - name: "<i class=\"fas fa-tachometer-alt\"></i>"
-      url:    https://status.mehalter.com
+    - name: "<i class=\"fas fa-book\"></i>"
+      url:    https://wiki.mehalter.com
 resume:
     - name: Printable CV
       url: resume.pdf
