@@ -48,8 +48,10 @@ git:
     user: mehalter
 
 keyserver:
-    fingerprint: BEB8 056E 542A 33EB 8A4B 081F 723F 998E 98D9 3D50
-    url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x723F998E98D93D50
+    - fingerprint: BEB8 056E 542A 33EB 8A4B 081F 723F 998E 98D9 3D50
+      url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x723F998E98D93D50
+    - fingerprint: 4AC9 4692 18E3 1BCE 147F 1060 E51C 3EA3 BEB5 D4A9
+      url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xE51C3EA3BEB5D4A9
 
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
@@ -347,6 +349,8 @@ open-source:
     - type: "Contributor"
       id: "contributor"
       entries:
+        - repo: "Neovim"
+          url: "https://github.com/neovim/neovim"
         - repo: "Catlab.jl"
           url: "https://github.com/epatters/Catlab.jl"
         - repo: "IJulia.jl"
