@@ -16,7 +16,7 @@ button:
     - name: "<i class=\"fas fa-dna\"></i>"
       url:    promethease.html
     - name: "<i class=\"fas fa-book\"></i>"
-      url:    https://wiki.mehalter.com
+      url:    https://mysecondbra.in
 resume:
     - name: Printable CV
       url: resume.pdf
