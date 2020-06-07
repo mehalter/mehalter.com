@@ -255,6 +255,12 @@ publication:
     - type:  Peer Reviewed Conference Publications
       id: conf
       entries:
+          - title: "Compositional Scientific Computing with Catlab and SemanticModels"
+            authors: "**Micah Halter**, Evan Patterson, Andrew Baas, James Fairbanks"
+            issue: "Applied Category Theory, 2020"
+            links:
+                - title: "PDF"
+                  url: "https://arxiv.org/abs/2005.04831"
           - title: "A Compositional Framework for Scientific Model Augmentation"
             authors: "**Micah Halter**, Christine Herlihy, James Fairbanks"
             issue: "Applied Category Theory, 2019"
@@ -272,12 +278,6 @@ publication:
     - type:  Under Review Conference Publications
       id: conf-pend
       entries:
-          - title: "Compositional Scientific Computing with Catlab and SemanticModels"
-            authors: "**Micah Halter**, Evan Patterson, Andrew Baas, James Fairbanks"
-            issue: "Applied Category Theory, 2020"
-            links:
-                - title: "PDF"
-                  url: "https://arxiv.org/abs/2005.04831"
           - title: "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
             authors: "**Micah Halter**, Sreenath Raparti, Kun Cao, Christine Herlihy, James Fairbanks"
             issue: "JuliaCon, 2019"
