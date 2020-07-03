@@ -177,15 +177,16 @@ experience:
 
 #=== PROJECTS ===#
 project:
-    - name: SemanticModels.jl
-      id: semanticmodels.jl
+    - name: AlgebraicJulia
+      id: algebraicjulia
       type: Georgia Tech Research Institute
-      repo: https://github.com/jpfairbanks/SemanticModels.jl
-      logo: images/semanticmodels.png
+      repo: https://github.com/AlgebraicJulia
+      logo: images/algebraicjulia.png
       notes:
+          - "A GitHub Organization for a collection of Julia packages for defining modeling frameworks as generalized algebraic theories"
+          - "Includes Julia packages such as Catlab.jl and AlgebraicPetri.jl"
+          - "A category theory approach to defining metamodeling tasks for representing, composing, selecting, and tuning scientific models"
           - "Research funded by the Defense Advanced Research Projects Agency (DARPA)"
-          - "A category theory approach to defining metamodeling tasks for representing and composing scientific models"
-          - "A system for extracting semantic information from scientific code and reconciling it with conceptual descriptions to build a knowledge graph"
     - name: Petri.jl
       id: petri.jl
       type: Software Development
