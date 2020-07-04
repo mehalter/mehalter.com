@@ -111,7 +111,7 @@ experience:
                 - "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
                 - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
                 - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
-                - "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
+                #- "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
           - title: Undergraduate Research Assistant
             company: Georgia Tech Research Institute
             start: Jan&nbsp;2016
@@ -262,6 +262,14 @@ publication:
             links:
                 - title: "PDF"
                   url: "https://arxiv.org/abs/2005.04831"
+          - title: "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
+            authors: "**Micah Halter**, Sreenath Raparti, Kun Cao, Christine Herlihy, James Fairbanks"
+            issue: "JuliaCon, 2019"
+            links:
+                - title: "Slides"
+                  url: "http://jpfairbanks.net/doc/slides/juliacon2019/slides.slides.html#/"
+                - title: "Video"
+                  url: "https://www.youtube.com/watch?v=WJneK7OjqMQ"
           - title: "A Compositional Framework for Scientific Model Augmentation"
             authors: "**Micah Halter**, Christine Herlihy, James Fairbanks"
             issue: "Applied Category Theory, 2019"
@@ -276,17 +284,9 @@ publication:
           - title: "Accelerating Automatic Target Recognition Performance Estimation with a Relational Database for Synthetic Aperture Sonar"
             authors: "James Fairbanks\\*, **Micah Halter**\\*, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
             issue: "Navy Journal of Underwater Research, 2018"
-    - type:  Under Review Conference Publications
-      id: conf-pend
-      entries:
-          - title: "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
-            authors: "**Micah Halter**, Sreenath Raparti, Kun Cao, Christine Herlihy, James Fairbanks"
-            issue: "JuliaCon, 2019"
-            links:
-                - title: "Slides"
-                  url: "http://jpfairbanks.net/doc/slides/juliacon2019/slides.slides.html#/"
-                - title: "Video"
-                  url: "https://www.youtube.com/watch?v=WJneK7OjqMQ"
+    #- type:  Under Review Conference Publications
+    #  id: conf-pend
+    #  entries:
 
 talk:
     - type: Posters
@@ -305,6 +305,20 @@ talk:
             date: Sep&nbsp;2019
 
 funding:
+    - start: 2020
+      end: 2021
+      role: Task Lead
+      sponsor: DARPA
+      title: Computable Models - Generalized Algebraic Theories for Enhancing Multiphysics
+      # agreement: Agreement No. HR00112090067
+      amount: $\approx$$1M
+    - start: 2019
+      end: 2021
+      role: Performer
+      sponsor: Office of Naval Research
+      title: Extracting, Explaining, and Estimating Information in Sonar Data
+      # agreement: Contract No. N00014-19-C-2069
+      amount: $\approx$$400K
     - start: 2019
       end: 2021
       role: Performer
@@ -342,11 +356,11 @@ funding:
       amount: $540K
 
 open-source:
-    - type: "Core Package Maintainer"
+    - type: "Core Maintainer"
       id: "maintainer"
       entries:
-        - repo: "SemanticModels.jl"
-          url: "https://github.com/jpfairbanks/SemanticModels.jl"
+        - repo: "AlgebraicJulia"
+          url: "https://github.com/AlgebraicJulia"
         - repo: "Petri.jl"
           url: "https://github.com/mehalter/Petri.jl"
         - repo: "VirtualEnv.jl"
@@ -358,8 +372,6 @@ open-source:
       entries:
         - repo: "Neovim"
           url: "https://github.com/neovim/neovim"
-        - repo: "Catlab.jl"
-          url: "https://github.com/epatters/Catlab.jl"
         - repo: "IJulia.jl"
           url: "https://github.com/JuliaLang/IJulia.jl"
         - repo: "qutebrowser"
@@ -402,10 +414,11 @@ skill:
 
 language:
     - C/C++
+    - Julia
     - Python
     - Go
-    - Julia
     - Java
+    - Haskell
     - Scala
     - Perl
     - Bash
