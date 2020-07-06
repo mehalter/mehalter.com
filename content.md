@@ -184,7 +184,7 @@ project:
       logo: images/algebraicjulia.png
       notes:
           - "A GitHub Organization for a collection of Julia packages for defining modeling frameworks as generalized algebraic theories"
-          - "Includes Julia packages such as Catlab.jl and AlgebraicPetri.jl"
+          - "Includes Julia packages such as Catlab.jl, AlgebraicPetri.jl, and AlgebraicRelations.jl"
           - "A category theory approach to defining metamodeling tasks for representing, composing, selecting, and tuning scientific models"
           - "Research funded by the Defense Advanced Research Projects Agency (DARPA)"
     - name: Petri.jl
