@@ -372,8 +372,8 @@ open-source:
       entries:
         - repo: "Neovim"
           url: "https://github.com/neovim/neovim"
-        - repo: "IJulia.jl"
-          url: "https://github.com/JuliaLang/IJulia.jl"
+        - repo: "sir-julia"
+          url: "https://github.com/epirecipes/sir-julia"
         - repo: "qutebrowser"
           url: "https://github.com/qutebrowser/qutebrowser"
         - repo: "vim-pandoc"
