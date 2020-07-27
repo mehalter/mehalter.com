@@ -262,10 +262,14 @@ publication:
             links:
                 - title: "PDF"
                   url: "https://arxiv.org/abs/2005.04831"
+                - title: "Video"
+                  url: "https://www.youtube.com/watch?v=Q5BzzkNDpPE"
           - title: "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
             authors: "**Micah Halter**, Sreenath Raparti, Kun Cao, Christine Herlihy, James Fairbanks"
             issue: "JuliaCon, 2019"
             links:
+                - title: "PDF"
+                  url: "https://proceedings.juliacon.org/papers/10.21105/jcon.00057"
                 - title: "Slides"
                   url: "http://jpfairbanks.net/doc/slides/juliacon2019/slides.slides.html#/"
                 - title: "Video"
