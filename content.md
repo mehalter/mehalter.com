@@ -382,6 +382,8 @@ open-source:
           url: "https://github.com/qutebrowser/qutebrowser"
         - repo: "vim-pandoc"
           url: "https://github.com/vim-pandoc/vim-pandoc"
+        - repo: "Comonicon.jl"
+          url: "https://github.com/Roger-luo/Comonicon.jl"
         - repo: "voidrice"
           url: "https://github.com/LukeSmithxyz/voidrice/"
     - type: "Arch User Repository Package Maintainer"
