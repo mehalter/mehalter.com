@@ -378,6 +378,8 @@ open-source:
       entries:
         - repo: "Neovim"
           url: "https://github.com/neovim/neovim"
+        - repo: "JuliaTeX"
+          url: "https://github.com/JuliaTeX"
         - repo: "sir-julia"
           url: "https://github.com/epirecipes/sir-julia"
         - repo: "qutebrowser"
