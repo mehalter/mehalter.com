@@ -367,6 +367,8 @@ open-source:
           url: "https://github.com/AlgebraicJulia"
         - repo: "Petri.jl"
           url: "https://github.com/mehalter/Petri.jl"
+        - repo: "TikzCDs.jl"
+          url: "https://github.com/JuliaTeX/TikzCDs.jl"
         - repo: "VirtualEnv.jl"
           url: "https://github.com/mehalter/VirtualEnv.jl"
         - repo: "XDGSpec.jl"
