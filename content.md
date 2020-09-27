@@ -386,6 +386,8 @@ open-source:
           url: "https://github.com/qutebrowser/qutebrowser"
         - repo: "vim-pandoc"
           url: "https://github.com/vim-pandoc/vim-pandoc"
+        - repo: "python-keyboard"
+          url: "https://github.com/makerdiary/python-keyboard"
         - repo: "Comonicon.jl"
           url: "https://github.com/Roger-luo/Comonicon.jl"
         - repo: "voidrice"
@@ -397,16 +399,18 @@ open-source:
           url: "https://aur.archlinux.org/packages/ruby-rails/"
         - repo: "OpenSCAP"
           url: "https://aur.archlinux.org/packages/openscap/"
+        - repo: "HTTP Prompt"
+          url: "https://aur.archlinux.org/packages/http-prompt/"
         - repo: "Translate Shell"
           url: "https://aur.archlinux.org/packages/translate-shell-git/"
         - repo: "Antigen"
           url: "https://aur.archlinux.org/packages/antigen/"
-        - repo: "MyEtherWallet"
-          url: "https://aur.archlinux.org/packages/myetherwallet/"
-        - repo: "HTTP Prompt"
-          url: "https://aur.archlinux.org/packages/http-prompt/"
         - repo: "Ueberzug"
           url: "https://aur.archlinux.org/packages/python-ueberzug-git/"
+        - repo: "write-good"
+          url: "https://aur.archlinux.org/packages/write-good/"
+        - repo: "MyEtherWallet"
+          url: "https://aur.archlinux.org/packages/myetherwallet/"
 
 
 #=== SKILLS ===#
@@ -447,13 +451,13 @@ operating-system:
 
 
 #=== COMMUNITY INVOLVEMENT ===#
-community:
-    - start: Aug&nbsp;2015
-      end:     May&nbsp;2019
-      name:  Georgia Tech's Men's Ultimate Frisbee
-      place: Georgia Institute of Technology
-      notes:
-          - "Help with recruitment and teaching new players"
+#community:
+    #- start: Aug&nbsp;2015
+    #  end:     May&nbsp;2019
+    #  name:  Georgia Tech's Men's Ultimate Frisbee
+    #  place: Georgia Institute of Technology
+    #  notes:
+    #      - "Help with recruitment and teaching new players"
     #- start: Aug&nbsp;2015
     #  end:     May&nbsp;2017
     #  name:    TEDxGeorgiaTech
