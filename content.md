@@ -293,18 +293,30 @@ publication:
     #  entries:
 
 talk:
+    - type: Invited Talks
+      id: talks
+      entries:
+          - title: "Compositional Epidemiological Modeling Using Structured Cospans"
+            speakers: "**Micah Halter** and Evan Patterson"
+            event: University of California Riverside Categories Seminar
+            date: Nov&nbsp;2020
+            links:
+                - title: "Slides"
+                  url: "https://algebraicjulia.org/assets/slides/ucr-seminar-2020"
+                - title: "Video"
+                  url: "https://youtu.be/ptl6M9umJbw"
     - type: Posters
       id: poster
       entries:
           - title: "SemanticModels.jl: A Framework for Automatic Composition of Scientific Models Across Domains"
-            speakers: Micah Halter, Kun Cao, James Fairbanks
+            speakers: "**Micah Halter**, Kun Cao, James Fairbanks"
             event: SIAM Conference on Parallel Processing for Scientific Computing
             date: Feb&nbsp;2020
             links:
                 - title: "PDF"
                   url: "documents/siam-pp20.pdf"
           - title: Scientific Knowledge Extraction, Augmentation & Analysis
-            speakers: Micah Halter, James Fairbanks, Eric Davis, Clayton Morrison, Ryan Wright
+            speakers: "**Micah Halter**, James Fairbanks, Eric Davis, Clayton Morrison, Ryan Wright"
             event: DARPA Demo Day
             date: Sep&nbsp;2019
 
@@ -315,7 +327,7 @@ funding:
       sponsor: DARPA
       title: Computable Models - Generalized Algebraic Theories for Enhancing Multiphysics
       # agreement: Agreement No. HR00112090067
-      amount: $\approx$$1M
+      amount: $\approx$$1.35M
     - start: 2019
       end: 2021
       role: Performer
