@@ -304,7 +304,7 @@ talk:
                 - title: "Slides"
                   url: "https://algebraicjulia.org/assets/slides/ucr-seminar-2020"
                 - title: "Video"
-                  url: "https://youtu.be/ptl6M9umJbw"
+                  url: "https://youtu.be/z50pmzT8QMA"
     - type: Posters
       id: poster
       entries:
