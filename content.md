@@ -341,6 +341,13 @@ funding:
       title: Computable Models - Generalized Algebraic Theories for Enhancing Multiphysics
       # agreement: Agreement No. HR00112090067
       amount: $\approx$$1.35M
+    - start: 2018
+      end: 2021
+      role: Task Lead
+      sponsor: DARPA
+      title: Artifical Intelligence Exploration - Automating Scientific Knowledge Extraction
+      # agreement: Agreement No. HR00111990008
+      amount: $\approx$$1M
     - start: 2019
       end: 2021
       role: Performer
@@ -355,13 +362,6 @@ funding:
       title: MCM Situational Awarness
       # agreement: Contract No. N00014-16-C-3041 as ammended by P00009
       amount: $\approx$$375K
-    - start: 2018
-      end: 2020
-      role: Task Lead
-      sponsor: DARPA
-      title: Artifical Intelligence Exploration - Automating Scientific Knowledge Extraction
-      # agreement: Agreement No. HR00111990008
-      amount: $\approx$$1M
     - start: 2018
       end: 2019
       role: Performer
