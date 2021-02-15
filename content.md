@@ -52,6 +52,8 @@ keyserver:
       url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x723F998E98D93D50
     - fingerprint: 4AC9 4692 18E3 1BCE 147F 1060 E51C 3EA3 BEB5 D4A9
       url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xE51C3EA3BEB5D4A9
+    - fingerprint: 4323 17EB 443E 7433 0ACC A2A0 8FCF 3800 ED2E B2C2
+      url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x8FCF3800ED2EB2C2
 
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
@@ -98,12 +100,23 @@ education:
 
 #=== WORK EXPERIENCE ===#
 experience:
+    - company: Balena
+      position:
+          - title: Backend Engineer
+            company: Balena
+            start: Feb&nbsp;2021
+            end: Present
+            id: balena
+            location: Remote (Atlanta, GA)
+            notes:
+                - "Develop backend code for the Balena ecosystem"
+                - "More details to come..."
     - company: Georgia Tech Research Institute
       position:
           - title: Research Scientist
             company: Georgia Tech Research Institute
             start: Jun&nbsp;2019
-            end: Present
+            end: Feb&nbsp;2021
             id: gtri
             location: Atlanta, GA
             notes:
