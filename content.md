@@ -60,7 +60,7 @@ tagline: "a developer, researcher, and bartender"
 
 summary: "I’m a <strong>computer science researcher</strong> at the <strong>Georgia Tech Research Institute</strong> in Atlanta, Georgia."
 
-about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory, and am working as a Researcher at the Georgia Tech Research Institute."
+about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory, and am working as a Backend Engineer at Balena."
 
 description:
     sys-admin: "Through work opportunities and personal projects, I have had extensive experience with the configuration, hardening, and maintenance of various Linux distributions, including:"
