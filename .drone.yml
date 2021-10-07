@@ -1,0 +1,30 @@
+kind: pipeline
+type: docker
+name: deploy
+
+steps:
+  - name: Build
+    image: pandoc/latex:latest
+    commands:
+      - tlmgr update --self
+      - tlmgr install xifthen ifmtarg titlesec titling fontawesome enumitem collection-fontsrecommended
+      - pandoc --output=public/index.html --metadata pagetitle="..." --template=templates/template.html content.md
+      - pandoc --output=public/micah.1.html --metadata pagetitle="..." --template=templates/man-template.html content.md
+      - pandoc --output=public/micah.1 --metadata pagetitle="..." --template=templates/man-template.man content.md
+      - pandoc --output=public/resume.pdf --metadata pagetitle="..." --template=templates/template.tex content.md
+  - name: rsync
+    image: drillster/drone-rsync
+    when:
+      event: [ push ]
+      branch: [ master ]
+    settings:
+      hosts:
+        - mehalter.com
+      user: micah
+      key:
+        from_secret: rsync_key
+      source: ./public/*
+      target: /media/data/mehalter.com
+      delete: true
+      recursive: true
+      secrets: [ rsync_key ]
