@@ -12,7 +12,7 @@ steps:
       - pandoc --output=public/micah.1.html --metadata pagetitle="..." --template=templates/man-template.html content.md
       - pandoc --output=public/micah.1 --metadata pagetitle="..." --template=templates/man-template.man content.md
       - pandoc --output=public/resume.pdf --metadata pagetitle="..." --template=templates/template.tex content.md
-  - name: rsync
+  - name: Deploy
     image: drillster/drone-rsync
     when:
       event: [ push ]
