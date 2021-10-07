@@ -9,14 +9,12 @@ button:
       url:    https://scholar.google.com/citations?user=yMme7wkAAAAJ&hl=en
     - name: "<i class=\"fab fa-linkedin-in\"></i>"
       url:    https://www.linkedin.com/in/mehalter
-    - name: "<i class=\"fab fa-git\"></i>"
-      url:    https://git.mehalter.com/mehalter
     - name: "<i class=\"far fa-calendar-alt\"></i>"
       url:    https://drive.mehalter.com/index.php/apps/calendar/p/5xJkqitQMFjXqgZe/Personal
     - name: "<i class=\"fas fa-dna\"></i>"
       url:    promethease.html
-    - name: "<i class=\"fas fa-book\"></i>"
-      url:    https://mysecondbra.in
+    - name: "<i class=\"fas fa-flask\"></i>"
+      url:    https://lab.mehalter.com
 resume:
     - name: Printable CV
       url: resume.pdf
