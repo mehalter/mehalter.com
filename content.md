@@ -37,7 +37,7 @@ flag:
 #=== GENERAL DETAILS ===$
 name: Micah Elliot Halter
 picture: images/micah.jpeg
-location: Atlanta, GA
+location: Englewood, NJ
 phone: +1 704 490 9840
 email: micah@mehalter.com
 url: mehalter.com
