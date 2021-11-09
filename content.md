@@ -47,11 +47,11 @@ git:
 
 keyserver:
     - fingerprint: BEB8 056E 542A 33EB 8A4B 081F 723F 998E 98D9 3D50
-      url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x723F998E98D93D50
+      url: https://keyserver.ubuntu.com/pks/lookup?search=0x723F998E98D93D50&fingerprint=on&op=index
     - fingerprint: 4AC9 4692 18E3 1BCE 147F 1060 E51C 3EA3 BEB5 D4A9
-      url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xE51C3EA3BEB5D4A9
+      url: https://keyserver.ubuntu.com/pks/lookup?search=0xE51C3EA3BEB5D4A9&fingerprint=on&op=index
     - fingerprint: 4323 17EB 443E 7433 0ACC A2A0 8FCF 3800 ED2E B2C2
-      url: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x8FCF3800ED2EB2C2
+      url: https://keyserver.ubuntu.com/pks/lookup?search=0x8FCF3800ED2EB2C2&fingerprint=on&op=index
 
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
