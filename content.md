@@ -403,6 +403,8 @@ open-source:
           url: "https://github.com/neovim/neovim"
         - repo: "JuliaTeX"
           url: "https://github.com/JuliaTeX"
+        - repo: "Beanconqueror"
+          url: "https://github.com/graphefruit/Beanconqueror"
         - repo: "sir-julia"
           url: "https://github.com/epirecipes/sir-julia"
         - repo: "qutebrowser"
