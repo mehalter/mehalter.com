@@ -385,6 +385,8 @@ open-source:
     entries:
       - repo: "AlgebraicJulia"
         url: "https://github.com/AlgebraicJulia"
+      - repo: "AstroNvim"
+        url: "https://github.com/AstroNvim/AstroNvim"
       - repo: "Petri.jl"
         url: "https://github.com/mehalter/Petri.jl"
       - repo: "TikzCDs.jl"
@@ -402,8 +404,6 @@ open-source:
         url: "https://github.com/JuliaTeX"
       - repo: "Beanconqueror"
         url: "https://github.com/graphefruit/Beanconqueror"
-      - repo: "AstroVim"
-        url: "https://github.com/kabinspace/AstroVim"
       - repo: "sir-julia"
         url: "https://github.com/epirecipes/sir-julia"
       - repo: "qutebrowser"
