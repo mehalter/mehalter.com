@@ -58,7 +58,7 @@ tagline: "a developer, researcher, and bartender"
 
 summary: "I’m a <strong>computer science researcher</strong> at <strong>Balena</strong> based out of Englewood, New Jersey."
 
-about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory, and am working as a Backend Engineer at Balena."
+about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory and a Masters of Science in Computer Science with a specialization in Machine learning. I am currently working as a Backend Engineer at Balena."
 
 description:
   sys-admin: "Through work opportunities and personal projects, I have had extensive experience with the configuration, hardening, and maintenance of various Linux distributions, including:"
@@ -69,12 +69,13 @@ description:
 #=== EDUCATION ===#
 education:
   - start: Jan&nbsp;2020
-    end: Dec&nbsp;2021
+    end: May&nbsp;2022
     degree: Master of Science in Computer Science
     school: Georgia Institute of Technology
     id: git
     location: Atlanta, GA
     notes:
+      - 4.0 GPA
       - "Specialization in Machine Learning"
   - start: Aug&nbsp;2015
     end: May&nbsp;2019
