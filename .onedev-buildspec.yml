@@ -14,16 +14,16 @@ jobs:
     image: pandoc/latex:latest
     interpreter: !DefaultInterpreter
       commands:
-      - '- tlmgr update --self'
-      - '- tlmgr install xifthen ifmtarg titlesec titling fontawesome enumitem collection-fontsrecommended'
-      - '- pandoc --output=public/index.html --metadata pagetitle="..." --template=templates/template.html
-        content.md'
-      - '- pandoc --output=public/micah.1.html --metadata pagetitle="..." --template=templates/man-template.html
-        content.md'
-      - '- pandoc --output=public/micah.1 --metadata pagetitle="..." --template=templates/man-template.man
-        content.md'
-      - '- pandoc --output=public/resume.pdf --metadata pagetitle="..." --template=templates/template.tex
-        content.md'
+      - tlmgr update --self
+      - tlmgr install xifthen ifmtarg titlesec titling fontawesome enumitem collection-fontsrecommended
+      - pandoc --output=public/index.html --metadata pagetitle="..." --template=templates/template.html
+        content.md
+      - pandoc --output=public/micah.1.html --metadata pagetitle="..." --template=templates/man-template.html
+        content.md
+      - pandoc --output=public/micah.1 --metadata pagetitle="..." --template=templates/man-template.man
+        content.md
+      - pandoc --output=public/resume.pdf --metadata pagetitle="..." --template=templates/template.tex
+        content.md
     useTTY: false
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
   retryCondition: never
