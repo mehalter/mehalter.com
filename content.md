@@ -42,8 +42,7 @@ phone: +1 704 490 9840
 email: micah@mehalter.com
 url: mehalter.com
 git:
-  url: git.mehalter.com
-  user: mehalter
+  url: code.mehalter.com
 
 keyserver:
   - fingerprint: BEB8 056E 542A 33EB 8A4B 081F 723F 998E 98D9 3D50

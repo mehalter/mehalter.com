@@ -73,7 +73,7 @@
   %website
   {\faGlobe} \href{http://$url$}{$url$}\hspace{2 mm}
   %gitlab
-  {\faGithubAlt} \href{http://$git.url$/$git.user$}{$git.url$/$git.user$}
+  {\faGithubAlt} \href{http://$git.url$$if(git.user)$/$git.user$$endif$}{$git.url$$if(git.user)$/$git.user$$endif$}
 }
 
 \vspace{.1cm}
