@@ -26,6 +26,10 @@ jobs:
         content.md
     useTTY: false
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  - !PublishArtifactStep
+    name: publish
+    artifacts: '**'
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
   retryCondition: never
   maxRetries: 3
   retryDelay: 30
@@ -35,7 +39,7 @@ jobs:
 - name: deploy
   steps:
   - !BuildImageStep
-    name: build image
+    name: deploy image
     tags: registry.mehalter.com/mehalter.com:latest
     publish: true
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
