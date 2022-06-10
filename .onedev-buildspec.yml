@@ -42,7 +42,7 @@ jobs:
   steps:
   - !BuildImageStep
     name: deploy image
-    tags: registry.mehalter.com/mehalter.com:latest
+    tags: registry.mehalter.com/library/mehalter.com:latest
     publish: true
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
   triggers:
