@@ -261,9 +261,26 @@ project:
   #        - "Created and implemented new rules to the automaton to introduce competition between two cell strains"
 
 publication:
+  - type: Peer Reviewed Journal Publications
+    id: journal
+    entries:
+      - title: "An algebraic framework for structured epidemic modelling"
+        authors: "Sophie Libkind, Andrew Baas, **Micah Halter**, Evan Patterson James P. Fairbanks"
+        issue: "Philosophical Transactions of the Royal Society A (Volume 380, Issue 2233), 2022"
+        links:
+          - title: "Open Access"
+            url: "https://doi.org/10.1098/rsta.2021.0309"
   - type: Peer Reviewed Conference Publications
     id: conf
     entries:
+      - title: "Typed and Stratified Models with Slice Categories"
+        authors: "Sophie Libkind, Andrew Baas, **Micah Halter**, Evan Patterson James P. Fairbanks"
+        issue: "Applied Category Theory, 2022"
+        links:
+          - title: "PDF"
+            url: "https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3530.pdf"
+          - title: "Video"
+            url: "https://www.youtube.com/watch?v=RSoO46D5ojQ&t=4910s"
       - title: "Compositional Scientific Computing with Catlab and SemanticModels"
         authors: "**Micah Halter**, Evan Patterson, Andrew Baas, James Fairbanks"
         issue: "Applied Category Theory, 2020"
