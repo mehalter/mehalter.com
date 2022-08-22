@@ -281,6 +281,8 @@ publication:
             url: "https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3530.pdf"
           - title: "Video"
             url: "https://www.youtube.com/watch?v=RSoO46D5ojQ&t=4910s"
+          - title: "Slides"
+            url: "https://msp.cis.strath.ac.uk/act2022/slides/ACT2022_slides_3530.pdf"
       - title: "Compositional Scientific Computing with Catlab and SemanticModels"
         authors: "**Micah Halter**, Evan Patterson, Andrew Baas, James Fairbanks"
         issue: "Applied Category Theory, 2020"
