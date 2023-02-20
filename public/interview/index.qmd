@@ -544,7 +544,7 @@ AlgebraicPetri.Graph(p_dual_sir)
 ::: {.column width=50% style="font-size: .95em;"}
 
 An extension of an SEIR model to better represent what we
-know about how COVID-19 ([GitHub](https://github.com/gbohner/coexist)):
+know about COVID-19 ([GitHub](https://github.com/gbohner/coexist)):
 
 - An asymptomatic state
 - Two stages of infection based on antibody development
