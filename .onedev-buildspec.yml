@@ -1,4 +1,4 @@
-version: 16
+version: 21
 jobs:
 - name: build
   steps:
@@ -35,8 +35,6 @@ jobs:
   retryCondition: never
   maxRetries: 3
   retryDelay: 30
-  cpuRequirement: 250
-  memoryRequirement: 256
   timeout: 3600
 - name: deploy
   steps:
@@ -55,6 +53,20 @@ jobs:
   retryCondition: never
   maxRetries: 3
   retryDelay: 30
-  cpuRequirement: 250
-  memoryRequirement: 256
+  timeout: 3600
+- name: Sync to GitHub
+  steps:
+  - !PushRepository
+    name: Sync to GitHub
+    remoteUrl: https://github.com/mehalter/mehalter.com
+    userName: mehalter
+    passwordSecret: github_pat
+    force: true
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  triggers:
+  - !BranchUpdateTrigger
+    branches: master
+  retryCondition: never
+  maxRetries: 3
+  retryDelay: 30
   timeout: 3600
