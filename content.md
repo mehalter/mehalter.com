@@ -42,7 +42,8 @@ phone: +1 704 490 9840
 email: micah@mehalter.com
 url: mehalter.com
 git:
-  url: code.mehalter.com
+  user: mehalter
+  url: github.com
 
 keyserver:
   - fingerprint: BEB8 056E 542A 33EB 8A4B 081F 723F 998E 98D9 3D50
@@ -55,9 +56,9 @@ keyserver:
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
 
-summary: "I’m a <strong>computer science researcher</strong> at <strong>Balena</strong> based out of Englewood, New Jersey."
+summary: "I’m a <strong>computer science researcher</strong> at <strong>University of Florida</strong> based out of Englewood, New Jersey."
 
-about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory and a Masters of Science in Computer Science with a specialization in Machine learning. I am currently working as a Backend Engineer at Balena."
+about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory and a Masters of Science in Computer Science with a specialization in Machine learning. I am currently working as a research programmer at the University of Florida."
 
 description:
   sys-admin: "Through work opportunities and personal projects, I have had extensive experience with the configuration, hardening, and maintenance of various Linux distributions, including:"
@@ -74,8 +75,7 @@ education:
     id: git
     location: Atlanta, GA
     notes:
-      - 4.0 GPA
-      - "Specialization in Machine Learning"
+      - "Specialization in **Machine Learning**, 4.0 GPA"
   - start: Aug&nbsp;2015
     end: May&nbsp;2019
     degree: Bachelor of Science in Computer Science
@@ -83,30 +83,51 @@ education:
     id: git
     location: Atlanta, GA
     notes:
-      - "Concentration in system architecture and theory"
+      - "Concentration in **System Architecture** and **Theory**"
       - "Dean's List Fall 2015, Spring 2016, Fall 2016, Fall 2018, Spring 2019"
-  - start: Aug&nbsp;2017
-    end: Dec&nbsp;2017
-    degree: Bachelor of Science in Computer Science
-    school: Hong Kong University of Science and Technology
-    id: hkust
-    location: Hong Kong
-    notes:
-      - "Studied abroad"
+      #- "Studied abroad at Hong Kong University of Science and Technology"
+  #- start: Aug&nbsp;2017
+  #  end: Dec&nbsp;2017
+  #  degree: Bachelor of Science in Computer Science
+  #  school: Hong Kong University of Science and Technology
+  #  id: hkust
+  #  location: Hong Kong
+  #  notes:
+  #    - "Studied abroad"
 
 #=== WORK EXPERIENCE ===#
 experience:
+  - company: University of Florida
+    position:
+      - title: Research Programmer
+        company: University of Florida
+        start: Jan&nbsp;2023
+        end: Present
+        id: uf
+        location: Remote (Englewood, NJ)
+        notes:
+          - "Researched **Applied Category Theory** based scientific modeling in **Julia** for rigorously defining **metamodeling** tasks in a way to automate scientific modeling procedures."
+          - "**Advised** graduate students and researchers on **software development practices** to be able to develop code that is easier to share and maintain."
+          #- "Performed lead contributor duties to research projects sponsored by large entities DARPA, NIH, DOD, and ONR"
+          #- "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
+          #- "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
+          #- "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
+          #- "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
   - company: Balena
     position:
       - title: Backend Engineer
         company: Balena
         start: Feb&nbsp;2021
-        end: Present
+        end: Dec&nbsp;2022
+        #end: Nov&nbsp;2022
         id: balena
-        location: Remote (Atlanta, GA)
+        location: Remote (Englewood, NJ)
         notes:
-          - "Develop backend code for the Balena ecosystem"
-          - "More details to come..."
+          - "Led the development of rigorous **security-related policies** in pursuit of **ISO 27001** and **SOC 2** certifications"
+          - "Developed internal tooling in **POSIX Shell**, **Python**, and **TypeScript** for automated security testing"
+          #- "Prioritized and balanced security roadmap based on both what the company needs as well as customer needs"
+          - "**Supported customers** directly through support tickets and calls"
+          - "Developed **backend API** code in primarily **TypeScript** and **JavaScript**"
   - company: Georgia Tech Research Institute
     position:
       - title: Research Scientist
@@ -116,10 +137,13 @@ experience:
         id: gtri
         location: Atlanta, GA
         notes:
-          - "Lead contributor to research projects sponsored by large entities DARPA, NIH, DOD, and ONR"
-          - "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
-          - "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
-          - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
+          - "Developed **Applied Category Theory** based scientific modeling ecosystem in **Julia** for representing scientific scientific theories, hypotheses, and experiments as runnable code"
+          - Led the hardening of an HPC cluster with DISA **STIGs** for a secure environment using **Ansible** and **Shell Scripting**
+          - "Developed AI models using **PyTorch** and **TensorFlow** to identify compromised machines on a network using **NetFlow** data"
+          #- "Performed lead contributor duties to research projects sponsored by large entities DARPA, NIH, DOD, and ONR"
+          #- "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
+          - "Contributed and participated in white paper and **proposal writing** to bring in more funding for new and on-going projects"
+          #- "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
           #- "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
       - title: Undergraduate Research Assistant
         company: Georgia Tech Research Institute
@@ -128,10 +152,12 @@ experience:
         id: gtri
         location: Atlanta, GA
         notes:
-          - "Lead contributor to research projects sponsored by large entities NIH and ONR"
-          - "Wrote and published a peer reviewed journal paper to communicate research findings to the greater research community"
-          - "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
-          - "Predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data"
+          - "Developed **PostGIS**-backed web application with **Golang** backend, **PostgreSQL** database, and APIs for facilitating collaboration among undersea sonar research community. Deployed using **Docker** and **Nginx**"
+          - Developed **machine learning** models in **Python** for predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data
+          #- "Lead contributor to research projects sponsored by large entities NIH and ONR"
+          #- "Wrote and published a peer-reviewed journal paper to communicate research findings to the greater research community"
+          #- "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
+          #- "Predicting crimes in Portland, OR using temporal and geographic features derived from crime statistics and GIS data"
   # - company:    Kindred Spirits Atlanta, LLC
   #   position:
   #       - title: Co-Owner
@@ -160,18 +186,18 @@ experience:
           - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
           - "Documented and executed an upgrade plan for the company's identity management servers"
           - "Developed an Outlook-integrated conference room mapping tool in C#"
-  # - company:    The Boeing Company
-  #       position:
-  #           - title: Software Development Intern
-  #               start:      May&nbsp;2016
-  #               end:            Aug&nbsp;2016
-  #               id:             boeing
-  #               location: North Charleston, SC
-  #               notes:
-  #                   - "Organized and led a software development team of five in a three day coding sprint to create a minimum viable product of a Kanban board web application"
-  #                   - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
-  #                   - "Documented and executed an upgrade plan for the company's identity management servers"
-  #                   - "Developed an Outlook-integrated conference room mapping tool in C#"
+  - company: The Boeing Company
+    position:
+      - title: Software Development Intern
+        start: May&nbsp;2016
+        end: Aug&nbsp;2016
+        id: boeing
+        location: North Charleston, SC
+        notes:
+          - "Organized and led a software development team of five in a three day coding sprint to create a minimum viable product of a Kanban board web application"
+          - "Pitched the Kanban board prototype to management to form a team to continue development of the application after I left"
+          - "Documented and executed an upgrade plan for the company's identity management servers"
+          - "Developed an Outlook-integrated conference room mapping tool in C#"
   #- company:  North Carolina Statue University College of Textiles
   #  position:
   #        - title: Wearable Technology Research Intern
@@ -185,38 +211,54 @@ experience:
 
 #=== PROJECTS ===#
 project:
-  - name: AlgebraicJulia
-    id: algebraicjulia
-    type: Georgia Tech Research Institute
-    repo: https://github.com/AlgebraicJulia
-    logo: images/algebraicjulia.png
-    notes:
-      - "A GitHub Organization for a collection of Julia packages for defining modeling frameworks as generalized algebraic theories"
-      - "Includes Julia packages such as Catlab.jl, AlgebraicPetri.jl, and AlgebraicRelations.jl"
-      - "A category theory approach to defining metamodeling tasks for representing, composing, selecting, and tuning scientific models"
-      - "Research funded by the Defense Advanced Research Projects Agency (DARPA)"
-  - name: Petri.jl
-    id: petri.jl
+  - name: AstroNvim
+    id: astronvim
     type: Software Development
-    repo: https://github.com/mehalter/Petri.jl
-    logo: images/petri.png
+    repo: https://github.com/AstroNvim/AstroNvim
+    logo: images/astronvim.svg
     notes:
-      - "A stochastic petri net modeling framework for the Julia programming language"
-      - "Allow petri nets to be compiled to Gillespie and differential equation based simulations"
-  - name: VirtualEnv.jl
-    id: virtualenv.jl
-    type: Software Development
-    repo: https://github.com/mehalter/VirtualEnv.jl
-    notes:
-      - "Self-contained virtual environments for the Julia programming language"
-      - "A reimplementation of `venv` from Python in Julia"
-  - name: Corsair Database
-    id: corsair
-    type: Georgia Tech Research Institute
-    notes:
-      - "Research funded by the Office of Naval Research (ONR)"
-      - "Developed a web application for viewing and analyzing sonar SAS data using Go, Python, and PostgresDB deployed with Docker and Drone.io"
-      - "Engineered a database for managing scientific experiments to utilize the speed and efficiency of using a rigid relational database, while being flexible enough to handle the changing data requirements of scientific experimentation"
+      - "Lead development for a powerful Neovim configuration ecosystem in **Lua**"
+      - "Maintain and write accurate **documentation** for users to be able to configure, extend, and contribute to the project"
+      - "Develop the **open source community** with >9k stars on GitHub and >5k active visitors per week on the documentation pages"
+  # - name: Home Lab
+  #   id: homelab
+  #   type: System Architecture
+  #   #repo: https://github.com/AstroNvim/AstroNvim
+  #   #logo: images/astronvim.svg
+  #   notes:
+  #     - "Architected and administer a multi-node **Kubernetes** (K3s) cluster with redundant, distributed storage using **RHEL9**, **Rancher**, **Longhorn**, **ZFS**"
+  #- name: AlgebraicJulia
+  #  id: algebraicjulia
+  #  type: Georgia Tech Research Institute
+  #  repo: https://github.com/AlgebraicJulia
+  #  logo: images/algebraicjulia.png
+  #  notes:
+  #    - "A GitHub Organization for a collection of Julia packages for defining modeling frameworks as generalized algebraic theories"
+  #    - "Includes Julia packages such as Catlab.jl, AlgebraicPetri.jl, and AlgebraicRelations.jl"
+  #    - "A category theory approach to defining metamodeling tasks for representing, composing, selecting, and tuning scientific models"
+  #    - "Research funded by the Defense Advanced Research Projects Agency (DARPA)"
+  #- name: Petri.jl
+  #  id: petri.jl
+  #  type: Software Development
+  #  repo: https://github.com/mehalter/Petri.jl
+  #  logo: images/petri.png
+  #  notes:
+  #    - "A stochastic petri net modeling framework for the Julia programming language"
+  #    - "Allow petri nets to be compiled to Gillespie and differential equation based simulations"
+  #- name: VirtualEnv.jl
+  #  id: virtualenv.jl
+  #  type: Software Development
+  #  repo: https://github.com/mehalter/VirtualEnv.jl
+  #  notes:
+  #    - "Self-contained virtual environments for the Julia programming language"
+  #    - "A reimplementation of `venv` from Python in Julia"
+  #- name: Corsair Database
+  #  id: corsair
+  #  type: Georgia Tech Research Institute
+  #  notes:
+  #    - "Research funded by the Office of Naval Research (ONR)"
+  #    - "Developed a web application for viewing and analyzing sonar SAS data using Go, Python, and PostgresDB deployed with Docker and Drone.io"
+  #    - "Engineered a database for managing scientific experiments to utilize the speed and efficiency of using a rigid relational database, while being flexible enough to handle the changing data requirements of scientific experimentation"
   #- name:    Linux Configuration
   #  id:      linux
   #  type:    System Administration
@@ -309,12 +351,12 @@ publication:
             url: "https://arxiv.org/abs/1907.03536"
           - title: "Slides"
             url: "http://jpfairbanks.net/doc/slides/act/slides.slides.html#/"
-  - type: Under Review Journal Publications
-    id: journal-pend
-    entries:
-      - title: "Accelerating Automatic Target Recognition Performance Estimation with a Relational Database for Synthetic Aperture Sonar"
-        authors: "James Fairbanks\\*, **Micah Halter**\\*, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
-        issue: "Navy Journal of Underwater Research, 2018"
+  #- type: Under Review Journal Publications
+  #  id: journal-pend
+  #  entries:
+  #    - title: "Accelerating Automatic Target Recognition Performance Estimation with a Relational Database for Synthetic Aperture Sonar"
+  #      authors: "James Fairbanks\\*, **Micah Halter**\\*, Trevor Goodyear, Matthew Jackson, Brian O’Donnell, John Wilcher"
+  #      issue: "Navy Journal of Underwater Research, 2018"
   #- type:  Under Review Conference Publications
   #  id: conf-pend
   #  entries:
@@ -348,72 +390,79 @@ talk:
         date: Sep&nbsp;2019
 
 funding:
+  - start: 2023
+    end: 2023
+    role: Task Lead
+    sponsor: DARPA
+    title: Automating Scientific Knowledge Extraction and Modeling
+    agreement: Agreement No. HR001122S0005
+    amount: $\approx$$1M
   - start: 2020
     end: 2021
     role: Task Lead
     sponsor: DARPA
     title: Computable Models - Generalized Algebraic Theories for Enhancing Multiphysics
-    # agreement: Agreement No. HR00112090067
+    agreement: Agreement No. HR00112090067
     amount: $\approx$$1.35M
   - start: 2018
     end: 2021
     role: Task Lead
     sponsor: DARPA
     title: Artifical Intelligence Exploration - Automating Scientific Knowledge Extraction
-    # agreement: Agreement No. HR00111990008
+    agreement: Agreement No. HR00111990008
     amount: $\approx$$1M
   - start: 2019
     end: 2021
     role: Performer
     sponsor: Office of Naval Research
     title: Extracting, Explaining, and Estimating Information in Sonar Data
-    # agreement: Contract No. N00014-19-C-2069
+    agreement: Contract No. N00014-19-C-2069
     amount: $\approx$$400K
   - start: 2019
     end: 2021
     role: Performer
     sponsor: Office of Naval Research
     title: MCM Situational Awarness
-    # agreement: Contract No. N00014-16-C-3041 as ammended by P00009
+    agreement: Contract No. N00014-16-C-3041 as ammended by P00009
     amount: $\approx$$375K
   - start: 2018
     end: 2019
     role: Performer
     sponsor: Air Force
     title: Network Risk Indication
-    # agreement: Contract No. FA8773-17-D-0004
+    agreement: Contract No. FA8773-17-D-0004
     amount: $\approx$$135K
   - start: 2016
     end: 2019
     role: Performer
     sponsor: Office of Naval Research
     title: Performance Estimation of Underwater MCM Operations
-    # agreement: Contract No. N00014-16-C-3041
+    agreement: Contract No. N00014-16-C-3041
     amount: $\approx$$990K
   - start: 2015
     end: 2019
     role: Performer
     sponsor: Office of Naval Research
     title: Automation for UxV-based Mine Countermeasures
-    # agreement: Contract No. N00014-15-C-5172
+    agreement: Contract No. N00014-15-C-5172
     amount: $540K
 
 open-source:
   - type: "Core Maintainer"
     id: "maintainer"
     entries:
-      - repo: "AlgebraicJulia"
-        url: "https://github.com/AlgebraicJulia"
       - repo: "AstroNvim"
         url: "https://github.com/AstroNvim/AstroNvim"
-      - repo: "Petri.jl"
-        url: "https://github.com/mehalter/Petri.jl"
+      - repo: "AlgebraicJulia"
+        url: "https://github.com/AlgebraicJulia"
+      # - repo: "Petri.jl"
+      #   url: "https://github.com/AlgebraicJulia/Petri.jl"
       - repo: "TikzCDs.jl"
         url: "https://github.com/JuliaTeX/TikzCDs.jl"
-      - repo: "VirtualEnv.jl"
-        url: "https://github.com/mehalter/VirtualEnv.jl"
-      - repo: "XDGSpec.jl"
-        url: "https://github.com/mehalter/XDGSpec.jl"
+      # - repo: "VirtualEnv.jl"
+      #   url: "https://github.com/mehalter/VirtualEnv.jl"
+      # - repo: "XDGSpec.jl"
+      #   url: "https://github.com/mehalter/XDGSpec.jl"
   - type: "Contributor"
     id: "contributor"
     entries:
@@ -427,69 +476,62 @@ open-source:
         url: "https://github.com/epirecipes/sir-julia"
       - repo: "qutebrowser"
         url: "https://github.com/qutebrowser/qutebrowser"
-      - repo: "vim-pandoc"
-        url: "https://github.com/vim-pandoc/vim-pandoc"
-      - repo: "python-keyboard"
-        url: "https://github.com/makerdiary/python-keyboard"
-      - repo: "Comonicon.jl"
-        url: "https://github.com/Roger-luo/Comonicon.jl"
-      - repo: "voidrice"
-        url: "https://github.com/LukeSmithxyz/voidrice/"
-  - type: "Arch User Repository Package Maintainer"
-    id: "aur-packages"
-    entries:
-      - repo: "Ruby on Rails"
-        url: "https://aur.archlinux.org/packages/ruby-rails/"
-      - repo: "OpenSCAP"
-        url: "https://aur.archlinux.org/packages/openscap/"
-      - repo: "HTTP Prompt"
-        url: "https://aur.archlinux.org/packages/http-prompt/"
-      - repo: "Translate Shell"
-        url: "https://aur.archlinux.org/packages/translate-shell-git/"
-      - repo: "Antigen"
-        url: "https://aur.archlinux.org/packages/antigen/"
-      - repo: "Ueberzug"
-        url: "https://aur.archlinux.org/packages/python-ueberzug-git/"
-      - repo: "write-good"
-        url: "https://aur.archlinux.org/packages/write-good/"
-      - repo: "MyEtherWallet"
-        url: "https://aur.archlinux.org/packages/myetherwallet/"
+  # - type: "Arch User Repository Package Maintainer"
+  #   id: "aur-packages"
+  #   entries:
+  #     - repo: "Ruby on Rails"
+  #       url: "https://aur.archlinux.org/packages/ruby-rails/"
+  #     - repo: "OpenSCAP"
+  #       url: "https://aur.archlinux.org/packages/openscap/"
+  #     - repo: "HTTP Prompt"
+  #       url: "https://aur.archlinux.org/packages/http-prompt/"
+  #     - repo: "Translate Shell"
+  #       url: "https://aur.archlinux.org/packages/translate-shell-git/"
+  #     - repo: "Antigen"
+  #       url: "https://aur.archlinux.org/packages/antigen/"
+  #     - repo: "Ueberzug"
+  #       url: "https://aur.archlinux.org/packages/python-ueberzug-git/"
+  #     - repo: "write-good"
+  #       url: "https://aur.archlinux.org/packages/write-good/"
+  #     - repo: "MyEtherWallet"
+  #       url: "https://aur.archlinux.org/packages/myetherwallet/"
 
 #=== SKILLS ===#
 skill:
   - line:
-      - Full Stack Development
+      - Full-Stack Development
       - Deep Learning
       - System Administration
       - Database Design and Management
   - line:
       - High Performance Computing
       - Machine Learning
+      - Data Science
       - Functional Programming
       - Category Theory
 
 language:
-  - C/C++
   - Julia
   - Python
   - Go
+  - Typescript
+  - JavaScript
+  - Bash
+  - C/C++
   - Java
   - Haskell
   - Scala
-  - Perl
-  - Bash
   - SQL
   - MySQL
   - PostgreSQL
   - LaTeX
   - HTML
   - CSS
-  - JavaScript
 
 operating-system:
+  - Arch Linux
   - Red Hat Enterprise Linux
   - Debian, Ubuntu
-  - Arch Linux
 
 #=== COMMUNITY INVOLVEMENT ===#
 #community:
