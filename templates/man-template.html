@@ -1,122 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="generator" content="pandoc" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
     <meta name="author" content="micah halter" />
     <meta name="dcterms.date" content="2018-06-19" />
-    <title>$upper$(1) | $name$ manual</title>
+    <title>$upper$(7) | $name$ manual</title>
     <style>
-        code{white-space: pre-wrap;}
-          span.smallcaps{font-variant: small-caps;}
-          span.underline{text-decoration: underline;}
-          div.column{display: inline-block; vertical-align: top; width: 50%;}
+      code {
+        white-space: pre-wrap;
+      }
+
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+
+      span.underline {
+        text-decoration: underline;
+      }
+
+      div.column {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+      }
     </style>
     <!--[if lt ie 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
     <style>
-        body {
-            font-family: monospace;
-            margin: 20px 10px 0px 70px;
-            width: 700px;
-          }
+      body {
+        font-family: monospace;
+        margin: 20px 10px 0px 70px;
+        width: 700px;
+      }
 
-          h1, h2, h3 {
-            font-size: 12px;
-            margin: 10px 0px -10px -50px;
-          }
+      h1,
+      h2,
+      h3 {
+        font-size: 12px;
+        margin: 10px 0px -10px -50px;
+      }
 
-          pre {
-            margin-left: 30px;
-          }
+      pre {
+        margin-left: 30px;
+      }
 
-          .title {
-            margin-bottom: 15px;
-          }
+      .title {
+        margin-bottom: 15px;
+      }
 
-          .author, .date {
-            display: none;
-          }
+      .author,
+      .date {
+        display: none;
+      }
     </style>
     <!-- Matomo -->
     <script>
-        var _paq = window._paq || [];
-          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-          _paq.push(['trackPageView']);
-          _paq.push(['enableLinkTracking']);
-          (function() {
-            var u="//matomo.mehalter.com/";
-            _paq.push(['setTrackerUrl', u+'matomo.php']);
-            _paq.push(['setSiteId', '1']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-          })();
+      var _paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "//matomo.mehalter.com/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.async = true;
+        g.defer = true;
+        g.src = u + "matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
     </script>
     <!-- End Matomo Code -->
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="title-block-header">
-        <h1 class="title">$upper$(1) | $name$ manual</h1>
-        <p class="author">$name$</p>
+      <h1 class="title">$upper$(7) | $name$ manual</h1>
+      <p class="author">$name$</p>
     </header>
     <h1 id="name">name</h1>
     <p>$name$ - $tagline$</p>
     <h1 id="synopsis">synopsis</h1>
-    <p><strong>$lower$</strong> $for(flag)$[<strong>--$flag.name$</strong>$for(flag.option)$ <em>$flag.option$</em>$sep$|$endfor$]$sep$ $endfor$</p>
+    <p>
+      <strong>$lower$</strong>
+      $for(flag)$[<strong>--$flag.name$</strong>$for(flag.option)$
+      <em>$flag.option$</em>$sep$|$endfor$]$sep$ $endfor$
+    </p>
     <h1 id="description">description</h1>
     <p>$about-me$</p>
     <h1 id="options">options</h1>
     <dl>
-        <dt><strong>--student</strong></dt>
-        <dd>
-            $for(education)$
-            <p><em>$education.degree$</em> - <strong>$education.school$</strong> - <em>$education.end$</em></p>
-            <pre><code>$for(education.notes)$* $education.notes$$sep$
+      <dt><strong>--student</strong></dt>
+      <dd>
+        $for(education)$
+        <p>
+          <em>$education.degree$</em> - <strong>$education.school$</strong> -
+          <em>$education.end$</em>
+        </p>
+        <pre><code>$for(education.notes)$* $education.notes$$sep$
 
-$endfor$</code></pre> $endfor$
-        </dd>
-        <dt><strong>--employee</strong></dt>
-        <dd>
-            $for(experience)$
-            $for(experience.position)$
-            <p><strong>$experience.company$</strong> - <em>$experience.position.title$</em> - <em>$experience.position.start$-$experience.position.end$</em></p>
-            <pre><code>$for(experience.position.notes)$* $experience.position.notes$$sep$
+          $endfor$</code></pre>
+        $endfor$
+      </dd>
+      <dt><strong>--employee</strong></dt>
+      <dd>
+        $for(experience)$ $for(experience.position)$
+        <p>
+          <strong>$experience.company$</strong> -
+          <em>$experience.position.title$</em> -
+          <em>$experience.position.start$-$experience.position.end$</em>
+        </p>
+        <pre><code>$for(experience.position.notes)$* $experience.position.notes$$sep$
 
-$endfor$</code></pre> $endfor$$endfor$
-        </dd>
-        <dt><strong>--admin</strong> <em>systems</em></dt>
-        <dd>
-            <p>$description.sys-admin$</p>
-            <pre><code>$for(operating-system)$* $operating-system$$sep$
+          $endfor$</code></pre>
+        $endfor$$endfor$
+      </dd>
+      <dt><strong>--admin</strong> <em>systems</em></dt>
+      <dd>
+        <p>$description.sys-admin$</p>
+        <pre><code>$for(operating-system)$* $operating-system$$sep$
 
-$endfor$</code></pre>
-        </dd>
-        <dt><strong>--admin</strong> <em>databases</em></dt>
-        <dd>
-            <p>$description.database-admin$</p>
-        </dd>
-        <dt><strong>--developer</strong></dt>
-        <dd>
-            <p>$description.developer$</p>
-        </dd>
-        <dt><strong>--researcher</strong></dt>
-        <dd>
-            <p>$description.researcher$</p>
-        </dd>
+          $endfor$</code></pre>
+      </dd>
+      <dt><strong>--admin</strong> <em>databases</em></dt>
+      <dd>
+        <p>$description.database-admin$</p>
+      </dd>
+      <dt><strong>--developer</strong></dt>
+      <dd>
+        <p>$description.developer$</p>
+      </dd>
+      <dt><strong>--researcher</strong></dt>
+      <dd>
+        <p>$description.researcher$</p>
+      </dd>
     </dl>
     <h1 id="projects">projects</h1>
     $for(project)$
-    <p><strong>$project.name$</strong>$for(project.repo)$ - <a href="$project.developer.repo$">$project.repo$</a>$endfor$</p>
+    <p>
+      <strong>$project.name$</strong>$for(project.repo)$ -
+      <a href="$project.developer.repo$">$project.repo$</a>$endfor$
+    </p>
     <pre><code>$for(project.notes)$* $project.notes$$sep$
 
-$endfor$</code></pre> $endfor$
+      $endfor$</code></pre>
+    $endfor$
     <h1 id="notes">notes</h1>
     $for(additional-notes)$
-    <p>$additional-notes$</p>$sep$ $endfor$
+    <p>$additional-notes$</p>
+    $sep$ $endfor$
     <h1 id="see-also">see also</h1>
     <p>Phone: $phone$</p>
     <p>Email: <a href="mailto:$email$">$email$</a></p>
@@ -124,7 +165,9 @@ $endfor$</code></pre> $endfor$
     <p>GPG: <a href="$keyserver.url$">$keyserver.fingerprint$</a></p>
     $endfor$
     <p>Website: <a href="https://$url$">https://$url$</a></p>
-    <p>Git: <a href="https://$git.url$/$git.user$">https://$git.url$/$git.user$</a></p>
-</body>
-
+    <p>
+      Git:
+      <a href="https://$git.url$/$git.user$">https://$git.url$/$git.user$</a>
+    </p>
+  </body>
 </html>

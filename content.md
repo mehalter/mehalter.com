@@ -19,7 +19,7 @@ resume:
   - name: Printable CV
     url: resume.pdf
   - name: Man Page
-    url: micah.1.html
+    url: micah.7.html
 
 #=== MAN PAGE OPTIONS ===#
 lower: micah

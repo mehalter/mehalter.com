@@ -1,4 +1,4 @@
-.TH "$upper$" "1" "" "" "$name$ Manual"
+.TH "$upper$" "7" "" "" "$name$ Manual"
 .hy
 .SH NAME
 .PP
