@@ -38,7 +38,7 @@ flag:
 name: Micah Elliot Halter
 picture: images/micah.jpeg
 location: Englewood, NJ
-phone: +1 704 490 9840
+phone: (seven zero four) 490 9840
 email: micah@mehalter.com
 url: mehalter.com
 git:
