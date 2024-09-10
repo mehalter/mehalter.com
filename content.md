@@ -50,15 +50,15 @@ keyserver:
     url: https://keyserver.ubuntu.com/pks/lookup?search=0x723F998E98D93D50&fingerprint=on&op=index
   - fingerprint: 4AC9 4692 18E3 1BCE 147F 1060 E51C 3EA3 BEB5 D4A9
     url: https://keyserver.ubuntu.com/pks/lookup?search=0xE51C3EA3BEB5D4A9&fingerprint=on&op=index
-  - fingerprint: 4323 17EB 443E 7433 0ACC A2A0 8FCF 3800 ED2E B2C2
-    url: https://keyserver.ubuntu.com/pks/lookup?search=0x8FCF3800ED2EB2C2&fingerprint=on&op=index
+  - fingerprint: DB47 5A0D 9F9A ED06 DFE0 2CEB 7246 AEFC D135 1462
+    url: https://keyserver.ubuntu.com/pks/lookup?search=0x7246AEFCD1351462&fingerprint=on&op=index
 
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
 
-summary: "I’m a <strong>computer science researcher</strong> at <strong>University of Florida</strong> based out of Englewood, New Jersey."
+summary: "I’m a <strong>computer science researcher</strong> at the <strong>Georgia Tech Research Institute</strong> based out of Englewood, New Jersey."
 
-about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory and a Masters of Science in Computer Science with a specialization in Machine learning. I am currently working as a research programmer at the University of Florida."
+about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory and a Masters of Science in Computer Science with a specialization in Machine learning. I am currently working as a research scientist at the Georgia Tech Research Institute."
 
 description:
   sys-admin: "Through work opportunities and personal projects, I have had extensive experience with the configuration, hardening, and maintenance of various Linux distributions, including:"
@@ -97,12 +97,29 @@ education:
 
 #=== WORK EXPERIENCE ===#
 experience:
+  - company: Georgia Tech Research Institute
+    position:
+      - title: Research Scientist
+        company: Georgia Tech Research Institute
+        start: Jul&nbsp;2023
+        end: Present
+        id: gtri2
+        location: Remote (Englewood, NJ)
+        notes:
+          - "Architected and implemented a cloud native system on **AWS** using **Pulumi** for sharing, cleaning, transforming, analyzing, and presenting epidemiological and genomics data"
+          - "Researched **Applied Category Theory** based scientific modeling in **Julia** for rigorously defining **metamodeling** tasks in a way to automate modeling of automation workflows."
+          # - "**Advised** graduate students and researchers on **software development practices** to be able to develop code that is easier to share and maintain."
+          #- "Performed lead contributor duties to research projects sponsored by large entities DARPA, NIH, DOD, and ONR"
+          #- "Wrote and published peer reviewed conference and journal papers to communicate research findings to the greater research community"
+          #- "Contributed and participated in white paper and proposal writing to bring in more funding for new and on-going projects"
+          #- "Delivered applied research projects to sponsors such as source code, web applications, and technical reports"
+          #- "Used NetFlow data and machine learning in Python and scikit-learn to detect compromised machines on a network based off known blacklists and whitelists of IP addresses"
   - company: University of Florida
     position:
       - title: Research Programmer
         company: University of Florida
         start: Jan&nbsp;2023
-        end: Present
+        end: Jul&nbsp;2023
         id: uf
         location: Remote (Englewood, NJ)
         notes:
@@ -119,7 +136,6 @@ experience:
         company: Balena
         start: Feb&nbsp;2021
         end: Dec&nbsp;2022
-        #end: Nov&nbsp;2022
         id: balena
         location: Remote (Englewood, NJ)
         notes:
