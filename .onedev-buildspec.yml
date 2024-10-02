@@ -37,7 +37,7 @@ jobs:
   - !BuildImageStep
     name: deploy image
     output: !RegistryOutput
-      tags: code.mehalter.com/mehalter.com/default:latest
+      tags: code.mehalter.com/packages/mehalter.com:latest
     builtInRegistryAccessTokenSecret: access-token
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
   triggers:
