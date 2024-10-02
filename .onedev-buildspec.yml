@@ -38,7 +38,7 @@ jobs:
     name: deploy image
     output: !RegistryOutput
       tags: code.mehalter.com/mehalter.com:latest
-    builtInRegistryAccessTokenSecret: github_pat
+    builtInRegistryAccessTokenSecret: access-token
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
   triggers:
   - !BranchUpdateTrigger
