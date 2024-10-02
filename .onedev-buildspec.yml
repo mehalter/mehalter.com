@@ -1,72 +1,69 @@
-version: 21
+version: 35
 jobs:
-  - name: build
-    steps:
-      - !CheckoutStep
-        name: checkout
-        cloneCredential: !DefaultCredential {}
-        withLfs: true
-        withSubmodules: true
-        condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
-      - !CommandStep
-        name: build
-        runInContainer: true
-        image: pandoc/latex:latest
-        interpreter: !DefaultInterpreter
-          commands:
-            - tlmgr update --self
-            - tlmgr install xifthen ifmtarg titlesec titling fontawesome enumitem collection-fontsrecommended
-            - pandoc --output=public/index.html --metadata pagetitle="..." --template=templates/template.html
-              content.md
-            - pandoc --output=public/micah.7.html --metadata pagetitle="..." --template=templates/man-template.html
-              content.md
-            - pandoc --output=public/micah.7 --metadata pagetitle="..." --template=templates/man-template.man
-              content.md
-            - pandoc --output=public/resume.pdf --metadata pagetitle="..." --template=templates/template.tex
-              content.md
-        useTTY: false
-        condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
-      - !PublishArtifactStep
-        name: publish
-        artifacts: "**"
-        condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
-    triggers:
-      - !BranchUpdateTrigger {}
-    retryCondition: never
-    maxRetries: 3
-    retryDelay: 30
-    timeout: 3600
-  - name: deploy
-    steps:
-      - !BuildImageStep
-        name: deploy image
-        tags: registry.mehalter.com/library/mehalter.com:latest
-        publish: true
-        condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
-    triggers:
-      - !BranchUpdateTrigger
-        branches: master
-    jobDependencies:
-      - jobName: build
-        requireSuccessful: true
-        artifacts: "**"
-    retryCondition: never
-    maxRetries: 3
-    retryDelay: 30
-    timeout: 3600
-  - name: Sync to GitHub
-    steps:
-      - !PushRepository
-        name: Sync to GitHub
-        remoteUrl: https://github.com/mehalter/mehalter.com
-        userName: mehalter
-        passwordSecret: github_pat
-        force: true
-        condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
-    triggers:
-      - !BranchUpdateTrigger
-        branches: master
-    retryCondition: never
-    maxRetries: 3
-    retryDelay: 30
-    timeout: 3600
+- name: build
+  steps:
+  - !CheckoutStep
+    name: checkout
+    cloneCredential: !DefaultCredential {}
+    withLfs: true
+    withSubmodules: true
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  - !CommandStep
+    name: build
+    runInContainer: true
+    image: pandoc/latex:latest
+    interpreter: !DefaultInterpreter
+      commands: |
+        tlmgr update --self
+        tlmgr install xifthen ifmtarg titlesec titling fontawesome enumitem collection-fontsrecommended
+        pandoc --output=public/index.html --metadata pagetitle="..." --template=templates/template.html content.md
+        pandoc --output=public/micah.7.html --metadata pagetitle="..." --template=templates/man-template.html content.md
+        pandoc --output=public/micah.7 --metadata pagetitle="..." --template=templates/man-template.man content.md
+        pandoc --output=public/resume.pdf --metadata pagetitle="..." --template=templates/template.tex content.md
+    useTTY: false
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  - !PublishArtifactStep
+    name: publish
+    artifacts: '**'
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  triggers:
+  - !BranchUpdateTrigger {}
+  retryCondition: never
+  maxRetries: 3
+  retryDelay: 30
+  timeout: 3600
+- name: deploy
+  steps:
+  - !BuildImageStep
+    name: deploy image
+    output: !RegistryOutput
+      tags: code.mehalter.com/mehalter.com:latest
+    builtInRegistryAccessTokenSecret: github_pat
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  triggers:
+  - !BranchUpdateTrigger
+    branches: master
+  jobDependencies:
+  - jobName: build
+    requireSuccessful: true
+    artifacts: '**'
+  retryCondition: never
+  maxRetries: 3
+  retryDelay: 30
+  timeout: 3600
+- name: Sync to GitHub
+  steps:
+  - !PushRepository
+    name: Sync to GitHub
+    remoteUrl: https://github.com/mehalter/mehalter.com
+    userName: mehalter
+    passwordSecret: github_pat
+    force: true
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  triggers:
+  - !BranchUpdateTrigger
+    branches: master
+  retryCondition: never
+  maxRetries: 3
+  retryDelay: 30
+  timeout: 3600
