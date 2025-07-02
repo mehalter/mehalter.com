@@ -56,7 +56,7 @@ keyserver:
 #=== DESCRIPTIONS ===#
 tagline: "a developer, researcher, and bartender"
 
-summary: "I’m a <strong>computer science researcher</strong> at the <strong>Georgia Tech Research Institute</strong> based out of Englewood, New Jersey."
+summary: "I’m a <strong>computer science researcher</strong> at the <strong>Georgia Tech Research Institute</strong> based out of Atlanta, Georgia."
 
 about-me: "I have been interested in computer science since I was six years old, and have built up an unmatched passion for the field. I have extensive experience in software development and research from internships, projects, and competitions. I graduated from the Georgia Institute of Technology with a Bachelor of Science in Computer Science with a focus in system architecture and theory and a Masters of Science in Computer Science with a specialization in Machine learning. I am currently working as a research scientist at the Georgia Tech Research Institute."
 
